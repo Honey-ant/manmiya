@@ -1,0 +1,290 @@
+:root {
+  --primary: #232F3E;
+  --secondary: #F3A847;
+  --tertiary: #B12704;
+  --light: #fafafa;
+  --dark: #272f32;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --brown:rgb(78, 52, 46);
+  --lightbrown:rgb(123, 94, 87);
+  --me:rgb(193, 153, 143);
+  --darkbrown:rgb(38, 14, 4);
+  --light:#fff1b7ea;
+  --yellow:#e6c240;
+  --lemon:rgb(248, 218, 48);
+  --offwhite:#e6fdffea;
+  --greenWash:rgba(66,151, 130, 0.75);
+  --nav:rgba(193, 153, 143, 0.749);
+  --submit:  linear-gradient(to
+  bottom, 
+  rgba(248, 218, 48, 0.445) 0%, 
+  rgba(237, 74, 59, 0.6));
+  --purple: rgb(116, 107, 239, 0.8);
+  --fire:rgb(237, 74, 59, 0.8);
+  --blue: rgb(43,138,210);
+  --pink:rgb(210,94,166);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--dark);
+  background-color: var(--nav);
+}
+.logo{
+  border-radius: 2rem;
+  width: 40px;
+  height: 40px;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+a {
+  color: var(--pink);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: var(--primary);
+}
+
+header a {
+  color: var(--light);
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+  background-color: rgb(123, 94, 87, 0.9);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 8px 0px var(--me);
+  color:var(--darkbrown);
+}
+
+button:hover {
+  opacity: .8;
+  background-color: var(--pink);
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+img {
+  max-width: 100%;
+}
+
+span[role="img"] {
+  cursor: default;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+.insta {
+  height:1080px;
+  width: 1080px;
+}
+
+.navbar {
+  color: var(--darkbrown);
+  list-style: none;
+  font-family: 'Rock Salt', cursive;
+  box-shadow: 0px 0px 8px 0px var(--me);
+  /* border-radius: 6rem; */
+  background-color: rgb(123, 94, 87, 0.6);
+} 
+
+.title {
+  font-family: 'Rock Salt', cursive;
+  color: var(darkbrown);
+  text-align: center;
+  justify-content: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  position: relative;
+  text-align: center;
+  color: var(--darkbrown);
+  color: var(--darkbrown);
+  /* margin-left: 6.5%;
+  margin-right: 6.5%;
+  margin-top: 6.5%; */
+  font-size: large;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: var(--nav); */
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
+
+.px-2 {
+  padding-right: var(--spacing-two);
+  padding-left: var(--spacing-two);
+}
+
+.py-1 {
+  padding-top: var(--spacing-one);
+  padding-bottom: var(--spacing-one);
+}
+
+.py-2 {
+  padding-top: var(--spacing-two);
+  padding-bottom: var(--spacing-two);
+}
+
+.card {
+  width: 25%;
+  text-align: center;
+  /* border: 1px solid var(--pink); */
+  border-radius: 1rem;
+}
+
+.error-text {
+  color: var(--error);
+}
+
+.footer {
+  padding:5%; 
+  margin-bottom: 0; 
+  margin-top: 1px solid line var(--darkbrown);
+  box-shadow: 0px 8px 0px 0px var(darkbrown);
+  background-color: var(--brown);
+  color:var(--nav);
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
