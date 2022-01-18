@@ -248,6 +248,13 @@ input:focus {
   list-style: none;
 }
 
+.ann {
+  border:1px solid var(--pink);
+  border-radius: 1rem;
+  box-shadow: 3px 3px var(--brown), -1em 0 .4em var(--pink);
+  box-shadow: 0 0 50px var(--pink);
+}
+
 .space-between {
   justify-content: space-between;
 }

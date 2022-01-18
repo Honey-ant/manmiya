@@ -38,7 +38,7 @@ export const Contact = () => {
 
   return (
       <div className="container">
-        <h4 className="py-2" >Please Fill Out The Form Below</h4>
+        <p className="py-2 title" >Please Fill Out The Form Below</p>
 
         <form className="form py-2" ref={form} onSubmit={sendEmail}>
         <ul className="form">
@@ -64,6 +64,7 @@ export const Contact = () => {
             <input className="button" type="submit" value="Send" />
         </ul>
         </form>
+
     </div>
   );
 };

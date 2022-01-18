@@ -44,7 +44,7 @@ function CategoryMenu() {
 
   return (
     <div>
-      <h2>Original or print?</h2>
+      <h2 className="py-2">Original or print?</h2>
       {categories.map((item) => (
         <button
           key={item._id}

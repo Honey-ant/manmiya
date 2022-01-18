@@ -13,12 +13,12 @@ const Home = () => {
         <p className="my-2">
           Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
         </p>
-        <p>
+        <p className="py-1">
           They currently live on Boon Wurrong land
         </p>
-        <h4 className="ann">
+        <h4 className="ann py-2">
           Purchasing will be available soon.
-          For now, just browsing.
+          For now, just have a browse 😊
         </h4>
       </div>
       <CategoryMenu />
