@@ -19,11 +19,14 @@ function Success() {
         productData.forEach((item) => {
           idbPromise('cart', 'delete', item);
         });
+      } else {
+        console.error('Purchase Success error');
       }
 
       setTimeout(() => {
         window.location.assign('/');
       }, 3000);
+
     }
 
     saveOrder();

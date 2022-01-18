@@ -21,6 +21,8 @@ const Cart = () => {
       stripePromise.then((res) => {
         res.redirectToCheckout({ sessionId: data.checkout.session });
       });
+    } else {
+      console.error("Stripe checkout.session error");
     }
   }, [data]);
 
@@ -32,7 +34,10 @@ const Cart = () => {
 
     if (!state.cart.length) {
       getCart();
+    } else {
+      console.error("Cart /get func not working");
     }
+
   }, [state.cart.length, dispatch]);
 
   function toggleCart() {
@@ -53,7 +58,8 @@ const Cart = () => {
     state.cart.forEach((item) => {
       for (let i = 0; i < item.purchaseQuantity; i++) {
         productIds.push(item._id);
-      }
+      } 
+
     });
 
     getCheckout({

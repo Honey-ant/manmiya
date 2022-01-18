@@ -37,8 +37,8 @@ export const Contact = () => {
   };
 
   return (
-      <div className="container">
-        <p className="py-2 title" >Please Fill Out The Form Below</p>
+      <div className="">
+        <p className="py-2 title" >Please Fill Out The Form Below To Get In Contact</p>
 
         <form className="form py-2" ref={form} onSubmit={sendEmail}>
         <ul className="form">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
+import Swal from 'sweetalert2';
 
 function Signup(props) {
   const [formState, setFormState] = useState({ email: '', password: '' });
@@ -10,16 +11,31 @@ function Signup(props) {
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-    const mutationResponse = await addUser({
-      variables: {
-        email: formState.email,
-        password: formState.password,
-        firstName: formState.firstName,
-        lastName: formState.lastName,
-      },
+    try{
+      const mutationResponse = await addUser({
+        variables: {
+          email: formState.email,
+          password: formState.password,
+          firstName: formState.firstName,
+          lastName: formState.lastName,
+        } 
+
     });
     const token = mutationResponse.data.addUser.token;
     Auth.login(token);
+    console.log();
+    Swal.fire({
+      icon: 'success',
+      title: 'Sign up successful 😊'
+    })
+    } catch (error) {
+      console.error('Sigup form Submit error');
+      Swal.fire({
+        icon: 'error',
+        title: 'Ooops, something went wrong 😞'
+      })
+    }
+    // target.reset()
   };
 
   const handleChange = (event) => {
