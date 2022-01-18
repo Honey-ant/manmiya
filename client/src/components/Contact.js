@@ -4,8 +4,6 @@ import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
-// import { TOGGLE_CART } from '../utils/actions';
-
 const SERVICE_ID = "service_nkazh0j";
 const TEMPLATE_ID = "template_8cxz3se";
 const USER_ID = "user_zAutm7UYCBSXMkVu3IaOs";
@@ -33,10 +31,6 @@ const ContactForm = () => {
     alert(result.status);
   };
 
-  //   function toggleCart() {
-  //   ({ type: TOGGLE_CART });
-  // }
-
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
@@ -57,19 +51,16 @@ const ContactForm = () => {
     e.target.reset()
   };
 
-
   return (
     <>
     <div className="container ">
-        
-
             <div className="cards row">
 
                 <h3>Contact me here</h3>
                 <br />
                 <p className="margins">
-                  Write in your message with your name and email.
-                  I'll get get back to you :)
+                  Fill out the form below for any questions
+                  
                 </p>
 
                 

@@ -18,7 +18,7 @@ import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import About from './pages/About.js';
-import Contact from './pages/Contact';
+import Contact from './components/Contact/index.js';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';

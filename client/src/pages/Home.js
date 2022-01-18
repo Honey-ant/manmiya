@@ -18,7 +18,7 @@ const Home = () => {
         </p>
         <h4 className="ann">
           Purchasing will be available soon.
-          For now, just get to know me.
+          For now, just browsing.
         </h4>
       </div>
       <CategoryMenu />

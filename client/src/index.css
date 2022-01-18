@@ -69,6 +69,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+
 }
 
 h2 {
@@ -111,10 +112,38 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: var(--brown);
+
 }
 
 button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+  background-color: rgb(123, 94, 87, 0.9);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 8px 0px var(--me);
+  color:var(--darkbrown);
+}
+
+button:hover {
+  opacity: .8;
+  background-color: var(--pink);
+}
+
+.button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+
+.button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
@@ -149,7 +178,11 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 60%;
+}
+
+.form {
+  list-style: none;
 }
 
 input {
@@ -185,7 +218,7 @@ input:focus {
   color: var(darkbrown);
   text-align: center;
   justify-content: center;
-  width: 85%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -287,4 +320,18 @@ input:focus {
   .card {
     width: 100%;
   }
+
+  .footer {
+    padding:5%; 
+    margin-bottom: 0; 
+    margin-top: 1px solid line var(--darkbrown);
+    box-shadow: 0px 8px 0px 0px var(darkbrown);
+    background-color: var(--brown);
+    color:var(--nav);
+  }
+
+ 
+  /* input {
+    width: 100%
+  } */
 }

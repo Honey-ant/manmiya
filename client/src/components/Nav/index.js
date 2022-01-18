@@ -11,9 +11,6 @@ function Nav() {
                     <li className="mx-1">
             <Link to="/about">About</Link>
           </li>
-                    <li className="mx-1">
-            <Link to="/checkout">Checkout</Link>
-          </li>
           <li className="mx-1">
             <Link to="/contact">Contact</Link>
           </li>
@@ -35,9 +32,6 @@ function Nav() {
             <Link to="/about">About</Link>
           </li>
           <li className="mx-1">
-            <Link to="/checkout">Checkout</Link>
-          </li>
-          <li className="mx-1">
             <Link to="/contact">Contact</Link>
           </li>
           <li className="mx-1">
@@ -53,12 +47,10 @@ function Nav() {
   }
 
   return (
-    <header className="  navbar flex-row px-1 ">
-      <h1>
-        <Link className=" container title mx-2" to="/">
-          {/* <span role="img" aria-label="shopping bag">
-            🛍️
-          </span> */}
+    <header className="  navbar flex-row px-2 ">
+      <h1 className="man">
+        <Link className="  title mx-2" to="/">
+
           {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
           Manmiya
         </Link>
