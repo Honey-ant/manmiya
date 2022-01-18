@@ -108,7 +108,14 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background-image:  linear-gradient(to
+  bottom, 
+  /* var(--pink) 0%,  */
+  var(--me),
+  var(--nav),
+  /* var(--lightbrown) */
+  );;
+  box-shadow: 0px 0px 8px 0px var(--brown);
 }
 
 header a {
@@ -210,7 +217,7 @@ input:focus {
   font-family: 'Rock Salt', cursive;
   box-shadow: 0px 0px 8px 0px var(--me);
   /* border-radius: 6rem; */
-  background-color: rgb(123, 94, 87, 0.6);
+background-color: transparent;
 } 
 
 .title {
@@ -218,7 +225,7 @@ input:focus {
   color: var(darkbrown);
   text-align: center;
   justify-content: center;
-  width: 55%;
+  /* width: 55%; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -252,7 +259,7 @@ input:focus {
   border:1px solid var(--pink);
   border-radius: 1rem;
   box-shadow: 3px 3px var(--brown), -1em 0 .4em var(--pink);
-  box-shadow: 0 0 50px var(--pink);
+  box-shadow: 0 0 30px var(--pink), 0 0 30px var(--fire);
 }
 
 .space-between {
@@ -260,7 +267,13 @@ input:focus {
 }
 
 .flex-end {
+  display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-between;
+  
 }
 
 .mx-1 {

@@ -82,7 +82,7 @@ const Checkout = () => {
             </div>
             <p className="sr-legal-text">Number of copies (max 10)</p>
 
-            <button role="link" id="submit" type="submit">
+            <button className="px-2" role="link" id="submit" type="submit">
               Buy {formatPrice({amount, currency, quantity})}
             </button>
           </form>
