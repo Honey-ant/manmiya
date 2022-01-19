@@ -23,6 +23,7 @@ import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Footer from './components/footer.js';
+import Banner from './components/banner.js';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -49,6 +50,7 @@ function App() {
       <Router>
         <div>
           <Provider store={store}>
+            {/* <Banner /> */}
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />

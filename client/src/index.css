@@ -16,7 +16,7 @@
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
   --greenWash:rgba(66,151, 130, 0.75);
-  --nav:rgba(193, 153, 143, 0.749);
+  --nav:hsla(12, 29%, 66%, 0.749);
   --submit:  linear-gradient(to
   bottom, 
   rgba(248, 218, 48, 0.445) 0%, 
@@ -49,7 +49,7 @@ body {
   background-color: var(--nav);
 }
 .logo{
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   width: 40px;
   height: 40px;
   
@@ -109,7 +109,8 @@ a:hover {
 
 header {
   background-color: var(--me);
-  box-shadow: 0px 0px 8px 0px var(--brown);
+  /* box-shadow: 0px 0px 8px 0px var(--brown); */
+  position:relative
 }
 
 header a {
@@ -117,12 +118,28 @@ header a {
 
 }
 
+.banner {
+  justify-content: center;
+  text-align: center;
+  background-color:var(--pink);
+  top: 0;
+  box-shadow: 8px 8px 8px 8px var(--me);
+  box-shadow: 0 -10px 10px -10px var(--pink);
+}
+
+alert
+
 /* header  ul li a{
-    border:  1px solid var(--dark);
-   
     font-size: 1rem;
     margin-top: 0;
+    background-color: rgb(123, 94, 87, 0.9);
+    box-shadow: 0px 0px 8px 0px var(--me);
+    width:100%;
 } */
+
+nav button {
+  right: 1%;
+}
 
 button {
   font-size: 1rem;
@@ -216,10 +233,29 @@ input:focus {
   color: var(--darkbrown);
   list-style: none;
   font-family: 'Rock Salt', cursive;
-  box-shadow: 0px 0px 8px 0px var(--me);
+  /* box-shadow: 0px 0px 8px 0px var(--me); */
   /* border-radius: 6rem; */
 background-color: transparent;
 } 
+
+.dropdown-menu {
+  background-color: var(--nav);
+  border:none;
+  border-style: none;
+  position: absolute;
+  margin-top: 70px;
+  right: 1%;
+}
+
+/* .dropdown {
+  position: absolute;
+  margin-top: 70px;
+} */
+
+.dropdown-toggle {
+  border-radius: 4rem;
+  border-style: none;
+}
 
 .title {
   font-family: 'Rock Salt', cursive;
@@ -256,6 +292,10 @@ background-color: transparent;
   list-style: none;
 }
 
+.center {
+  justify-content:center;
+}
+
 .ann {
   border:1px solid var(--pink);
   border-radius: 1rem;
@@ -272,9 +312,7 @@ background-color: transparent;
   justify-content: flex-end;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
-  justify-content: space-between;
-  
+  background-color: transparent;
 }
 
 .mx-1 {
@@ -322,6 +360,9 @@ background-color: transparent;
   text-align: center;
   /* border: 1px solid var(--pink); */
   border-radius: 1rem;
+  background-color: transparent;
+  border: none;
+  border-style: none;
 }
 
 .error-text {
