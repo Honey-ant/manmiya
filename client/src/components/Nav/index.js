@@ -7,8 +7,8 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="px-1">
-           <li className="flex-end space-between my-2">
+        <ul className="">
+           <li className="flex-end ">
             <Link to="/about">About</Link>
           </li>
           <li className="my-1">
@@ -27,17 +27,17 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-end space-between px-1">
-          <li className="my-1">
+        <ul className="flex-row space-between">
+          <li className="">
             <Link to="/about">About</Link>
           </li>
-          <li className="my-1">
+          <li className="">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="my-1">
+          <li className="">
             <Link to="/signup">Signup</Link>
           </li>
-          <li className="my-1">
+          <li className="">
             <Link to="/login">Login</Link>
           </li>
           {/* <li className="my-1">
@@ -50,14 +50,14 @@ function Nav() {
   }
 
   return (
-    <header className="navbar flex-row px-2">
-      <div className="title">
-      <h1 className="man">
-          <Link className="title flex-end" to="/">
+    <header className="navbar flex-row ">
+      <div className="">
+      <h4 >
+          <Link className="title flex-row" to="/">
             {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
             Manmiya
           </Link>
-        </h1>
+        </h4>
       </div>
       <nav className="container">{showNavigation()}</nav>
     </header>

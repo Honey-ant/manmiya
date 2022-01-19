@@ -108,13 +108,7 @@ a:hover {
 }
 
 header {
-  background-image:  linear-gradient(to
-  bottom, 
-  /* var(--pink) 0%,  */
-  var(--me),
-  var(--nav),
-  /* var(--lightbrown) */
-  );;
+  background-color: var(--me);
   box-shadow: 0px 0px 8px 0px var(--brown);
 }
 
@@ -122,6 +116,13 @@ header a {
   color: var(--brown);
 
 }
+
+/* header  ul li a{
+    border:  1px solid var(--dark);
+   
+    font-size: 1rem;
+    margin-top: 0;
+} */
 
 button {
   font-size: 1rem;

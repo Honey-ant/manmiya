@@ -73,7 +73,7 @@ const resolvers = {
         const price = await stripe.prices.create({
           product: product.id,
           unit_amount: products[i].price * 100,
-          currency: 'usd',
+          currency: 'aud',
         });
 
         line_items.push({
@@ -90,6 +90,7 @@ const resolvers = {
         mode: 'payment',
         success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${url}/`
+        // cons
       });
 
       return { session: session.id };
