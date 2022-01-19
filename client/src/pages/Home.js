@@ -18,10 +18,7 @@ const Home = () => {
         <p className="py-1">
           They currently live on Boon Wurrong land
         </p>
-        <h4 className="ann py-1">
-          Purchasing will be available soon.
-          For now, just have a browse 😊
-        </h4>
+
       </div>
       <CategoryMenu />
       <ProductList />

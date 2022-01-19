@@ -59,8 +59,8 @@ function Nav() {
   return (
 
     <header className="sticky-top navbar  ">
-             <div className=" container-fluid banner container">
-                <p className="">
+             <div className=" container-fluid banner ">
+                <p className="title">
                     Purchasing will be available soon.
                 </p>
             </div>
