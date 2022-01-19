@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
     render() {
         return (
-            <Footer>
+            
                 <div className=" footer my-2 py-2" id="title">
 
                     <p>This was created on the stolen land of the Boon Wurrong people who's sovereignty was never seeded </p>
@@ -15,7 +15,7 @@ class Footer extends Component {
                     <p>Webiste made by Manmiya, she's a skutta girl</p>
                     
                 </div>
-            </Footer>
+            
         )
     }
 }
