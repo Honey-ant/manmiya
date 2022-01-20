@@ -37,8 +37,9 @@ function Login(props) {
       <h2>Login</h2>
       <p>Login to see your order history and to purchase art</p>
       <form onSubmit={handleFormSubmit}>
+
         <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"

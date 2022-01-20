@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             
-                <div className=" footer my-2 py-2" id="title">
+                <div className=" footer" >
 
                     <p>This was created on the stolen land of the Boon Wurrong people who's sovereignty was never seeded </p>
                     <p>My respects are paid to all elders past and present [-o-]</p>

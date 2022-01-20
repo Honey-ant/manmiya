@@ -7,7 +7,7 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <div className="dropdown dropstart">
+        <div className="dropdown ">
         <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           |||
         </button>
@@ -32,7 +32,7 @@ function Nav() {
     } else {
 
       return (
-        <div className="dropdown dropstart">
+        <div className="dropdown ">
           <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             +
           </button>
@@ -64,17 +64,18 @@ function Nav() {
                     Purchasing will be available soon.
                 </p>
             </div>
-      <div className="center container">
-        
+            
+      <nav className=" ">{showNavigation()}</nav>      
+      <div className="">
       <h4 >
-          <Link className="title " to="/">
-            <img src={Logo}  alt="React App Logo" className=" logo"/>
+          <Link className="title container" to="/">
+            
             Manmiya
-             
+             <img src={Logo}  alt="React App Logo" className=" logo"/>
           </Link>
         </h4>
       </div>
-      <nav className=" ">{showNavigation()}</nav>
+      
     </header>
   );
 }

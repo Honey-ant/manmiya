@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 // import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-
+import { Link } from 'react-router-dom';
 // const SERVICE_ID = "service_cnd6lhl";
 // const TEMPLATE_ID = "template_eciz0ih";
 // const USER_ID = "user_VPTKvbreLmR9zNrZrSQ86";
@@ -37,32 +37,45 @@ export const Contact = () => {
   };
 
   return (
-      <div className="">
-        <p className="py-2 container" >Please Fill Out The Form Below To Get In Contact</p>
+      <div className="container my-1">
+        <Link to="/">← Go to Main page</Link>
+        <h4 className="py-2 " >Please Fill Out The Form Below To Get In Contact</h4>
 
         <form className="form py-2" ref={form} onSubmit={sendEmail}>
-        <ul className="form">
-            <li>
-                <label>Name</label>
-            </li>
-            <li>
-             <input label='Name' type="text" name="from_name" />   
-            </li>
-            <li>
-               <label>Email</label>  
-            </li>
-            <li>
-               <input label='Email' type="email" name="reply_to" /> 
-            </li>
-            <li>
-               <label>Message</label> 
-            </li>
-            <li>
-               <textarea label='Message' name="message" /> 
-            </li>
-            
-            <input className="button" type="submit" value="Send" />
-        </ul>
+        <div className="flex-row space-between my-2">
+          <label htmlFor="firstName">Name:</label>
+          <input
+            placeholder="Name"
+            name="from_name"
+            type="firstName"
+            id="firstName"
+            // onChange={handleChange}
+          />
+        </div>
+        <div className="flex-row space-between my-2">
+          <label htmlFor="email">Email:</label>
+          <input
+            placeholder="youremail@test.com"
+            name="reply_to"
+            type="email"
+            id="email"
+            // onChange={handleChange}
+          />
+        </div>
+
+        <div className="flex-row space-between my-2">
+          <label htmlFor="email">Message:</label>
+          <textarea
+            placeholder="write your message here"
+            name="message"
+            type="messsage"
+            id="message"
+            // onChange={handleChange}
+          />
+        </div>
+        <div className="flex-row flex-end">
+          <button type="submit">Submit</button>
+        </div>
         </form>
 
     </div>
