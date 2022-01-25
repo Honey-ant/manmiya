@@ -19,7 +19,9 @@ const Home = () => {
         <p className="py-1">
           They currently live on Boon Wurrong land
         </p>
-
+        <p>
+          Read about them<Link to="/about">here</Link>
+        </p>
       </div>
       <CategoryMenu />
       <ProductList />
