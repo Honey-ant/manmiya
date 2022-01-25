@@ -20,7 +20,7 @@ const Home = () => {
           They currently live on Boon Wurrong land
         </p>
         <p>
-          Read about them<Link to="/about">here</Link>
+          Read about them <Link to="/about">here</Link>
         </p>
       </div>
       <CategoryMenu />
