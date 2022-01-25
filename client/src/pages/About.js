@@ -12,7 +12,7 @@
                         <>
                         
                             <div className="container my-1" >
-                               <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"30%"}}/>     
+                               <img src={giki} className=" img-fluid" alt=" Responsive image" />     
                                     <div className=" intro ">
                                         
                                         <h2 className="my-1 intro title" id="title">About</h2>

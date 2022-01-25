@@ -10,7 +10,7 @@ const Home = () => {
     <>
 
     <div className="container">
-          <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"10%"}}/>
+          <img src={giki} className=" img-fluid" alt=" Responsive image" />
       <div className="intro mb-1">
         <p className="my-2">
           Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
