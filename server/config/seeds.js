@@ -5,11 +5,8 @@ db.once('open', async () => {
     await Category.deleteMany();
 
     const categories = await Category.insertMany([
-        // { name: 'Family' },
         { name: 'Original'},
         { name: 'Print'},
-        // { name: 'blues'},
-        // { name: 'reds'},
     ]);
 
     console.log('categories seeded');
@@ -20,7 +17,7 @@ db.once('open', async () => {
         {
             name: 'Love',
             details: '900mm x 600mm, acrylic on canvas',
-            description: 'Made with all the flow that love creates and prvides. Thoughless, an embodiment of a pure feeling.',
+            description: 'Made with all the flow that love creates and provides. Thoughless, an embodiment of a pure feeling.',
             price: 800,
             quantity: 1,
             image: 'love.jpg',

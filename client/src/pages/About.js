@@ -10,9 +10,9 @@
                     return (
 
                         <>
-                        <img src={giki} className=" img-fluid" alt="Card image cap" style={{height:"30%"}}/>
+                        
                             <div className="container my-1" >
-                                    
+                               <img src={giki} className=" img-fluid" alt="Card image cap" style={{height:"30%"}}/>     
                                     <div className=" intro ">
                                         
                                         <h2 className="my-1 intro title" id="title">About</h2>
