@@ -46,7 +46,7 @@ function CategoryMenu() {
     <div>
       <h2 className="py-2">Original or print?</h2>
       {categories.map((item) => (
-        <button
+        <button className="cat"
           key={item._id}
           onClick={() => {
             handleClick(item._id);

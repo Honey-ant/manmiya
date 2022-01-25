@@ -9,7 +9,7 @@ function Nav() {
       return (
         <div className="dropdown ">
         <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          |||
+        
         </button>
         <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
            <li className="dropdown-item ">
@@ -34,7 +34,7 @@ function Nav() {
       return (
         <div className="dropdown ">
           <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            +
+            
           </button>
           <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
             <li className="dropdown-item">
@@ -58,7 +58,7 @@ function Nav() {
 
   return (
 
-    <header className="sticky-top navbar  ">
+    <header className="sticky-top navbar d-flex justify-content-between ">
              <div className=" container-fluid banner ">
                 <p className="title">
                     Purchasing will be available soon.
@@ -66,9 +66,9 @@ function Nav() {
             </div>
             
       <nav className=" ">{showNavigation()}</nav>      
-      <div className="">
+      <div className="d-flex justify-content-center">
       <h4 >
-          <Link className="title container" to="/">
+          <Link className="" to="/">
             
             Manmiya
              <img src={Logo}  alt="React App Logo" className=" logo"/>
