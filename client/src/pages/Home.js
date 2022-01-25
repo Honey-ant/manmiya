@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-   <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"10%"}}/>
+
     <div className="container">
-       
+          <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"10%"}}/>
       <div className="intro mb-1">
         <p className="my-2">
           Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
