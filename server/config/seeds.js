@@ -80,7 +80,7 @@ db.once('open', async () => {
         {
             name: 'Burning',
             details: '500mm x 400mm, acrylic on canvas',
-            description: "I grew up arounf bach burning. It is a normal and expected part of life. If burnings aren't done the landscape becomes dangerous. The same must be practiced inside us.",
+            description: "I grew up around bach burning. It is a normal and expected part of life. If burnings aren't done the landscape becomes dangerous. The same must be practiced inside us.",
             image: 'burning.jpg',
             category: categories[0]._id,
             price: 400,
@@ -98,7 +98,7 @@ db.once('open', async () => {
         {
             name: 'Taking up Space',
             details: '900mm x 600mm, acrylic on canvas',
-            description: 'Being a loud and proud Indigenous woman, I have always recived some form of being "too much". I voice my opinions strongly, laugh loudly, and I will continue to take up as much space as I deem fit. I refuse to let the colony control how I shine.',
+            description: 'Being a loud and proud Aboriginal woman, I have always recived some form of being "too much". I voice my opinions strongly, laugh loudly, and I will continue to take up as much space as I deem fit. I refuse to let the colony control how I shine.',
             price: 800,
             quantity: 1,
             image: 'taking.jpg',
@@ -116,7 +116,7 @@ db.once('open', async () => {
         {
             name: 'Ray',
             details: '600mm x 450mm, acrylic on canvas',
-            description: 'The Ray are the water spirits that vistit us in our dreams. They come to us through water',
+            description: "The Ray are the water spirits that vistit us in our dreams. They come to us through water. They see us, but we don't see them",
             price: 800,
             quantity: 1,
             image: 'ray.jpg',
