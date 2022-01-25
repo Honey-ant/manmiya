@@ -7,6 +7,7 @@
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
+  --spacing-three: calc(2rem);
   --brown:rgb(78, 52, 46);
   --lightbrown:rgb(123, 94, 87);
   --me:rgb(193, 153, 143);
@@ -321,6 +322,11 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+}
+
+.my-3 {
+  margin-top: var(--spacing-three);
+  margin-bottom: var(--spacing-three);
 }
 
 .px-1 {

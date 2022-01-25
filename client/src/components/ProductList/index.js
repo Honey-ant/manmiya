@@ -45,7 +45,7 @@ function ProductList() {
   }
 
   return (
-    <div className="my-2">
+    <div className="my-3">
       {/* <h2>Art:</h2> */}
       {state.products.length ? (
         <div className="flex-row">
