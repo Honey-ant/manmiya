@@ -10,7 +10,7 @@
                     return (
 
                         <>
-                         <img src={giki} className=" img-fluid" alt="Card image cap Responsive image" style={{height:"30%"}}/>     
+                         <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"30%"}}/>     
                             <div className="container my-1" >
                               
                                     <div className=" intro ">

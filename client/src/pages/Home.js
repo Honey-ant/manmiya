@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-   <img src={giki} className=" img-fluid" alt="Card image cap Responsive image" style={{height:"10%"}}/>
+   <img src={giki} className=" img-fluid" alt=" Responsive image" style={{height:"10%"}}/>
     <div className="container">
        
       <div className="intro mb-1">

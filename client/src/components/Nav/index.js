@@ -66,9 +66,9 @@ function Nav() {
             </div>
             
       <nav className=" ">{showNavigation()}</nav>      
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center text-center">
       <h4 >
-          <Link className="title" to="/">
+          <Link className="title col text-center" to="/">
             
             Manmiya
              <img src={Logo}  alt="React App Logo" className=" logo"/>
