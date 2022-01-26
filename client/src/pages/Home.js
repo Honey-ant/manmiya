@@ -41,7 +41,7 @@ const Home = () => {
        <hr></hr> 
       <div className="intro mb-3 py-3 my-3">
         <p className="my-2">
-          Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
+          Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
         <p className="">
