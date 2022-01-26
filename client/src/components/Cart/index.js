@@ -70,15 +70,16 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed my-2" onClick={toggleCart}>
-        <span role="img" aria-label="trash">
+        {/* <span role="img" aria-label="trash">
           🛒
-        </span>
+        </span> */}
+        <i class="bi bi-cart2 " role="img" aria-label="trash"></i>
       </div>
     );
   }
 
   return (
-    <div className="cart">
+    <div className="cart py-3">
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
@@ -102,10 +103,10 @@ const Cart = () => {
         </div>
       ) : (
         <h3>
-          <span role="img" aria-label="shocked">
+          {/* <span role="img" aria-label="shocked">
             😱
-          </span>
-          You haven't added anything to your cart yet!
+          </span> */}
+          You haven't added anything to your cart yet
         </h3>
       )}
     </div>

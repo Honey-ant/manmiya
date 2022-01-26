@@ -428,6 +428,10 @@ input:focus {
   color: var(--nav);
 }
 
+.bi-cart2 {
+  color: var(--darkbrown);
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
