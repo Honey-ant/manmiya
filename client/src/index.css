@@ -30,6 +30,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Serif+4&display=swap');
 
 * {
   box-sizing: border-box;
@@ -49,6 +50,7 @@ body {
   font-size: 16px;
   color: var(--dark);
   background-color: var(--nav);
+  font-family: 'Source Serif 4', sans-serif;
 }
 .logo{
   border-radius: 0.5rem;
@@ -67,6 +69,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  font-family: 'Source Serif 4', sans-serif;
 }
 
 h1 {
@@ -299,7 +302,7 @@ input:focus {
 }
 
 .name {
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .ann {
