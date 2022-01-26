@@ -31,6 +31,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Source+Serif+4&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 
 * {
   box-sizing: border-box;
@@ -419,6 +420,13 @@ input:focus {
   right:0; 
   
 }
+.footer a {
+  color: var(--nav);
+}
+
+.bi {
+  color: var(--nav);
+}
 
 @media screen and (max-width: 768px) {
   .card {
@@ -439,10 +447,5 @@ input:focus {
 
   }
 
-
-
- 
-  /* input {
-    width: 100%
-  } */
 }
+
