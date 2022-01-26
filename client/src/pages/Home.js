@@ -38,14 +38,15 @@ const Home = () => {
     
     </div>
      <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
-    <div className="container">
-        
-      <div className="intro mb-3 py-3">
+     
+    <div className="container my-3 py-4">
+       <hr></hr> 
+      <div className="intro mb-3 py-3 my-3">
         <p className="my-2">
           Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
-        <p className="py-1">
+        <p className="">
           They currently live on Boon Wurrong land
         </p>
         <p>
