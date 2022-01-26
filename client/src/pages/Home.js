@@ -33,8 +33,9 @@ const Home = () => {
               Fill out the form provided, or Email
             </p> */}
          </div>
+         <hr></hr>
       </div>
-    <hr></hr>
+    
     </div>
      <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
     <div className="container">
