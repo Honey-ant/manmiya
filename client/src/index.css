@@ -134,6 +134,12 @@ header a:hover {
   box-shadow: 8px 8px 8px 8px var(--me);
   box-shadow: 0 -10px 10px -10px var(--pink);
   margin: 0;
+  font-family: 'Rock Salt', cursive;
+  color: var(darkbrown);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
 }
 
 

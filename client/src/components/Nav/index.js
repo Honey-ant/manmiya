@@ -60,7 +60,7 @@ function Nav() {
 
     <header className="sticky-top navbar d-flex justify-content-between ">
              <div className=" container-fluid banner ">
-                <p className="title">
+                <p className="banner">
                     Purchasing will be available soon.
                 </p>
             </div>
