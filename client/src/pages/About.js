@@ -1,10 +1,14 @@
             import React, { Component} from 'react';
             import { Link } from "react-router-dom";
+
             import dad from '../assets/dad.jpg';
             import giki from '../assets/giki.jpg';
             import fx from '../assets/fx.JPG';
+
             import home from '../assets/home.jpg';
             import lil from '../assets/lil.jpg';
+            import dance from '../assets/dance.jpg';
+
             class About extends Component {
                 render() {
                     return (
@@ -41,8 +45,8 @@
                                                     We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                                     the water would rise up so high it would cut off the roads and we would have to move into town. 
                                                 </p>
-                                                
-                                                <p>
+                                                <img src={dance} className="pro img" alt="Card image cap" />
+                                                <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
                                                 Being painted up in ochre and dancing for my brother's lore ceremony. 
                                                 Our dances, songs and stories have always been deeply nestled in my heart. 

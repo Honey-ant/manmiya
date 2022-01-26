@@ -11,7 +11,7 @@ const Home = () => {
       
     <div className="container start">
       <div className="top-cen ">
-        <h4 className="title my-3" >Visual Artist</h4>
+        <h4 className="title " >Visual Artist</h4>
           <p>
               Bunuba Wiyi
           </p>
