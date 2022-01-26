@@ -529,7 +529,8 @@ hr {
   }
 
   .float-right {
-    margin-right:35%;
+    /* margin-right:35%; */
+    width:auto;
   }
 
   .footer {

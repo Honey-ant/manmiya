@@ -11,7 +11,7 @@ const Home = () => {
       
     <div className="container ">
       <div className="start ">
-        <h4 className="title " >Manmiya</h4>
+        <h4 className="title " >Manmiya Bedford</h4>
           <p>
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>
