@@ -58,7 +58,7 @@ function Nav() {
 
   return (
 
-    <header className="sticky-top navbar d-flex justify-content-between ">
+    <header className="sticky-top navbar  ">
              <div className=" container-fluid banner ">
                 <p className="banner">
                     Purchasing will be available soon.
@@ -66,9 +66,9 @@ function Nav() {
             </div>
             
       <nav className=" mx-2">{showNavigation()}</nav>      
-      <div className="d-flex justify-content-center text-center mx-2">
-      <h6 className="col mx-2">
-          <Link className="title col text-center mx-2" to="/">
+      <div className=" mx-2">
+      <h6 className=" mx-2">
+          <Link className="title  mx-2" to="/">
             
             Manmiya
              {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}

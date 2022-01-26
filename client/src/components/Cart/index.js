@@ -73,7 +73,7 @@ const Cart = () => {
         {/* <span role="img" aria-label="trash">
           🛒
         </span> */}
-        <i class="bi bi-cart2 " role="img" aria-label="trash"></i>
+        <i className="bi bi-cart2 " role="img" aria-label="trash"></i>
       </div>
     );
   }

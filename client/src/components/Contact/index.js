@@ -37,13 +37,13 @@ export const Contact = () => {
   };
 
   return (
-      <div className="container my-1">
-        <Link to="/">← Go to Main page</Link>
+      <div className="container my-3">
+        {/* <Link className="py-4 my-3" to="/">← Go to Main page</Link> */}
         <h4 className="py-2 " >Please Fill Out The Form Below To Get In Contact</h4>
 
         <form className="form py-2" ref={form} onSubmit={sendEmail}>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="firstName">Name:</label>
+        <div className="flex-row space-between my-2 py-2">
+          <label className="my-2" htmlFor="firstName">Name:</label>
           <input
             placeholder="Name"
             name="from_name"
@@ -52,8 +52,8 @@ export const Contact = () => {
             // onChange={handleChange}
           />
         </div>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email:</label>
+        <div className="flex-row space-between my-2 py-2">
+          <label className="my-2" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="reply_to"
@@ -63,8 +63,8 @@ export const Contact = () => {
           />
         </div>
 
-        <div className="flex-row space-between my-2">
-          <label htmlFor="email">Message:</label>
+        <div className="flex-row space-between my-2 py-2">
+          <label className="my-2" htmlFor="email">Message:</label>
           <textarea
             placeholder="write your message here"
             name="message"
@@ -73,11 +73,11 @@ export const Contact = () => {
             // onChange={handleChange}
           />
         </div>
-        <div className="flex-row flex-end">
+        <div className="flex-row flex-end py-4">
           <button type="submit">Submit</button>
         </div>
         </form>
-
+        <Link className="py-4 my-3" to="/">← Go to Main page</Link>
     </div>
   );
 };
