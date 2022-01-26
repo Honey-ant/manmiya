@@ -11,14 +11,14 @@
   --spaceing-four: calc(3rem);
   --brown:#4d332d;
   --lightbrown:#7b5e57;
-  --me:#c1998f;
+  --me:hsl(12, 29%, 66%);
   --darkbrown:#260e04;
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
   --greenWash:rgba(66,151, 130, 0.75);
-  --nav:#c1998fbf;
+  --nav:hsla(12, 29%, 66%, 0.749);
   --submit:  linear-gradient(to
   bottom, 
   rgba(248, 218, 48, 0.445) 0%, 
@@ -50,7 +50,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
-  background-color: var(--nav);
+  background-color: var(--me);
   font-family: 'Source Serif 4', sans-serif;
 }
 .logo{
