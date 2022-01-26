@@ -8,7 +8,7 @@ function Nav() {
     if (Auth.loggedIn()) {
       return (
         <div className="dropdown ">
-        <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         
         </button>
         <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
@@ -33,7 +33,7 @@ function Nav() {
 
       return (
         <div className="dropdown ">
-          <button className="btn btn-clear dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             
           </button>
           <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
@@ -66,8 +66,8 @@ function Nav() {
             </div>
             
       <nav className=" mx-2">{showNavigation()}</nav>      
-      <div className=" mx-2">
-      <h6 className=" mx-2">
+      <div className=" mx-2  manmiya">
+      <h6 className=" mx-2  ">
           <Link className="title  mx-2" to="/">
             
             Manmiya

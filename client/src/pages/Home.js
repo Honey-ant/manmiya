@@ -13,7 +13,7 @@ const Home = () => {
       <div className="top-cen ">
         <h4 className="title my-3" >Visual Artist</h4>
           <p>
-              
+              Bunuba Wiyi
           </p>
       </div>
       <div className="float-right py-1">
@@ -31,10 +31,7 @@ const Home = () => {
     <hr></hr>
       <div className=" py-1">
             <Link className="title " to="/contact">Contact</Link>
-            {/* <p>
-              Fill out the form provided, or Email
-            </p> */}
-         </div>
+      </div>
          <hr></hr>
       </div>
     
