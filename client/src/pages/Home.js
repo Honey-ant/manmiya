@@ -10,25 +10,27 @@ const Home = () => {
     <>
       
     <div className="container start">
-      <div className="top-cen">
-        <h4 className="title" >Visual Artist</h4>
-
+      <div className="top-cen ">
+        <h4 className="title my-3" >Visual Artist</h4>
+          <p>
+              
+          </p>
       </div>
-      <div className="float-right">
-          <div className="title py-3">
-              <Link className="title py-2" to="/about">Artist Bio</Link>
+      <div className="float-right py-1">
+          <div className="title py-1">
+              <Link className="title " to="/about">Artist Bio</Link>
           </div>    
          <hr></hr>
         <div className="title py-1">
-            <Link className="title py-2" to="/about">About Artist</Link>
+            <Link className="title " to="/about">About Artist</Link>
          </div>
          <hr></hr>
       <div className="title py-1">      
-          <Link className="title py-2"  to="/about">Exhibtions</Link>
+          <Link className="title "  to="/about">Exhibtions</Link>
       </div>
     <hr></hr>
       <div className=" py-1">
-            <Link className="title py-2" to="/contact">Contact</Link>
+            <Link className="title " to="/contact">Contact</Link>
             {/* <p>
               Fill out the form provided, or Email
             </p> */}

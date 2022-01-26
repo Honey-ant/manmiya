@@ -9,10 +9,12 @@
   --spacing-two: calc(1rem);
   --spacing-three: calc(2rem);
   --spaceing-four: calc(3rem);
-  --brown:#4d332d;
-  --lightbrown:#7b5e57;
+  --brown:rgb(77, 51, 45);
+  --lightbrown:rgb(123, 94, 87);
   --me:hsl(12, 29%, 66%);
   --darkbrown:rgb(38, 14, 4);
+  --sand:rgb(188,96,57);
+  --orch:rgb(217, 143, 69);
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
@@ -119,7 +121,11 @@ header {
   background-color: var(--nav);
   /* box-shadow: 0px 0px 8px 0px var(--brown); */
   position:relative;
-  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  box-shadow: rgba(38, 14, 4, 0.4) 0px 5px, 
+  rgba(77, 51, 45, 0.3) 0px 10px, 
+  rgba(123,94,87, 0.2) 0px 15px, 
+  rgba(188,96,57, 0.1) 0px 20px, 
+  rgba(217, 143,69, 0.05) 0px 25px;
 }
 
 header a {
@@ -387,7 +393,7 @@ input:focus {
   margin-right:50%;
   margin-top: calc(3rem);
   overflow-x: hidden;
-  height:60%;
+  height:80%;
   width: 60%;
 }
 
@@ -395,15 +401,17 @@ input:focus {
   margin-left:70%;
   margin-top: calc(3rem);
   overflow-x: hidden;
-  height:50rem;
+  /* height:50rem; */
     position:absolute;
     text-align: right;
     color: var(--lightbrown);
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
+    /* background-color: var(--me); */
 }
 
 hr {
+  style: border-solid thin dotted var(--darkbrown);
   color: var(--darkbrown);
 }
 
@@ -419,10 +427,10 @@ hr {
 }
 
 .top-cen {
-  position:absolute;
-  top: calc(1.5rem);
-  left:30%;
-  font-family: 'Rock Salt', cursive;
+  /* position:absolute;
+  
+  left:30%; */
+  /* font-family: 'Rock Salt', cursive; */
 }
 .card {
   width: 25%;
