@@ -17,19 +17,19 @@ const Home = () => {
           </p>
       </div>
       <div className="float-right ">
-          <div className=" py-1">
+          <div className=" ">
               <Link className=" " to="/artbio">Artist Bio</Link>
              <hr></hr> 
           </div>    
-        <div className=" py-1">
+        <div className=" ">
             <Link className=" " to="/about">About Artist</Link>
             <hr></hr>
          </div>    
-      <div className=" py-1">      
+      <div className="">      
           <Link className=" "  to="/about">Exhibtions</Link>
           <hr></hr>
       </div> 
-      <div className=" py-1">
+      <div className=" ">
           <Link className=" " to="/contact">Contact</Link>
           <hr></hr>
       </div>   
@@ -41,7 +41,7 @@ const Home = () => {
        <hr></hr> 
       <div className="intro mb-3 py-3 my-3">
         <p className="my-2">
-          Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
+          Manmiy  a Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
         <p className="">
