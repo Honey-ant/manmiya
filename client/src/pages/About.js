@@ -10,12 +10,12 @@
                     return (
 
                         <>
-                            <img src={giki} className=" img-fluid" alt=" Responsive image" />  
-                            <div className="container my-1" >
+                            <img src={giki} className="pro img-fluid" alt=" Responsive image" />  
+                            <div className="container my-3" >
                                   
-                                    <div className=" intro ">
+                                    <div className=" intro my-3">
                                         
-                                        <h2 className="my-1 intro title" id="title">About</h2>
+                                        <h2 className="my-3 intro title" id="title">About</h2>
                                             <div className=" mb-3 intro">
                                                 <p> 
                                                     <b>Manmiya is her Aboriginal name given to her by her grandparents.
@@ -28,15 +28,15 @@
                                                 and my gadinng (totem) is balga (barramundi). 
                                                 I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
                                                 </p>
-                                                <img src={fx} className="  w-75 float-left left xl" alt="Responsive image " />    
-                                                <p>
+                                                <img src={fx} className="pro  w-75 float-left left xl" alt="Responsive image " />    
+                                                <p className="py-3">
                                                 It is considered a remote community, although I never saw it as that. 
                                                 We lived in the last house in the Laaban community on the outskirts of the town 
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
                                                 </p>
-                                                <img src={home} className=" img" alt="Card image cap" />
-                                                <p>
+                                                <img src={home} className="pro img" alt="Card image cap" />
+                                                <p className="py-3">
                                                     I grew up with my six siblings in a house propped up on skilts.
                                                     We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                                     the water would rise up so high it would cut off the roads and we would have to move into town. 
@@ -59,12 +59,13 @@
                                                 Intergenerational trauma is very present in my community 
                                                 and my painting is my largest tool in becoming a cycle breaker.  
                                                 </p>
-                                                <p>
+                                                <img src={lil} className="pro img" alt="Card image cap" />
+                                                <p className="py-3">
                                                 I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
                                                 but I stopped when we moved away.  
                                                 </p>
-                                                <img src={lil} className=" img" alt="Card image cap" />
-                                                <p>
+                                                
+                                                <p >
                                                     It was hard moving down to Victoria. 
                                                     I felt like an outsider, being one of the only Aboriginal kids that went to my school.
                                                 </p>

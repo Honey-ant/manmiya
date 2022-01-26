@@ -8,6 +8,7 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-three: calc(2rem);
+  --spaceing-four: calc(3rem);
   --brown:#4d332d;
   --lightbrown:#7b5e57;
   --me:#c1998f;
@@ -297,6 +298,10 @@ input:focus {
   justify-content:center;
 }
 
+.name {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
 .ann {
   border:1px solid var(--pink);
   border-radius: 1rem;
@@ -364,6 +369,10 @@ input:focus {
 .py-3 {
   padding-top: var(--spacing-three);
   padding-bottom: var(--spacing-three);
+}
+.py-4 {
+  padding-top: var(--spaceing-four);
+  padding-bottom: var(--spaceing-four);
 }
 
 .card {
