@@ -404,6 +404,7 @@ input:focus {
   overflow-x: hidden;
   height:80%;
   width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .float-right {
@@ -416,6 +417,7 @@ input:focus {
     color: var(--lightbrown);
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
+    text-align: start;
     /* background-color: var(--me); */
 }
 

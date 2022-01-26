@@ -17,22 +17,23 @@ const Home = () => {
           </p>
       </div>
       <div className="float-right py-1">
-          <div className="title py-1">
-              <Link className="title " to="/about">Artist Bio</Link>
+          <div className=" py-1">
+              <Link className=" " to="/about">Artist Bio</Link>
+             <hr></hr> 
           </div>    
-         <hr></hr>
-        <div className="title py-1">
-            <Link className="title " to="/about">About Artist</Link>
-         </div>
-         <hr></hr>
-      <div className="title py-1">      
-          <Link className="title "  to="/about">Exhibtions</Link>
-      </div>
-    <hr></hr>
+        <div className=" py-1">
+            <Link className=" " to="/about">About Artist</Link>
+            <hr></hr>
+         </div>    
+      <div className=" py-1">      
+          <Link className=" "  to="/about">Exhibtions</Link>
+          <hr></hr>
+      </div> 
       <div className=" py-1">
-            <Link className="title " to="/contact">Contact</Link>
+          <Link className=" " to="/contact">Contact</Link>
+          <hr></hr>
       </div>
-         <hr></hr>
+         
       </div>
     
     </div>
