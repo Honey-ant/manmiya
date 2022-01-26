@@ -16,13 +16,13 @@ const Home = () => {
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>
       </div>
-      <div className="float-right ">
+      <div className="float-right px-3">
           <div className=" ">
-              <Link className=" " to="/artbio">Artist Bio</Link>
+              <Link className="my-2 py-2" to="/artbio">Artist Bio</Link>
              <hr></hr> 
           </div>    
         <div className=" ">
-            <Link className=" " to="/about">About Artist</Link>
+            <Link className=" py-2" to="/about">About Artist</Link>
             <hr></hr>
          </div>    
       <div className="">      

@@ -297,7 +297,7 @@ input:focus {
   color: var(--darkbrown);
   color: var(--darkbrown);
   font-size: large;
-  box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch);
+  box-shadow: inset -1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
   border-radius: 2rem;
   /* box-shadow: inset -3em -1em rgb(188,96,57); */
 }
@@ -430,10 +430,10 @@ input:focus {
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
-    box-shadow: inset 1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
+    box-shadow: inset 1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
     border-radius: 1rem;
-    /* height:100%; */
-    width:100%;
+    
+    
     border-top-style: dotted var(--purple)
 }
 
