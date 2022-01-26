@@ -39,7 +39,7 @@ function Login(props) {
       <form onSubmit={handleFormSubmit}>
 
         <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email:</label>
+          <label className="my-2" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@test.com"
             name="email"
@@ -49,7 +49,7 @@ function Login(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
+          <label className="my-2" htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
             name="password"
@@ -63,7 +63,7 @@ function Login(props) {
             <p className="error-text">The provided credentials are incorrect</p>
           </div>
         ) : null}
-        <div className="flex-row flex-end my-2">
+        <div className="flex-row flex-end my-2 py-4">
           <button type="submit">Submit</button>
         </div>
       </form>
