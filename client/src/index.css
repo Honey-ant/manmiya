@@ -8,24 +8,24 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-three: calc(2rem);
-  --brown:rgb(78, 52, 46);
-  --lightbrown:rgb(123, 94, 87);
-  --me:rgb(193, 153, 143);
-  --darkbrown:rgb(38, 14, 4);
+  --brown:#4d332d;
+  --lightbrown:#7b5e57;
+  --me:#c1998f;
+  --darkbrown:#260e04;
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
   --greenWash:rgba(66,151, 130, 0.75);
-  --nav:hsla(12, 29%, 66%, 0.749);
+  --nav:#c1998fbf;
   --submit:  linear-gradient(to
   bottom, 
   rgba(248, 218, 48, 0.445) 0%, 
   rgba(237, 74, 59, 0.6));
-  --purple: rgb(116, 107, 239, 0.8);
-  --fire:rgb(237, 74, 59, 0.8);
+  --purple: #746befcc;
+  --fire:#ed4a3bcc;
   --blue: rgb(43,138,210);
-  --pink:rgb(210,94,166);
+  --pink:#d25ea6;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
@@ -106,13 +106,15 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: 
+  #bc6039;
 }
 
 header {
   background-color: var(--nav);
   /* box-shadow: 0px 0px 8px 0px var(--brown); */
-  position:relative
+  position:relative;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 header a {
@@ -181,6 +183,7 @@ button:hover {
   border-radius: 2rem;
   box-shadow: 0px 0px 8px 0px var(--me);
   color:var(--darkbrown);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 button:hover {
@@ -248,6 +251,7 @@ input:focus {
 .dropdown-toggle {
   border-radius: 4rem;
   border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .title {
@@ -266,6 +270,8 @@ input:focus {
   color: var(--darkbrown);
   color: var(--darkbrown);
   font-size: large;
+  background-color:var(--me); 
+  border-radius: 2rem;
 }
 
 .container {
@@ -273,6 +279,7 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  /* background-color: white; */
 }
 
 .flex-row {
@@ -357,6 +364,15 @@ input:focus {
   background-color: transparent;
   border: none;
   border-style: none;
+
+}
+
+.pro {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px,
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .cat {

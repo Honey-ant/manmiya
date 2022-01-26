@@ -37,7 +37,7 @@ function ProductItem(item) {
   return (
     <div className="card px-1 py-1">
       <Link to={`/products/${_id}`}>
-        <img alt={name} src={`/images/${image}`} />
+        <img className="pro" alt={name} src={`/images/${image}`} />
         <h4>{name}</h4>
       </Link>
       <div>
