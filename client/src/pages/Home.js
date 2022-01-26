@@ -10,13 +10,13 @@ const Home = () => {
     <>
       
     <div className="container start">
-      <div className="top-cen ">
+      <div className=" ">
         <h4 className="title " >Visual Artist</h4>
           <p>
               Bunuba Wiyi
           </p>
       </div>
-      <div className="float-right py-1">
+      <div className="float-right ">
           <div className=" py-1">
               <Link className=" " to="/artbio">Artist Bio</Link>
              <hr></hr> 
