@@ -131,6 +131,10 @@ header a:hover {
   color:var(--pink);
 }
 
+.col {
+  margin-right:6.5%;
+}
+
 .banner {
   justify-content: center;
   text-align: center;

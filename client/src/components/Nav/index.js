@@ -65,10 +65,10 @@ function Nav() {
                 </p>
             </div>
             
-      <nav className=" ">{showNavigation()}</nav>      
-      <div className="d-flex justify-content-center text-center ">
-      <h6 >
-          <Link className="title col text-center " to="/">
+      <nav className=" mx-2">{showNavigation()}</nav>      
+      <div className="d-flex justify-content-center text-center mx-2">
+      <h6 className="col mx-2">
+          <Link className="title col text-center mx-2" to="/">
             
             Manmiya
              {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
