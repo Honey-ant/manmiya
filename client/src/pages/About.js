@@ -12,7 +12,7 @@
                         <>
                             <img src={giki} className="pro img-fluid" alt=" Responsive image" />  
                             <div className="container my-3" >
-                                  
+                            <Link className="my-3 py-2" to="/">← Back to main page</Link>
                                     <div className=" intro my-3">
                                         
                                         <h2 className="my-3 intro title" id="title">About</h2>

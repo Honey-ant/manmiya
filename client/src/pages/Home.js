@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div className="float-right py-1">
           <div className=" py-1">
-              <Link className=" " to="/about">Artist Bio</Link>
+              <Link className=" " to="/artbio">Artist Bio</Link>
              <hr></hr> 
           </div>    
         <div className=" py-1">
@@ -32,10 +32,8 @@ const Home = () => {
       <div className=" py-1">
           <Link className=" " to="/contact">Contact</Link>
           <hr></hr>
-      </div>
-         
-      </div>
-    
+      </div>   
+      </div> 
     </div>
      <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
      
