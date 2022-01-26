@@ -19,8 +19,8 @@
                             <Link className="my-3 py-2" to="/">← Back to main page</Link>
                                     <div className="intro my-3">
                                         
-                                        <h2 className="my-3 intro title" id="title">About</h2>
-                                            <div className=" mb-3 intro">
+                                        <h2 className="my-3  title" id="title">About</h2>
+                                            <div className=" mb-3 ">
                                                 <p> 
                                                     <b>Manmiya is her Aboriginal name given to her by her grandparents.
                                                     They pick names from five generations ago.

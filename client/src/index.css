@@ -135,6 +135,7 @@ header {
   rgba(217, 143,69, 0.05) 0px 25px;
   border-radius: 2rem;
   box-shadow: inset 0.5em 0.5em  var(--orch), 10px 5px 5px var(--sand);
+  border-top-style: dotted var(--purple)
 }
 
 header a {
@@ -296,6 +297,8 @@ input:focus {
   color: var(--darkbrown);
   color: var(--darkbrown);
   font-size: large;
+  box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch);
+  border-radius: 2rem;
   /* box-shadow: inset -3em -1em rgb(188,96,57); */
 }
 
@@ -396,11 +399,13 @@ input:focus {
 
 .float-left {
   margin-right:50%;
-  margin-top: calc(3rem);
+  /* margin-top: calc(3rem); */
   overflow-x: hidden;
-  height:80%;
+  height:100%;
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+  /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 }
 
 .float-leftt {
@@ -409,22 +414,27 @@ input:focus {
   overflow-x: hidden;
   height:60%;
   width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px, inset 1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
   border-radius: 20rem;
+  /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
+
 }
 
 .float-right {
   margin-left:55%;
-  margin-top: calc(3rem);
-  overflow-x: hidden;
+  /* margin-top: calc(3rem); */
+  /* overflow-x: hidden; */
     position:absolute;
     text-align: right;
     color: var(--lightbrown);
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
-    box-shadow: inset 2em 1em var(--sand), 10px 5px 5px var(--orch);
+    box-shadow: inset 1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
     border-radius: 1rem;
+    /* height:100%; */
+    width:100%;
+    border-top-style: dotted var(--purple)
 }
 
 .float-rightt {
@@ -455,7 +465,7 @@ hr {
   position: relative;
   text-align: center;
   color: var(--brown);
-  box-shadow: inset 2em  -1em var(--sand), 10px 5px 5px var(--orch)  ;
+  /* box-shadow: inset 1em  -1em var(--sand), 10px 5px 5px var(--orch)  ; */
   border-radius: 2rem;
 }
 
@@ -518,6 +528,10 @@ hr {
     width: 100%;
   }
 
+  .float-right {
+    margin-right:35%;
+  }
+
   .footer {
     padding:5%; 
     margin-bottom: 0; 
@@ -531,6 +545,8 @@ hr {
     right:0;
 
   }
+
+
 
 }
 

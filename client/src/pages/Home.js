@@ -11,9 +11,9 @@ const Home = () => {
       
     <div className="container ">
       <div className="start ">
-        <h4 className="title " >Visual Artist</h4>
+        <h4 className="title " >Manmiya</h4>
           <p>
-              Bunuba Wiyi
+              Visual Artist || Software Developer || Bunuba Wiyi
           </p>
       </div>
       <div className="float-right ">
@@ -34,10 +34,12 @@ const Home = () => {
           <hr></hr>
       </div>   
       </div> 
+      
     </div>
+    
      <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
      
-    <div className="container my-3 py-4">
+    <div className="container my-3 py-2">
        <hr></hr> 
       <div className="intro mb-3 py-3 my-3">
         <p className="my-2">
