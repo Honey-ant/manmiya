@@ -19,7 +19,7 @@
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
-  --greenWash:rgba(66,151, 130, 0.75);
+  --greenWash:rgb(66, 151, 130);
   --nav:rgba(193, 153, 143, 0.749);
   --submit:  linear-gradient(to
   bottom, 
@@ -414,7 +414,7 @@ input:focus {
 }
 
 .float-right {
-  margin-left:60%;
+  margin-left:50%;
   margin-top: calc(3rem);
   overflow-x: hidden;
     position:absolute;
@@ -424,6 +424,7 @@ input:focus {
     border-left: 1px solid line var(darkbrown);
     text-align: start;
     box-shadow: inset 2em 1em var(--sand);
+    border-radius: 1rem;
 }
 
 .float-rightt {
@@ -436,6 +437,7 @@ input:focus {
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
+    border-radius: 2rem;
    
 }
 
@@ -453,6 +455,8 @@ hr {
   position: relative;
   text-align: center;
   color: var(--brown);
+  box-shadow: inset 2em -1em  var(--purple);
+  border-radius: 2rem;
 }
 
 .card {

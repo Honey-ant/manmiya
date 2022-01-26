@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
       
-    <div className="container start">
-      <div className=" ">
+    <div className="container ">
+      <div className="start ">
         <h4 className="title " >Visual Artist</h4>
           <p>
               Bunuba Wiyi
