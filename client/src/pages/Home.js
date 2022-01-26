@@ -27,8 +27,11 @@ const Home = () => {
           <Link className="title py-2"  to="/about">Exhibtions</Link>
       </div>
     <hr></hr>
-      <div className="title py-1">
-            <Link className="title py-2" to="/about">Contact</Link>
+      <div className=" py-1">
+            <Link className="title py-2" to="/contact">Contact</Link>
+            {/* <p>
+              Fill out the form provided, or Email
+            </p> */}
          </div>
       </div>
     <hr></hr>

@@ -392,13 +392,23 @@ input:focus {
 }
 
 .float-right {
-  margin-left:80%;
+  margin-left:70%;
   margin-top: calc(3rem);
   overflow-x: hidden;
   height:50rem;
     position:absolute;
     text-align: right;
     color: var(--lightbrown);
+    margin-right: 6.5%;
+    border-left: 1px solid line var(darkbrown);
+}
+
+hr {
+  color: var(--darkbrown);
+}
+
+.float-right a {
+  color: var(--darkbrown);
 }
 
 .start {
