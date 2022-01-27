@@ -14,10 +14,11 @@ const Home = () => {
     <>
       
     <div className="container ">
+       
       <div className="start my-1">
-      <img src={crown} className="rounded crown" alt=" Responsive image" /> 
+     <img src={crown} className="rounded crown" alt=" Responsive image" /> 
         <h4 className="title bedford" >Manmiya Bedford</h4>
-          <p className="my-3">
+          <p className="my-3 py-1">
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>
       </div>
@@ -51,12 +52,12 @@ const Home = () => {
           Manmiy  a Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
-        <p className="">
-          They currently live on Boon Wurrong land
-        </p>
-        <p>
+        <h3 className="">
+          Browse through the Prints and Originals 
+        </h3>
+        {/* <p>
           Read about them <Link to="/about">here</Link>
-        </p>
+        </p> */}
       </div>
       <CategoryMenu />
       <ProductList />
