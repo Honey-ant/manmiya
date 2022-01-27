@@ -16,7 +16,7 @@ const Home = () => {
     <div className="container ">
       <div className="start my-1">
       <img src={crown} className="rounded crown" alt=" Responsive image" /> 
-        <h4 className="title " >Manmiya Bedford</h4>
+        <h4 className="title bedford" >Manmiya Bedford</h4>
           <p className="my-3">
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>

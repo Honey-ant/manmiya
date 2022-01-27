@@ -62,12 +62,17 @@ body {
   
 }
 
+.bedford {
+
+}
+
 .crown {
   width: 100px;
   height: 100px;
   position: absolute;
-  top:-4rem;
-  left:7rem;
+  top:-80%; 
+  left:%; 
+
 }
 
 h1,
@@ -142,9 +147,8 @@ header {
   rgba(188,96,57, 0.1) 0px 20px, 
   rgba(217, 143,69, 0.05) 0px 25px;
   border-radius: 2rem;
-  box-shadow: inset 0.5em 0.5em  var(--orch), 10px 5px 5px var(--sand);
+  /* box-shadow: inset 0.5em 0.5em  var(--orch), 10px 5px 5px var(--sand); */
   border-top-style: dotted var(--purple)
-
 }
 
 header a {
@@ -536,6 +540,16 @@ hr {
   .card {
     width: 100%;
   }
+
+  .crown {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-4rem; 
+    left:7rem; 
+  
+  }
+  
 
   .float-right {
     /* margin-right:35%; */
