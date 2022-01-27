@@ -52,9 +52,9 @@ const Home = () => {
           Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
-        <h3 className="">
+        <h4 className="">
           Browse through the Prints and Originals 
-        </h3>
+        </h4>
         {/* <p>
           Read about them <Link to="/about">here</Link>
         </p> */}
