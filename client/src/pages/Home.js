@@ -40,8 +40,8 @@ const Home = () => {
      <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
      
     <div className="container my-3 py-2">
-       <hr></hr> 
-      <div className="intro mb-3 py-3 my-3">
+       {/* <hr></hr>  */}
+      <div className=" mb-3 py-3 my-3">
         <p className="my-2">
           Manmiy  a Bedford is a Bunuba artist from the Kimberly Western Australia.
       
