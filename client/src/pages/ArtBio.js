@@ -19,7 +19,7 @@ const ArtBio = () => {
             <p>Artist's Bio</p>
             
             <p>
-                A self taught 
+                A self taught artist. They work 
             </p>
           </div>
         </div>

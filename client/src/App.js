@@ -10,21 +10,26 @@ import { setContext } from '@apollo/client/link/context';
 
 import { Provider } from 'react-redux';
 import store from './utils/store';
+import ScrollButton from './components/ScrollButton';
+import { Content, Heading } from './components/Styles';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import Checkout from './pages/Checkout';
+
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+
 import About from './pages/About.js';
 import ArtBio from './pages/ArtBio';
 import Contact from './components/Contact/index.js';
+
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Footer from './components/footer.js';
-import Banner from './components/banner.js';
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -65,6 +70,7 @@ function App() {
               <Route exact path="/orderHistory" component={OrderHistory} />
               <Route exact path="/products/:id" component={Detail} />
               <Route component={NoMatch} />
+              <ScrollButton />
             </Switch>
             <Footer/>
           </Provider>

@@ -30,6 +30,8 @@
     "bootstrap-icons": "^1.7.2",
     "express": "^4.17.1",
     "graphql": "^15.5.1",
-    "stripe": "^8.197.0"
+    "react-icons": "^4.3.1",
+    "stripe": "^8.197.0",
+    "styled-components": "^5.3.3"
   }
 }
