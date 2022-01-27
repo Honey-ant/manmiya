@@ -421,46 +421,43 @@ input:focus {
 
 .float-leftt {
   margin-right:60%;
-  margin-top: calc(1rem);
+  margin-top: calc(7rem);
   overflow-x: hidden;
-  height:60%;
+  height:10%;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  border-radius: 50rem;
+  /* border-radius: 50rem; */
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 
 }
 
 .float-right {
   margin-left:55%;
-  /* margin-top: calc(3rem); */
-  /* overflow-x: hidden; */
     position:absolute;
     text-align: right;
     color: var(--lightbrown);
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
-    /* box-shadow: inset 1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch); */
-    border-radius: 1rem;
-    
-    
     border-top-style: dotted var(--purple);
     margin-top: calc(2rem);
 }
 
 .float-rightt {
-  margin-left:35%;
+  margin-left:25%;
   margin-top: calc(3rem);
   overflow-x: hidden;
     position:absolute;
     text-align: right;
     color: var(--darkbrown);
-    margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
-    border-radius: 2rem;
-   
+    border-color: solid line 1rem white;
+}
+
+.border {
+  padding: 10%;
+  
 }
 
 hr {
@@ -553,7 +550,7 @@ hr {
 
   .float-right {
     margin-left: 13rem;
-    /* width:auto; */
+    
   }
 
   .footer {

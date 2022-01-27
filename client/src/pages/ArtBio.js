@@ -9,15 +9,14 @@ const ArtBio = () => {
 
     <div className="container">
        <div className="top-cen ">
-        <h4 className="title my-3" >Artist Bio</h4>
+        <h4 className="title " >Artist Bio</h4>
           <p>
              
           </p>
       </div>
-      <div className="float-rightt py-1">
-          <div className="py-1">
-            <p>Artist's Bio</p>
-            
+      <div className="float-rightt ">
+          <div className="border">
+           
             <p>
                 A self taught artist. They work 
             </p>
@@ -26,9 +25,8 @@ const ArtBio = () => {
     </div>
     <img src={giki} className=" float-leftt " alt=" Responsive image" /> 
     <div className="container">
-    <div className="intro mb-3 py-3 my-3">
+    <div className=" mb-3 py-3 my-3">
         <p className="my-2">
-          Munmia Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
         <p className="">
