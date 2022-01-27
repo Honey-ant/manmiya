@@ -415,7 +415,7 @@ input:focus {
   height:100%;
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-
+  margin-top: calc(2rem);
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 }
 
@@ -445,7 +445,8 @@ input:focus {
     border-radius: 1rem;
     
     
-    border-top-style: dotted var(--purple)
+    border-top-style: dotted var(--purple);
+    margin-top: calc(2rem);
 }
 
 .float-rightt {
@@ -478,6 +479,7 @@ hr {
   color: var(--brown);
   /* box-shadow: inset 1em  -1em var(--sand), 10px 5px 5px var(--orch)  ; */
   border-radius: 2rem;
+  margin-top: calc(3rem);
 }
 
 .card {

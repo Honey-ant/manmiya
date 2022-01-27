@@ -22,7 +22,7 @@ const Home = () => {
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>
       </div>
-      <div className="float-right px-3">
+      <div className="float-right px-3 py-3">
           <div className=" ">
               <Link className="my-2 py-2" to="/artbio">Artist Bio</Link>
              <hr></hr> 
@@ -49,7 +49,7 @@ const Home = () => {
       <br></br>
       <div className=" mb-3 py-3 my-3">
         <p className="my-2">
-          Manmiy  a Bedford is a Bunuba artist from the Kimberly Western Australia.
+          Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
       
         </p>
         <h3 className="">
