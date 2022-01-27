@@ -414,8 +414,8 @@ input:focus {
   overflow-x: hidden;
   height:60%;
   width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px, inset 1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
-  border-radius: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  border-radius: 50rem;
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 
 }
@@ -486,7 +486,7 @@ hr {
   rgba(0, 0, 0, 0.12) 0px 4px 6px, 
   rgba(0, 0, 0, 0.17) 0px 12px 13px,
   rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  border-radius: 1rem;
+  border-radius: 0.1rem;
 }
 
 .cat {
