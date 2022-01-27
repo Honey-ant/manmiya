@@ -1,18 +1,23 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
+
 import giki from '../assets/mee.jpg';
-import { Link } from 'react-router-dom';
+import crown from '../assets/crown.png';
+
 
 const Home = () => {
   return (
     <>
       
     <div className="container ">
-      <div className="start ">
+      <div className="start my-1">
+      <img src={crown} className="rounded crown" alt=" Responsive image" /> 
         <h4 className="title " >Manmiya Bedford</h4>
-          <p>
+          <p className="my-3">
               Visual Artist || Software Developer || Bunuba Wiyi
           </p>
       </div>

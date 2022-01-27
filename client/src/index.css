@@ -62,6 +62,14 @@ body {
   
 }
 
+.crown {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:-4rem;
+  left:7rem;
+}
+
 h1,
 h2,
 h3,
@@ -136,6 +144,7 @@ header {
   border-radius: 2rem;
   box-shadow: inset 0.5em 0.5em  var(--orch), 10px 5px 5px var(--sand);
   border-top-style: dotted var(--purple)
+
 }
 
 header a {
@@ -430,7 +439,7 @@ input:focus {
     margin-right: 6.5%;
     border-left: 1px solid line var(darkbrown);
     text-align: start;
-    box-shadow: inset 1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
+    /* box-shadow: inset 1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch); */
     border-radius: 1rem;
     
     

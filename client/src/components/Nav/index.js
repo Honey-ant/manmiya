@@ -1,7 +1,7 @@
 import React from 'react';
 import Auth from '../../utils/auth';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/home.png';
 
 function Nav() {
   function showNavigation() {
@@ -70,8 +70,8 @@ function Nav() {
       <h6 className=" mx-2  ">
           <Link className="title  mx-2" to="/">
             
-            Manmiya
-             {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
+            {/* Manmiya */}
+             <img src={Logo}  alt="React App Logo" className=" logo"/>
           </Link>
         </h6>
       </div>
