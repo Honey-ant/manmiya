@@ -19,7 +19,14 @@ const ArtBio = () => {
           <div className="border">
            
             <p>
-                A self taught artist. They work 
+                A self taught artist emerging. They are a visual artist 
+                primarily working with acrylic paints and oils. 
+                Their art is an expression of their inner most thoughts, 
+                healing and emotional processing. 
+                Many of their works come to life quickly as the urge takes hold
+                to create, to express.
+                Their style is a mixture of their own Cultural Idenity as a Bunuba Woman,
+                intertwined with all the complexities of living in the colony.
             </p>
           </div>
         </div>
