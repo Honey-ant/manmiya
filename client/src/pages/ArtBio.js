@@ -25,7 +25,7 @@ const ArtBio = () => {
             <p>
                 Their art is an expression of their inner most thoughts, 
                 healing and emotional processing. 
-                Many of their works come to life quickly as the urge takes hold
+                Many of their works come to life quickly, as the urge takes hold
                 to create, to express, to alleviate.
             </p>
             <p>
@@ -38,14 +38,9 @@ const ArtBio = () => {
     </div>
     <img src={giki} className=" float-leftt " alt=" Responsive image" /> 
     <div className="container">
-    <div className=" mb-3 py-3 my-3 absolute">
-        <p className="my-2">
-      
-        </p>
-        {/* <p className="">
-          They currently live on Boon Wurrong land
-        </p> */}
-        <p>
+    <div className=" mb-3 py-3 my-3 ">
+ 
+        <p className="my-4">
           Read more about them <Link to="/about">here</Link>
         </p>
       </div>

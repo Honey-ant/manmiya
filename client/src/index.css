@@ -602,9 +602,9 @@ hr {
     /* position:absolute; */
     text-align: right;
     color: var(--darkbrown);
-    border-left: 1px solid line var(darkbrown);
+    /* border-left: 1px solid line var(darkbrown); */
     text-align: start;
-    border-color: solid line 1rem white;
+    /* border-color: solid line 1rem white; */
     padding: 10%;
     top: 7rem;
   height: 400px;
