@@ -255,6 +255,12 @@ img {
   border-bottom: 1px solid var(--sand);
 }
 
+.emg {
+  max-width: 100%;
+  padding:5%;
+  border: 1px solid var(--sand);
+}
+
 span[role="img"] {
   cursor: default;
 }
