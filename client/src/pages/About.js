@@ -17,7 +17,7 @@
                             <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
                             <h2 className=" title my-2" id="title">About</h2>
                             
-                            <img src={giki} className="right pro img" alt=" Responsive image" />  
+                            <img src={giki} className="right pro img im" alt=" Responsive image" />  
 
                         <div className="container " >
                                 <div className="flo-left">
@@ -44,8 +44,11 @@
                                             </div>
                                     </div>
                         </div>
-                                <img src={fx} className="pro img float-left left mx-4" alt="Responsive image cap Card " />   
-                        <div className="container"> 
+                                
+                        <div className="container">
+                            <div className="em">
+                            <img src={fx} className="pro img float-left  mx-4" alt="Card image cap  " />   
+                            </div> 
                                  <div>
                                             <div>
                                                 
@@ -55,17 +58,17 @@
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
                                                 </p>
-                                                <img src={home} className="pro img" alt="Card image cap" />
-                                                <p className=" intro py-3">
+                                                <img src={home} className="pro img float-left " alt="Card image cap" />
+                                                <p className=" im py-3 ">
                                                     I grew up with my six siblings in a house propped up on skilts.
                                                     We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                                     the water would rise up so high it would cut off the roads and we would have to move into town. 
                                                 </p>
                                             </div>
                                 </div>
-                            
-                            <img src={dance} className="pro img float-left mx-4" alt="Card image cap" />
-                            
+                            <div className="em">
+                            <img src={dance} className="pro img float-left " alt="Card image cap" />
+                            </div>
                             <div className=" intro">
                                 <div>
                                                 <p className="py-3">
@@ -78,14 +81,14 @@
                                                 He very sadly passed away from suicide. 
                                                 My region has the highest suicide rate in the world.  
                                                 </p>
-                                                <p>
+                                                <p className="im">
                                                 We are people who feel so deeply and truly. 
                                                 When we are happy our happiness is easily shared between us. 
                                                 Yet when we are hurting, we all hurt together.  
                                                 Intergenerational trauma is very present in my community 
                                                 and my painting is my largest tool in becoming a cycle breaker.  
                                                 </p>
-                                                <img src={lil} className="pro img" alt="Card image cap" />
+                                                <img src={lil} className="pro img float-left" alt="Card image cap" />
                                                 <p className="py-3">
                                                 I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
                                                 but I stopped when we moved away.  
@@ -95,7 +98,7 @@
                                                     It was hard moving down to Victoria. 
                                                     I felt like an outsider, being one of the only Aboriginal kids that went to my school.
                                                 </p>
-                                                <p>
+                                                <p className="em">
                                                 I completed my high school years at Geelong Grammar school on a  <a href="https://www.yalari.org/" target="_blank">Yalari</a> scholarship. 
                                                 High school was difficult for me. 
                                                 I was one of few Aboriginal/Torres Strait Islander children there and the school was yet to change the history curriculum to one of truth. 
@@ -119,27 +122,20 @@
                                                 I spent the next few years bartending at Crown Casino, 
                                                 feeling very lost, and disconnected from myself.  
                                                 </p>
-                                                <p>
-                                                My healing journey didn’t start until 2020. 
+                                                <p className="im">
+                                                My healing journey started in 2020. 
                                                 It started with talk therapy and casual painting.  
                                                 Talk therapy didn’t do it for me, 
                                                 I felt too uncomfortable trying to explain all these intense emotions I spent so long ignoring. 
                                                 Luckily, my partner found somatic therapy for me. 
                                                 My therapist is also an art therapist.  
                                                 </p>
-                                                <p>
-                                                My healing journey didn’t start until 2020. 
-                                                It started with talk therapy and casual painting.  
-                                                Talk therapy didn’t do it for me, 
-                                                I felt too uncomfortable trying to explain all these intense emotions I spent so long ignoring. 
-                                                Luckily, my partner found somatic therapy for me. 
-                                                My therapist is also an art therapist.  
-                                                </p>
+
                                                 <p>
                                                 My art is about my healing and connecting with myself. 
                                                 About understanding my emotions and expressing them.  
                                                 </p>
-                                                <p>
+                                                <p className="em">
                                                 When I sit down to paint, 
                                                 it is an unwavering urge to visualise what I am feeling inside. 
                                                 Quite often the pull to paint has me completing my paintings in one sitting, 
@@ -150,7 +146,7 @@
                                                 The forms and colours I use come from all the deadly artists back home. 
                                                 It is the art that I grew up seeing and when lucky enough helped create.  
                                                 </p>
-                                                <p>
+                                                <p className="im">
                                                 The colours of water and my country are clear in my art, I treasure them. 
 
                                                 I am so grateful to come from the line of people that I do.  
