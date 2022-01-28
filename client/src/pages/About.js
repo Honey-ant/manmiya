@@ -14,38 +14,60 @@
                     return (
 
                         <>
-                            <img src={giki} className="pro img-fluid" alt=" Responsive image" />  
-                            <div className="container my-3" >
-                            <Link className="my-3 py-2" to="/">← Back to main page</Link>
-                                    <div className="intro my-3">
+                            <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
+                            <h2 className=" title my-2" id="title">About</h2>
+                            
+                            <img src={giki} className="right pro img" alt=" Responsive image" />  
+
+                        <div className="container " >
+                                <div className="flo-left">
+                                   <p> 
+                                     <b>Manmiya is her Aboriginal name given to her by her grandparents.
+                                         They pick names from five generations ago.
+                                        </b>
+                                     </p>
+                                    <hr></hr>
+                                </div>
+                            
+                                    <div className="  my-3">
                                         
-                                        <h2 className="my-3  title" id="title">About</h2>
-                                            <div className=" mb-3 ">
-                                                <p> 
-                                                    <b>Manmiya is her Aboriginal name given to her by her grandparents.
-                                                    They pick names from five generations ago.
-                                                </b>
-                                                </p>
-                                                <p>
+                                       
+                                            <div className="  mb-6 my-3 py-3 ">
+                                             
+                                                
+                                                <p className=" intro my-3">
                                                 My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                                 I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
                                                 and my gadinng (totem) is balga (barramundi). 
                                                 I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
                                                 </p>
-                                                <img src={fx} className="pro  w-75 float-left left xl" alt="Responsive image " />    
-                                                <p className="py-3">
+                                            </div>
+                                    </div>
+                        </div>
+                                <img src={fx} className="pro img float-left left mx-4" alt="Responsive image " />   
+                        <div className="container"> 
+                                 <div>
+                                            <div>
+                                                
+                                                <p className=" intro py-3">
                                                 It is considered a remote community, although I never saw it as that. 
                                                 We lived in the last house in the Laaban community on the outskirts of the town 
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
                                                 </p>
                                                 <img src={home} className="pro img" alt="Card image cap" />
-                                                <p className="py-3">
+                                                <p className=" intro py-3">
                                                     I grew up with my six siblings in a house propped up on skilts.
                                                     We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                                     the water would rise up so high it would cut off the roads and we would have to move into town. 
                                                 </p>
-                                                <img src={dance} className="pro img" alt="Card image cap" />
+                                            </div>
+                                </div>
+                            
+                            <img src={dance} className="pro img float-left mx-4" alt="Card image cap" />
+                            
+                            <div className="container intro">
+                                <div>
                                                 <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
                                                 Being painted up in ochre and dancing for my brother's lore ceremony. 
@@ -140,10 +162,11 @@
                                             </div>
                                     </div>
                                     <Link className="my-2" to="/">← Back to main page</Link>
-                                </div> 
+
+                        </div> 
                             
                                 
-                                {/* <Link to="/Main" ><button  className="btn btn-clear mb-3"><h2>Return to Homepage</h2> </button></Link> */}
+
                             </>
                     )
                 }

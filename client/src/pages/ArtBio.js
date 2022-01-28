@@ -9,11 +9,12 @@ const ArtBio = () => {
 
     <div className="container">
        <div className="top-cen ">
-        <h4 className="title " >Artist Bio</h4>
+        
           <p>
              
           </p>
       </div>
+      <h4 className="title " >Artist Bio</h4>
       <div className="float-rightt ">
           <div className="border">
            

@@ -65,8 +65,8 @@ body {
 
 
 .crown {
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
   position: absolute;
   top:-80%; 
   left:18.5rem; 
@@ -304,13 +304,14 @@ input:focus {
 
 .intro {
   position: relative;
-  text-align: center;
+  text-align: match-parent;
   color: var(--darkbrown);
   color: var(--darkbrown);
   font-size: large;
-  box-shadow: inset -1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch);
+  /* box-shadow: inset -1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch); */
   border-radius: 2rem;
   /* box-shadow: inset -3em -1em rgb(188,96,57); */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
 .container {
@@ -408,6 +409,7 @@ input:focus {
   padding-bottom: var(--spaceing-four);
 }
 
+/* Main Page Photo */
 .float-left {
   margin-right:50%;
   /* margin-top: calc(3rem); */
@@ -419,16 +421,27 @@ input:focus {
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 }
 
-.float-leftt {
-  margin-right:60%;
-  margin-top: calc(7rem);
-  overflow-x: hidden;
-  height:10%;
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  /* border-radius: 50rem; */
-  /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 
+
+/* Text pairing for About Page */
+.flo-left {
+  margin-right:60%;
+  /* margin-left: 5%; */
+  position:absolute;
+  text-align: left;
+  top:10rem;
+  width: 40%;
+  border: none;
+  margin-top: calc(3rem);
+}
+
+/* Photo for About Page */
+.right {
+  margin-left:50%;
+ overflow-x: hidden;
+ box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+ margin-top: calc(3rem);
+ height:10%;
 }
 
 .float-right {
@@ -443,9 +456,21 @@ input:focus {
     margin-top: calc(2rem);
 }
 
+/* Photo for ArtBio age */
+.float-leftt {
+  margin-right:60%;
+  margin-top: calc(7rem);
+  overflow-x: hidden;
+  height:10%;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* text for artBio Page */
 .float-rightt {
   margin-left:25%;
   margin-top: calc(3rem);
+  width: 80%;
   overflow-x: hidden;
     position:absolute;
     text-align: right;
@@ -453,6 +478,7 @@ input:focus {
     border-left: 1px solid line var(darkbrown);
     text-align: start;
     border-color: solid line 1rem white;
+    padding: 5%;
 }
 
 .border {
@@ -552,6 +578,17 @@ hr {
     margin-left: 13rem;
     
   }
+
+  /* Photo for ArtBio age */
+.float-leftt {
+  margin-right:60%;
+  margin-top: calc(7rem);
+  overflow-x: hidden;
+  height:10%;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
 
   .footer {
     padding:5%; 
