@@ -65,9 +65,9 @@ body {
 
 
 .crown {
-  /* width: 100px;
-  height: 100px; */
-  position: absolute;
+  width: 100px;
+  height: 100px;
+  position: relative;
   top:-80%; 
   left:18.5rem; 
 
@@ -456,6 +456,9 @@ input:focus {
     margin-top: calc(2rem);
 }
 
+.bio {
+  top:0.5rem;
+}
 /* Photo for ArtBio age */
 .float-leftt {
   margin-right:60%;
@@ -468,9 +471,9 @@ input:focus {
 
 /* text for artBio Page */
 .float-rightt {
-  margin-left:25%;
-  margin-top: calc(3rem);
-  width: 80%;
+  margin-left:15%;
+  margin-top: calc(1rem);
+  width: 90%;
   overflow-x: hidden;
     position:absolute;
     text-align: right;
@@ -478,7 +481,9 @@ input:focus {
     border-left: 1px solid line var(darkbrown);
     text-align: start;
     border-color: solid line 1rem white;
-    padding: 5%;
+    padding: 10%;
+    top: 3rem;
+  
 }
 
 .border {
@@ -587,6 +592,22 @@ hr {
   height:10%;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+/* photo for ArtBio */
+.float-rightt {
+  margin-left:15%;
+  margin-top: calc(1rem);
+  width: 90%;
+  overflow-x: hidden;
+    /* position:absolute; */
+    text-align: right;
+    color: var(--darkbrown);
+    border-left: 1px solid line var(darkbrown);
+    text-align: start;
+    border-color: solid line 1rem white;
+    padding: 10%;
+    top: 7rem;
+  height: 400px;
 }
 
 
