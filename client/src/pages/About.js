@@ -17,7 +17,7 @@
                             <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
                             <h2 className=" title my-2" id="title">About</h2>
                             
-                            <img src={giki} className="right pro img im" alt=" Responsive image" />  
+                            <img src={giki} className="right pro img imm" alt=" Responsive image" />  
 
                         <div className="container " >
                                 <div className="flo-left">
