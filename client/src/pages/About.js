@@ -44,7 +44,7 @@
                                             </div>
                                     </div>
                         </div>
-                                <img src={fx} className="pro img float-left left mx-4" alt="Responsive image " />   
+                                <img src={fx} className="pro img float-left left mx-4" alt="Responsive image cap Card " />   
                         <div className="container"> 
                                  <div>
                                             <div>
@@ -66,7 +66,7 @@
                             
                             <img src={dance} className="pro img float-left mx-4" alt="Card image cap" />
                             
-                            <div className="container intro">
+                            <div className=" intro">
                                 <div>
                                                 <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 

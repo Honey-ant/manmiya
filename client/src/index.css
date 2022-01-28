@@ -67,9 +67,10 @@ body {
 .crown {
   width: 100px;
   height: 100px;
-  position: relative;
+  position: absolute;
   top:-80%; 
-  left:18.5rem; 
+  left:45%;
+  /* right:50%; */
 
 }
 
@@ -441,7 +442,7 @@ input:focus {
  overflow-x: hidden;
  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
  margin-top: calc(3rem);
- height:10%;
+ /* height:10%; */
 }
 
 .float-right {
@@ -478,7 +479,7 @@ input:focus {
     position:absolute;
     text-align: right;
     color: var(--darkbrown);
-    border-left: 1px solid line var(darkbrown);
+    /* border-left: 1px solid line var(darkbrown); */
     text-align: start;
     border-color: solid line 1rem white;
     padding: 10%;
