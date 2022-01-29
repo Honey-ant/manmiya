@@ -63,7 +63,7 @@ export const Contact = () => {
         <div className="flex-row space-between my-2 py-2 im">
           <label className="my-2" htmlFor="email">Message:</label>
           <textarea
-            placeholder="write your message here"
+            placeholder="What you wanna ask? Gone then, ask me"
             name="message"
             type="messsage"
             id="message"

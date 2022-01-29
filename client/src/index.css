@@ -513,7 +513,8 @@ input:focus {
 }
 /* link from ArtBio to About */
 .read {
-  margin-top: calc(1rem);
+  margin-top: calc(3rem);
+  padding-top: calc(2rem);
 }
 
 .border {
