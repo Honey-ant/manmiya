@@ -481,7 +481,7 @@ input:focus {
     border-top-style: dotted var(--purple);
     margin-top: calc(2rem);
 }
-
+/* Artist bio title */
 .bio {
   top:0.5rem;
 }
@@ -510,6 +510,10 @@ input:focus {
     padding: 10%;
     top: 3rem;
   
+}
+/* link from ArtBio to About */
+.read {
+  margin-top: calc(1rem);
 }
 
 .border {

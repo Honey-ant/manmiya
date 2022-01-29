@@ -12,6 +12,9 @@ function Nav() {
         
         </button>
         <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
+        <li className="dropdown-item">
+              <Link to="/artbio">Artist Bio</Link>
+            </li>
            <li className="dropdown-item ">
             <Link to="/about">About</Link>
           </li>
@@ -37,6 +40,9 @@ function Nav() {
             
           </button>
           <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
+          <li className="dropdown-item">
+              <Link to="/artbio">Artist Bio</Link>
+            </li>
             <li className="dropdown-item">
               <Link to="/about">About</Link>
             </li>

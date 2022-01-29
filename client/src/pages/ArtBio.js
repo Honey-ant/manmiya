@@ -38,7 +38,7 @@ const ArtBio = () => {
     </div>
     <img src={giki} className=" float-leftt emg" alt=" Responsive image" /> 
     <div className="container">
-    <div className=" mb-3 py-3 my-3 ">
+    <div className="read mb-3 py-3 my-3 ">
  
         <p className="my-4">
           Read more about them <Link to="/about">here</Link>

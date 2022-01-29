@@ -48,7 +48,7 @@
                         <div className="container">
                             <div className="em">
                             <img src={fx} className="pro img float-left  mx-4" alt="Card image cap  " />   
-                            </div> 
+                            
                                  <div>
                                             <div>
                                                 
@@ -58,6 +58,13 @@
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
                                                 </p>
+                                                </div>
+                                </div>
+                                                
+                            </div> 
+                            <div>
+                                <div>
+
                                                 <img src={home} className="pro img float-left " alt="Card image cap" />
                                                 <p className=" im py-3 ">
                                                     I grew up with my six siblings in a house propped up on skilts.

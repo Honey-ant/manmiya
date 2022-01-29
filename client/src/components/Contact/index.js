@@ -1,11 +1,8 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-// import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2';
 import { Link } from 'react-router-dom';
-// const SERVICE_ID = "service_cnd6lhl";
-// const TEMPLATE_ID = "template_eciz0ih";
-// const USER_ID = "user_VPTKvbreLmR9zNrZrSQ86";
+
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 export const Contact = () => {
   const form = useRef();
@@ -38,39 +35,39 @@ export const Contact = () => {
 
   return (
       <div className="container my-3">
-        {/* <Link className="py-4 my-3" to="/">← Go to Main page</Link> */}
+
         <h4 className="py-2 " >Please Fill Out The Form Below To Get In Contact</h4>
 
         <form className="form py-2" ref={form} onSubmit={sendEmail}>
-        <div className="flex-row space-between my-2 py-2">
+        <div className="flex-row space-between my-2 py-2 im">
           <label className="my-2" htmlFor="firstName">Name:</label>
           <input
             placeholder="Name"
             name="from_name"
             type="firstName"
             id="firstName"
-            // onChange={handleChange}
+            
           />
         </div>
-        <div className="flex-row space-between my-2 py-2">
+        <div className="flex-row space-between my-2 py-2 em">
           <label className="my-2" htmlFor="email">Email:</label>
           <input
-            placeholder="youremail@test.com"
+            placeholder="youremail@email.com"
             name="reply_to"
             type="email"
             id="email"
-            // onChange={handleChange}
+            
           />
         </div>
 
-        <div className="flex-row space-between my-2 py-2">
+        <div className="flex-row space-between my-2 py-2 im">
           <label className="my-2" htmlFor="email">Message:</label>
           <textarea
             placeholder="write your message here"
             name="message"
             type="messsage"
             id="message"
-            // onChange={handleChange}
+          
           />
         </div>
         <div className="flex-row flex-end py-4">
