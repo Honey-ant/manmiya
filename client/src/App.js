@@ -14,6 +14,7 @@ import ScrollButton from './components/ScrollButton';
 import { Content, Heading } from './components/Styles';
 
 import Home from './pages/Home';
+import Cover from './components/Cover';
 import Detail from './pages/Detail';
 import Checkout from './pages/Checkout';
 

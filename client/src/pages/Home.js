@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
+import Cover from "../components/Cover";
 import Cart from "../components/Cart";
 
 import giki from '../assets/mee.jpg';
@@ -13,41 +14,7 @@ const Home = () => {
   return (
     <>
       
-    <div className="container ">
-       
-      <div className="start my-1">
-        <img src={crown} className="rounded crown" alt=" Responsive image" /> 
-        <h4 className="title bedford" >Manmiya Bedford</h4>
-          <p className="my-3 py-1">
-              Visual Artist || Software Developer || Bunuba Wiyi
-          </p>
-      </div>
-      
-      <div className="float-right px-3 py-3 ">
-        <div className="">
-          {/* <div className=" "> */}
-              <Link className="my-2 py-2" to="/artbio">Artist Bio</Link>
-             <hr></hr> 
-          {/* </div>     */}
-          {/* <div className=" "> */}
-              <Link className=" py-2" to="/about">About Artist</Link>
-              <hr></hr>
-          {/* </div>    
-          <div className="">       */}
-              <Link className=" "  to="/about">Exhibtions</Link>
-              <hr></hr>
-          {/* </div> 
-          <div className=" "> */}
-              <Link className=" " to="/contact">Contact</Link>
-              <hr></hr>
-          {/* </div>   */}
-      </div>
-    </div> 
-      
-    </div>
-    
-     <img src={giki} className="rounded float-left " alt=" Responsive image" /> 
-     
+     <Cover/>
     <div className="container my-3 py-2">
       <br></br>
       <div className=" mb-3 py-3 my-3">
@@ -58,16 +25,15 @@ const Home = () => {
         <h4 className="">
           Browse through the Prints and Originals 
         </h4>
-        {/* <p>
-          Read about them <Link to="/about">here</Link>
-        </p> */}
+
       </div>
+      
       <CategoryMenu />
       <ProductList />
       <Cart />
       
     </div>
-    {/* <Footer /> */}
+  
     </>
   );
 };

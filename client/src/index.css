@@ -434,6 +434,10 @@ input:focus {
   padding-top: var(--spaceing-four);
   padding-bottom: var(--spaceing-four);
 }
+/* main cover page */
+.cover {
+
+}
 
 /* Main Page Photo */
 .float-left {
@@ -446,8 +450,6 @@ input:focus {
   margin-top: calc(3rem);
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 }
-
-
 
 /* Text pairing for About Page */
 .flo-left {
@@ -596,6 +598,11 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  /* main cover page */
+.cover {
+  height: 100%;
+}
+
   .card {
     width: 100%;
   }
