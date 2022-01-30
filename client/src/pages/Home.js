@@ -7,7 +7,7 @@ import Cover from "../components/Cover";
 import Cart from "../components/Cart";
 
 import giki from '../assets/mee.jpg';
-import crown from '../assets/crown.png';
+import breathe from '../assets/breathe.jpg'; 
 
 
 const Home = () => {
@@ -15,8 +15,9 @@ const Home = () => {
     <>
       
      <Cover/>
+     <img src={breathe} className="rounded  " alt=" Responsive image" />
     <div className="container my-3 py-2">
-      <br></br>
+      
       <div className=" mb-3 py-3 my-3">
         <p className="my-2">
           Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
