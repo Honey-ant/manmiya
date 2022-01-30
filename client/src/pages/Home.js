@@ -15,7 +15,7 @@ const Home = () => {
     <>
       
      <Cover/>
-     <img src={breathe} className="rounded  " alt=" Responsive image" />
+     {/* <img src={breathe} className="rounded  " alt=" Responsive image" /> */}
 
      <br></br>
      <br></br>
