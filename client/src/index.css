@@ -600,10 +600,10 @@ hr {
 @media screen and (max-width: 768px) {
   /* main cover page */
 .cover {
-  /* height: 1334px; */
-  background-image: linear-gradient(to bottom,
+  height: max-content;
+  /* background-image: linear-gradient(to bottom,
   var(--me),
-  var(--lightbrown));
+  var(--lightbrown)); */
 }
 
   .card {
@@ -622,7 +622,11 @@ hr {
 
   .float-right {
     margin-left: 13rem;
-    
+    margin-top: calc(5rem);
+  }
+
+  .float-left {
+    margin-top: calc(5rem);
   }
 /* About main photo */
   .right {

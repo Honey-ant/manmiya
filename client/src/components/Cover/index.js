@@ -9,6 +9,8 @@ export const Cover = () => {
     return (
         <>
         <div className="cover">
+            <br></br>
+          
             <div className="container ">
                 <div className="start my-1">
                     <img src={crown} className="rounded crown" alt=" Responsive image" />
@@ -37,6 +39,13 @@ export const Cover = () => {
                 </div>
             </div>
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
+            <div className="container">
+                <p className="my-4">
+                    Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
+                    They currently live on Boon Wurrong Country.
+                </p>
+            </div>
+
         </div>
         
         </> 

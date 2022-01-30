@@ -16,15 +16,17 @@ const Home = () => {
       
      <Cover/>
      <img src={breathe} className="rounded  " alt=" Responsive image" />
+
+     <br></br>
+     <br></br>
     <div className="container my-3 py-2">
       
       <div className=" mb-3 py-3 my-3">
-        <p className="my-2">
-          Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
-      
-        </p>
+        {/* <p>
+          Shop 
+        </p> */}
         <h4 className="">
-          Browse through the Prints and Originals 
+          Browse through Prints and Originals 
         </h4>
 
       </div>
