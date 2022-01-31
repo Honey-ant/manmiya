@@ -316,12 +316,16 @@ input:focus {
 }
 
 .title {
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
   color: var(darkbrown);
   text-align: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bedford {
+  font-family: 'Rock Salt', cursive;
 }
 
 .intro {
@@ -530,7 +534,6 @@ hr {
   position: relative;
   text-align: center;
   color: var(--brown);
-  /* box-shadow: inset 1em  -1em var(--sand), 10px 5px 5px var(--orch)  ; */
   border-radius: 2rem;
   margin-top: calc(3rem);
 }
