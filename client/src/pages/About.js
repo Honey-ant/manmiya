@@ -159,7 +159,7 @@
                                                 <p className="im">
                                                 The colours of water and my country are clear in my art, I treasure them. 
                                             <b>
-                                                I am so grateful to come from the line of people that I do.  
+                                                 I am so grateful to come from the line of people that I do.  
 
                                                 Creativity, love, laughter and courage are all special to me.  
 
