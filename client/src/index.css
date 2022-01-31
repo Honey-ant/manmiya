@@ -167,7 +167,7 @@ header a:hover {
   box-shadow: 8px 8px 8px 8px var(--me);
   box-shadow: 0 -10px 10px -10px var(--pink);
   margin: 0;
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
   color: var(darkbrown);
   text-align: center;
   margin-left: auto;
@@ -295,7 +295,7 @@ input:focus {
 .navbar {
   color: var(--darkbrown);
   list-style: none;
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
 /* background-color: transparent; */
 } 
 
@@ -330,10 +330,7 @@ input:focus {
   color: var(--darkbrown);
   color: var(--darkbrown);
   font-size: large;
-  /* box-shadow: inset -1em -1em 1em var(--sand), 10px 10px 5px 5px var(--orch); */
   border-radius: 2rem;
-  /* box-shadow: inset -3em -1em rgb(188,96,57); */
-  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
 }
 
 .container {
@@ -341,7 +338,6 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: white; */
 }
 
 .flex-row {
@@ -527,7 +523,7 @@ hr {
 
 .float-right a {
   color: var(--darkbrown);
-  font-family: 'Rock Salt', cursive;
+  /* font-family: 'Rock Salt', cursive; */
 }
 
 .start {
