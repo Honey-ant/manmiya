@@ -10,8 +10,8 @@
   --spacing-three: calc(2rem);
   --spaceing-four: calc(3rem);
   --brown:rgb(77, 51, 45);
-  --lightbrown:rgb(123, 94, 87);
-  --me:hsl(12, 29%, 66%);
+  --lightbrown:#7b5e57;
+  --me:#c1998f;
   --darkbrown:rgb(38, 14, 4);
   --sand:rgb(188,96,57);
   --orch:rgb(217, 143, 69);
@@ -20,11 +20,7 @@
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
   --greenWash:rgb(66, 151, 130);
-  --nav:rgba(193, 153, 143, 0.749);
-  --submit:  linear-gradient(to
-  bottom, 
-  rgba(248, 218, 48, 0.445) 0%, 
-  rgba(237, 74, 59, 0.6));
+  --nav:#c1998fbf;
   --purple: #746befcc;
   --fire:#ed4a3bcc;
   --blue: rgb(43,138,210);
@@ -62,7 +58,9 @@ body {
   
 }
 
+.cover {
 
+}
 
 .crown {
   width: 100px;
@@ -71,7 +69,6 @@ body {
   top:-80%; 
   left:45%;
   /* right:50%; */
-
 }
 
 h1,
@@ -146,7 +143,6 @@ header {
   rgba(188,96,57, 0.1) 0px 20px, 
   rgba(217, 143,69, 0.05) 0px 25px;
   border-radius: 2rem;
-  /* box-shadow: inset 0.5em 0.5em  var(--orch), 10px 5px 5px var(--sand); */
   border-top-style: dotted var(--purple)
 }
 
@@ -601,9 +597,7 @@ hr {
   /* main cover page */
 .cover {
   height: max-content;
-  /* background-image: linear-gradient(to bottom,
-  var(--me),
-  var(--lightbrown)); */
+  background-image: linear-gradient(to bottom, #c1998f, #bd9489, #ba8e83, #b6897e, #b28478);
 }
 
   .card {
@@ -619,7 +613,6 @@ hr {
   
   }
   
-
   .float-right {
     margin-left: 13rem;
     margin-top: calc(4rem);
@@ -634,7 +627,6 @@ hr {
    overflow-x: hidden;
    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
    margin-top: calc(3rem);
-   /* height:10%; */
   }
 
   /* Photo for ArtBio age */
@@ -652,18 +644,13 @@ hr {
   margin-top: calc(1rem);
   width: 90%;
   overflow-x: hidden;
-    /* position:absolute; */
     text-align: right;
     color: var(--darkbrown);
-    /* border-left: 1px solid line var(darkbrown); */
     text-align: start;
-    /* border-color: solid line 1rem white; */
     padding: 10%;
     top: 7rem;
   height: 400px;
 }
-
-
   .footer {
     padding:5%; 
     margin-bottom: 0; 
@@ -671,14 +658,10 @@ hr {
     box-shadow: 0px 8px 0px 0px var(darkbrown);
     background-color: var(--brown);
     color:var(--nav);
-    /* position:fixed; */
     left:0;
     bottom:0;
     right:0;
-
   }
-
-
 
 }
 

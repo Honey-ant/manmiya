@@ -21,7 +21,7 @@ const Home = () => {
      <br></br>
     <div className="container my-3 py-2">
       
-      <div className=" mb-3 py-3 my-3">
+      <div className="py-2 my-2">
         {/* <p>
           Shop 
         </p> */}
