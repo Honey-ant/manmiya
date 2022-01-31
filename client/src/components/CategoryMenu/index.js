@@ -33,7 +33,11 @@ function CategoryMenu() {
         });
       });
     }
-  }, [categoryData, loading, dispatch]);
+  }, [categoryData, loading, dispatch])
+  console.log('Categories logged')
+  ;
+
+  
 
   const handleClick = (id) => {
     dispatch({
