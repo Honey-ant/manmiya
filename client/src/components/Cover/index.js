@@ -22,7 +22,7 @@ export const Cover = () => {
 
                 <div className="float-right px-3 py-3 ">
                     <div className="">
-
+                    <b>
                         <Link className="my-2 py-2" to="/artbio">Artist Bio</Link>
                         <hr></hr>
 
@@ -34,7 +34,7 @@ export const Cover = () => {
 
                         <Link className=" " to="/contact">Contact</Link>
                         <hr></hr>
-
+                    </b>
                     </div>
                 </div>
             </div>
