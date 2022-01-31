@@ -28,13 +28,8 @@
                                      </p>
                                     <hr></hr>
                                 </div>
-                            
-                                    <div className="  my-3">
-                                        
-                                       
+                                    <div className="  my-3">   
                                             <div className="  mb-6 my-3 py-3 ">
-                                             
-                                                
                                                 <p className=" intro my-3">
                                                 My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                                 I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
@@ -50,15 +45,15 @@
                             <img src={fx} className="pro img float-left  mx-4" alt="Card image cap  " />   
                             
                                  <div>
-                                            <div>
+                                        <div>
                                                 
-                                                <p className=" intro py-3">
+                                             <p className=" intro py-3">
                                                 It is considered a remote community, although I never saw it as that. 
                                                 We lived in the last house in the Laaban community on the outskirts of the town 
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
-                                                </p>
-                                                </div>
+                                             </p>
+                                        </div>
                                 </div>
                                                 
                             </div> 
@@ -163,12 +158,13 @@
                                                 </p>
                                                 <p className="im">
                                                 The colours of water and my country are clear in my art, I treasure them. 
-
+                                            <b>
                                                 I am so grateful to come from the line of people that I do.  
 
                                                 Creativity, love, laughter and courage are all special to me.  
 
-                                                I honour my people, my culture and myself through this chosen form of self-expression.          
+                                                I honour my people, my culture and myself through this chosen form of self-expression.  
+                                            </b>            
                                                 </p>
                                             </div>
                                     </div>
