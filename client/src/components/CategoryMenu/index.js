@@ -37,8 +37,6 @@ function CategoryMenu() {
   console.log('Categories logged')
   ;
 
-  
-
   const handleClick = (id) => {
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
