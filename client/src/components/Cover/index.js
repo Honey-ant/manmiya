@@ -40,7 +40,7 @@ export const Cover = () => {
             </div>
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
              
-            <div className="container">
+            {/* <div className="container">
                <br></br>
                <br></br>
                <br></br>
@@ -50,7 +50,7 @@ export const Cover = () => {
                     They currently live on Boon Wurrong Country.
                 </p>
                 <hr></hr>
-            </div>
+            </div> */}
 
         </div>
         
