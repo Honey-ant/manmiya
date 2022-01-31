@@ -142,6 +142,14 @@
                                                 My art is about my healing and connecting with myself. 
                                                 About understanding my emotions and expressing them.  
                                                 </p>
+                                                <p>
+                                                I began somatic therapy in 2021, 
+                                                at the same time I started learning how to code. 
+                                                My drive to learn how to code was for cultural reasons. 
+                                                We have so much analogue information recorded by our elders, 
+                                                and I wanted it to be accessible to everyone. 
+                                                I now work remotely for the Bunuba Cultural Conservation Institute.  
+                                                </p>
                                                 <p className="em">
                                                 When I sit down to paint, 
                                                 it is an unwavering urge to visualise what I am feeling inside. 
