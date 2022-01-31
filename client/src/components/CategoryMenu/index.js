@@ -43,7 +43,7 @@ function CategoryMenu() {
   };
 
   return (
-    <div>
+    <div >
       {/* <h2 className="py-2">Original or print?</h2> */}
       {categories.map((item) => (
         <button className="cat"
