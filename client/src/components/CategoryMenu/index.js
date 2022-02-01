@@ -44,6 +44,7 @@ function CategoryMenu() {
       type: UPDATE_CURRENT_CATEGORY,
       currentCategory: id,
     });
+    console.log("categories selected");
   };
 
   return (
