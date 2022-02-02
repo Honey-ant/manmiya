@@ -8,7 +8,7 @@ export const Cover = () => {
    
     return (
         <>
-        <div className="cover">
+        <div className="bottom">
             <br></br>
           
             <div className="container ">

@@ -1,11 +1,12 @@
-import { reducers } from './reducers';
+import { reducer } from './reducers';
 import { createStore } from "redux";
 import { useDispatch, useSelector } from "react-redux";
 
-export const store = createStore(reducers, { 
+export const store = createStore(reducer, { 
     products: [],
     cart: [],
-    cartOpen: [],
+    cartOpen: false,
+    categories: [],
     currentCategory: "",
 });
 
@@ -16,4 +17,4 @@ export const useReduxStore = () => {
     return [state, dispatch];
 };
 
-export default createStore(reducers);
+export default createStore(reducer);

@@ -61,8 +61,12 @@ body {
   
 }
 
-.cover {
-  background-image: linear-gradient(to bottom, #c1998f, #bd9489, #ba8e83, #b6897e, #b28478);
+.bottom {
+  background-image: linear-gradient(to bottom, #c1998f, #bf978d, #bc958b, #ba938a, #b89188, #bc8d85, #bf8882, #c28381, #cb7983, #d16f8a, #d46696, #d25ea6);
+}
+
+.top {
+  background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
 }
 
 .crown {
@@ -596,7 +600,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   /* main cover page */
-.cover {
+.bottom {
   height: max-content;
   background-image: linear-gradient(to bottom, #c1998f, #bd9489, #ba8e83, #b6897e, #b28478);
   background-image: linear-gradient(to bottom, #c1998f, #bf978d, #bc958b, #ba938a, #b89188, #bc8d85, #bf8882, #c28381, #cb7983, #d16f8a, #d46696, #d25ea6);

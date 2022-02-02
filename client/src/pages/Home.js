@@ -17,26 +17,29 @@ const Home = () => {
      <Cover/>
      {/* <img src={breathe} className="rounded  " alt=" Responsive image" /> */}
 
+     
+    <div className="top">
+      <br></br>
      <br></br>
-     <br></br>
-    <div className="container my-3 py-2">
+      <div className="container my-3 py-2 ">
+        
+        <div className="py-2 my-2">
+            <p className="">
+              Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
+              They currently live on Boon Wurrong Country.
+            </p>
+          <h4 className="">
+            Browse through Prints and Originals 
+          </h4>
+</div>
+        </div>
+    </div>    
+    <div className="container">
+        <CategoryMenu />
+        <ProductList />
+        <Cart />
+    </div>  
       
-      <div className="py-2 my-2">
-          <p className="">
-            Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
-            They currently live on Boon Wurrong Country.
-          </p>
-        <h4 className="">
-          Browse through Prints and Originals 
-        </h4>
-
-      </div>
-      
-      <CategoryMenu />
-      <ProductList />
-      <Cart />
-      
-    </div>
   
     </>
   );
