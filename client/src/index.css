@@ -13,8 +13,8 @@
   --lightbrown:#7b5e57;
   --me:#c1998f;
   --darkbrown:rgb(38, 14, 4);
-  --sand:rgb(188,96,57);
-  --orch:rgb(217, 143, 69);
+  --sand:#bc6039;
+  --orch:#d98f45;
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
@@ -67,6 +67,10 @@ body {
 
 .top {
   background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
+}
+
+.circle {
+  background-image: radial-gradient(circle, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
 }
 
 .crown {
@@ -123,7 +127,7 @@ p {
 }
 
 a {
-  color: var(--sand);
+  color: var(--darkbrown);
   text-decoration: none;
   font-weight: bolder;
 }
