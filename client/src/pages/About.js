@@ -14,13 +14,14 @@
                     return (
 
                         <>
+                        <div className="bottom-right">
                             <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
                             <h2 className=" title my-2" id="title">About</h2>
                             
                             <img src={giki} className="right pro img imm" alt=" Responsive image" />  
 
                         <div className="container " >
-                                <div className="flo-left">
+                                <div className="flo-left container">
                                    <p> 
                                      <b>Manmiya is her Aboriginal name given to her by her grandparents.
                                          They pick names from five generations ago.
@@ -28,8 +29,8 @@
                                      </p>
                                     <hr></hr>
                                 </div>
-                                    <div className="  my-3">   
-                                            <div className="  mb-6 my-3 py-3 ">
+                                    <div className="my-3">   
+                                            <div className="   my-3 py-3 ">
                                                 <p className=" intro my-3">
                                                 My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                                 I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
@@ -39,12 +40,10 @@
                                             </div>
                                     </div>
                         </div>
-                                
-                        <div className="container">
-                            <div className="em">
-                            <img src={fx} className="pro img float-left  mx-4" alt="Card image cap  " />   
-                            
-                                 <div>
+                        </div>        
+                    <div className="top-right">  
+                            <div className="em container">
+                                <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
                                         <div>
                                                 
                                              <p className=" intro py-3">
@@ -53,12 +52,11 @@
                                                 and there were many small communities further out in the Fitzroy Valley, 
                                                 they were the ones I thought of as ‘remote’. 
                                              </p>
-                                        </div>
-                                </div>
-                                                
-                            </div> 
+                                        </div>                           
+                            </div>            
+                    </div>    
                             <div>
-                                <div>
+                                <div className=" container">
 
                                                 <img src={home} className="pro img float-left " alt="Card image cap" />
                                                 <p className=" im py-3 ">
@@ -71,7 +69,7 @@
                             <div className="em">
                             <img src={dance} className="pro img float-left " alt="Card image cap" />
                             </div>
-                            <div className=" intro">
+                            <div className="container intro">
                                 <div>
                                                 <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
@@ -170,7 +168,7 @@
                                     </div>
                                     <Link className="my-2" to="/">← Back to main page</Link>
 
-                        </div> 
+                         
                             
                                 
 

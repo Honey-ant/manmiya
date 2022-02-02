@@ -58,9 +58,11 @@ body {
   border-radius: 0.5rem;
   width: 40px;
   height: 40px;
-  
 }
 
+
+/* background gradient colours */
+/* pink */
 .bottom {
   background-image: linear-gradient(to bottom, #c1998f, #bf978d, #bc958b, #ba938a, #b89188, #bc8d85, #bf8882, #c28381, #cb7983, #d16f8a, #d46696, #d25ea6);
 }
@@ -68,9 +70,17 @@ body {
 .top {
   background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
 }
-
+/* Sand */
 .circle {
   background-image: radial-gradient(circle, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
+}
+/* orche */
+.top-right {
+  background-image: linear-gradient(to right top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+}
+
+.bottom-right {
+  background-image: linear-gradient(to right bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
 }
 
 .crown {

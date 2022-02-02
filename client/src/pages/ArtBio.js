@@ -6,7 +6,7 @@ import giki from '../assets/me.JPG';
 const ArtBio = () => {
     return (
     <>
-    <div className="circle">
+    <div className="bottom-right">
       <div className="container">
         <div className="top-cen ">
             <p>
