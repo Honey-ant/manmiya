@@ -18,7 +18,7 @@ import dance from '../assets/dance.jpg';
                         <div className="top-right">  
         
                             <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
-                                <div>
+                                <div className="container">
                                                 
                                      <p className=" intro py-3">
                                         It is considered a remote community, although I never saw it as that. 

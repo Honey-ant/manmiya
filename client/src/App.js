@@ -9,7 +9,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 import { Provider } from 'react-redux';
-import store from './utils/GlobalState';
+import {store} from './utils/GlobalState';
 import ScrollButton from './components/ScrollButton';
 import { Content, Heading } from './components/Styles';
 

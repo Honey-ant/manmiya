@@ -17,4 +17,4 @@ export const useReduxStore = () => {
     return [state, dispatch];
 };
 
-export default createStore(reducer);
+// export default createStore(reducer);
