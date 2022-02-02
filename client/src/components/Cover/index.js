@@ -40,17 +40,6 @@ export const Cover = () => {
             </div>
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
              
-            {/* <div className="container">
-               <br></br>
-               <br></br>
-               <br></br>
-               
-                <p className="">
-                    Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
-                    They currently live on Boon Wurrong Country.
-                </p>
-                <hr></hr>
-            </div> */}
 
         </div>
         

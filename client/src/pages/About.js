@@ -1,75 +1,49 @@
-            import React, { Component} from 'react';
-            import { Link } from "react-router-dom";
+import React, { Component} from 'react';
+import { Link } from "react-router-dom";
 
-            import dad from '../assets/dad.jpg';
-            import giki from '../assets/giki.jpg';
-            import fx from '../assets/fx.JPG';
+import Part1 from '../components/About/part1';
+import dad from '../assets/dad.jpg';
+import giki from '../assets/giki.jpg';
+import fx from '../assets/fx.JPG';
 
-            import home from '../assets/home.jpg';
-            import lil from '../assets/lil.jpg';
-            import dance from '../assets/dance.jpg';
+import home from '../assets/home.jpg';
+import lil from '../assets/lil.jpg';
+import dance from '../assets/dance.jpg';
 
-            class About extends Component {
-                render() {
+            const About = () => {
+                 
                     return (
-
                         <>
-                        <div className="bottom-right">
-                            <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
-                            <h2 className=" title my-2" id="title">About</h2>
-                            
-                            <img src={giki} className="right pro img imm" alt=" Responsive image" />  
-
-                        <div className="container " >
-                                <div className="flo-left container">
-                                   <p> 
-                                     <b>Manmiya is her Aboriginal name given to her by her grandparents.
-                                         They pick names from five generations ago.
-                                        </b>
-                                     </p>
-                                    <hr></hr>
-                                </div>
-                                    <div className="my-3">   
-                                            <div className="   my-3 py-3 ">
-                                                <p className=" intro my-3">
-                                                My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
-                                                I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
-                                                and my gadinng (totem) is balga (barramundi). 
-                                                I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
-                                                </p>
-                                            </div>
-                                    </div>
-                        </div>
-                        </div>        
-                    <div className="top-right">  
-                            <div className="em container">
-                                <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
-                                        <div>
+                        <Part1/>
+                        <div className="top-orch">  
+        
+                            <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
+                                <div>
                                                 
-                                             <p className=" intro py-3">
-                                                It is considered a remote community, although I never saw it as that. 
-                                                We lived in the last house in the Laaban community on the outskirts of the town 
-                                                and there were many small communities further out in the Fitzroy Valley, 
-                                                they were the ones I thought of as ‘remote’. 
-                                             </p>
-                                        </div>                           
-                            </div>            
-                    </div>    
-                            <div>
+                                     <p className=" intro py-3">
+                                        It is considered a remote community, although I never saw it as that. 
+                                        We lived in the last house in the Laaban community on the outskirts of the town 
+                                        and there were many small communities further out in the Fitzroy Valley, 
+                                        they were the ones I thought of as ‘remote’. 
+                                     </p>
+                                 </div>                           
+                            
+                        </div>    
+                            {/* <div> */}
                                 <div className=" container">
 
-                                                <img src={home} className="pro img float-left " alt="Card image cap" />
-                                                <p className=" im py-3 ">
-                                                    I grew up with my six siblings in a house propped up on skilts.
-                                                    We were close to the mighty fitzroy river and during bulurru (monsoon season) 
-                                                    the water would rise up so high it would cut off the roads and we would have to move into town. 
-                                                </p>
-                                            </div>
+                                    <img src={home} className="pro img float-left " alt="Card image cap" />
+                                        <p className=" im py-3 ">
+                                        I grew up with my six siblings in a house propped up on skilts.
+                                        We were close to the mighty fitzroy river and during bulurru (monsoon season) 
+                                        the water would rise up so high it would cut off the roads and we would have to move into town. 
+                                        </p>
                                 </div>
-                            <div className="em">
+                            {/* </div> */}
+                         <div className="em">
                             <img src={dance} className="pro img float-left " alt="Card image cap" />
-                            </div>
-                            <div className="container intro">
+                        </div>
+                            <div className="container ">
                                 <div>
                                                 <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
@@ -154,6 +128,7 @@
                                                 The forms and colours I use come from all the deadly artists back home. 
                                                 It is the art that I grew up seeing and when lucky enough helped create.  
                                                 </p>
+                                            
                                                 <p className="im">
                                                 The colours of water and my country are clear in my art, I treasure them. 
                                             <b>
@@ -165,16 +140,11 @@
                                             </b>            
                                                 </p>
                                             </div>
-                                    </div>
-                                    <Link className="my-2" to="/">← Back to main page</Link>
-
-                         
-                            
-                                
-
+                            </div>
+                            <Link className="my-2" to="/">← Back to main page</Link>
                             </>
-                    )
-                }
+                    );
+                
             };
 
 

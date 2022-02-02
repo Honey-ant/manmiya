@@ -12,12 +12,8 @@ import breathe from '../assets/breathe.jpg';
 
 const Home = () => {
   return (
-    <>
-      
+    <>  
      <Cover/>
-     {/* <img src={breathe} className="rounded  " alt=" Responsive image" /> */}
-
-     
     <div className="top">
       <br></br>
      <br></br>

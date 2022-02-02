@@ -75,12 +75,20 @@ body {
   background-image: radial-gradient(circle, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
 }
 /* orche */
-.top-right {
-  background-image: linear-gradient(to right top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+.top-orch {
+  background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
 }
 
-.bottom-right {
-  background-image: linear-gradient(to right bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+.bottom-orch {
+  background-image: linear-gradient(to bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+}
+
+.top-left {
+  background-image: linear-gradient(to left top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
+}
+
+.bottom-left {
+  background-image: linear-gradient(to left bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
 }
 
 .crown {
