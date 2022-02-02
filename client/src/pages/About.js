@@ -15,7 +15,7 @@ import dance from '../assets/dance.jpg';
                     return (
                         <>
                         <Part1/>
-                        <div className="top-orch">  
+                        <div className="top-right">  
         
                             <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
                                 <div>
@@ -27,9 +27,9 @@ import dance from '../assets/dance.jpg';
                                         they were the ones I thought of as ‘remote’. 
                                      </p>
                                  </div>                           
-                            
+                            <br></br>
                         </div>    
-                            {/* <div> */}
+                            <div className="bottom-teal">
                                 <div className=" container">
 
                                     <img src={home} className="pro img float-left " alt="Card image cap" />
@@ -39,17 +39,20 @@ import dance from '../assets/dance.jpg';
                                         the water would rise up so high it would cut off the roads and we would have to move into town. 
                                         </p>
                                 </div>
-                            {/* </div> */}
-                         <div className="em">
+                             <br></br>   
+                            </div>
+                         <div className="em top-teal">
                             <img src={dance} className="pro img float-left " alt="Card image cap" />
                         </div>
+                        <div className="bottom-teal"></div>
                             <div className="container ">
                                 <div>
-                                                <p className="py-3">
+                                    <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
                                                 Being painted up in ochre and dancing for my brother's lore ceremony. 
                                                 Our dances, songs and stories have always been deeply nestled in my heart. 
-                                                </p>
+                                    </p>
+
                                                 <p>
                                                 Another exceedingly early memory of mine is also taking part in a funeral for an incredibly young uncle of mine. 
                                                 He very sadly passed away from suicide. 
@@ -142,7 +145,7 @@ import dance from '../assets/dance.jpg';
                                             </div>
                             </div>
                             <Link className="my-2" to="/">← Back to main page</Link>
-                            </>
+                        </>
                     );
                 
             };

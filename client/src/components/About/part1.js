@@ -6,7 +6,7 @@ import giki from '../../assets/giki.jpg';
 export const Part1 = () => {
     return (
         <>
-          <div className="bottom-orch">
+          <div className="bottom-right">
                             <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
                             <h2 className=" title my-2" id="title">About</h2>
                             
@@ -24,7 +24,7 @@ export const Part1 = () => {
                                 </div>
                                  
                                     
-                                <p className="container intro my-3">
+                                <p className="container  my-3">
                                     My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                     I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
                                     and my gadinng (totem) is balga (barramundi). 

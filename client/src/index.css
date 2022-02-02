@@ -23,8 +23,9 @@
   --nav:#c1998fbf;
   --purple: #746befcc;
   --fire:#ed4a3bcc;
-  --blue: rgb(43,138,210);
+  --blue: #66aee6;
   --pink:#d25ea6;
+  --teal:#009F86;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
@@ -89,6 +90,22 @@ body {
 
 .bottom-left {
   background-image: linear-gradient(to left bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
+}
+
+.top-right {
+  background-image: linear-gradient(to right top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+}
+
+.bottom-right {
+  background-image: linear-gradient(to right bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
+}
+
+.top-teal {
+  background-image: linear-gradient(to left top, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c49692, #c59397, #c5919d, #be8fae, #aa91c0, #8997cd, #599dd1);
+}
+
+.bottom-teal {
+  background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c49692, #c59397, #c5919d, #be8fae, #aa91c0, #8997cd, #599dd1);
 }
 
 .crown {
@@ -619,6 +636,8 @@ hr {
 .bi-cart2 {
   color: var(--darkbrown);
 }
+
+
 
 @media screen and (max-width: 768px) {
   /* main cover page */
