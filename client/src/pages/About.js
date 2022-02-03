@@ -29,7 +29,7 @@ import dance from '../assets/dance.jpg';
                                  </div>                           
                             <br></br>
                         </div>    
-                            <div className="bottom-teal">
+                            <div className="bottom-left-sand">
                                 <div className=" container">
 
                                     <img src={home} className="pro img float-left " alt="Card image cap" />
@@ -41,7 +41,7 @@ import dance from '../assets/dance.jpg';
                                 </div>
                              <br></br>   
                             </div>
-                         <div className="em top-teal">
+                         <div className="em top-left-sand">
                             <img src={dance} className="pro img float-left " alt="Card image cap" />
                         </div>
                         <div className="bottom-teal"></div>

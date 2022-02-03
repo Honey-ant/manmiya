@@ -100,12 +100,12 @@ body {
   background-image: linear-gradient(to right bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
 }
 
-.top-teal {
-  background-image: linear-gradient(to left top, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c49692, #c59397, #c5919d, #be8fae, #aa91c0, #8997cd, #599dd1);
+.top-left-sand {
+  background-image: linear-gradient(to left top, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
 }
 
-.bottom-teal {
-  background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c49692, #c59397, #c5919d, #be8fae, #aa91c0, #8997cd, #599dd1);
+.bottom-left-sand {
+  background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
 }
 
 .crown {
