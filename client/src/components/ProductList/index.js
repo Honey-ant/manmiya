@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
 import { useDispatch, useSelector } from 'react-redux';
+import HorizontalScroll from 'react-horizontal-scrolling'
+
 import { useReduxStore } from "../../utils/GlobalState";
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
+
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/gif.gif';
@@ -47,7 +50,8 @@ function ProductList() {
   }
 
   return (
-    <div className="my-3 ">
+    // <HorizontalScroll>
+    <div className="my-3  proList">
       {/* <h2> Browse through the Prints and Originals </h2> */}
       {state.products.length ? (
         <div className="flex-row">
@@ -68,6 +72,7 @@ function ProductList() {
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
     </div>
+  // {/* </HorizontalScroll> */}
   );
 }
 

@@ -10,11 +10,11 @@
   --spacing-three: calc(2rem);
   --spaceing-four: calc(3rem);
   --brown:rgb(77, 51, 45);
-  --lightbrown:#7b5e57;
+  --lightbrown:rgb(122, 94, 87);
   --me:#c1998f;
   --darkbrown:rgb(38, 14, 4);
-  --sand:#bc6039;
-  --orch:#d98f45;
+  --sand:rgb(188, 96, 57);
+  --orch:rgb(217, 143, 69);
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
@@ -709,6 +709,19 @@ hr {
     bottom:0;
     right:0;
   }
+
+  body {
+    overflow-y: scroll;
+  }
+
+.proList {
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  white-space:nowarp;
+  height: 500px;
+  overflow-x:auto;
+  display: inline-block;
+}
 
 }
 

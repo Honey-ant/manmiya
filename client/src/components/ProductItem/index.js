@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { pluralize } from '../../utils/helpers';
-// import { useDispatch, useSelector } from 'react-redux';
+
 import { useReduxStore } from "../../utils/GlobalState";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import { idbPromise } from '../../utils/helpers';
 import './style.css';
 
 function ProductItem(item) {
-  // const dispatch = useDispatch();
-  // const state = useSelector((state) => state);
+
   const [ state, dispatch ] = useReduxStore();
 
   const { image, name, _id, price, quantity } = item;
@@ -38,18 +37,20 @@ function ProductItem(item) {
   };
 
   return (
-    <div className="card px-1 py-4 my-3">
-      <Link to={`/products/${_id}`}>
-        <img className="pro" alt={name} src={`/images/${image}`} />
-        <h4 className="py-3 ">{name}</h4>
-      </Link>
-      <div>
+    <div className="col-10 card px-1 py-4 my-3 col-xs-12 proList">
+      <div className="">
+        <Link to={`/products/${_id}`}>
+          <img className="pro" alt={name} src={`/images/${image}`} />
+          <h4 className="py-3 ">{name}</h4>
+        </Link>
         <div>
-          {quantity} {pluralize('item', quantity)} in stock
+          <div>
+            {quantity} {pluralize('item', quantity)} in stock
+          </div>
+          {/* <span>${price}</span> */}
         </div>
-        {/* <span>${price}</span> */}
+        {/* <button onClick={addToCart}>Add to cart</button> */}
       </div>
-      {/* <button onClick={addToCart}>Add to cart</button> */}
     </div>
   );
 }

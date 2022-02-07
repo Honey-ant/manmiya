@@ -30,6 +30,7 @@ import dance from '../assets/dance.jpg';
                             <br></br>
                         </div>    
                             <div className="bottom-left-sand">
+                            <br></br>
                                 <div className=" container">
 
                                     <img src={home} className="pro img float-left " alt="Card image cap" />
