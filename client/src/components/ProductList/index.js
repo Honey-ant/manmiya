@@ -62,6 +62,8 @@ function ProductList() {
               image={product.image}
               name={product.name}
               details={product.details}
+              size={product.size}
+              medium={product.meduim}
               price={product.price}
               quantity={product.quantity}
             />
