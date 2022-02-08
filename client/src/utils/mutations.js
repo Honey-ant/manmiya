@@ -18,6 +18,8 @@ export const ADD_ORDER = gql`
       products {
         _id
         name
+        size
+        meduim
         details
         description
         price

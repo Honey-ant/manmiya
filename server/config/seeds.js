@@ -17,6 +17,8 @@ db.once('open', async () => {
         {
             name: 'Love',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'Made with all the flow that love creates and provides. Thoughless, an embodiment of a pure feeling.',
             price: 800,
             quantity: 1,
@@ -26,6 +28,8 @@ db.once('open', async () => {
         {
             name: "Love's child",
             details: '500mm x 400mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '400mm x 500mm',
             description: 'made with love in the heart',
             price: 400,
             quantity: 1,
@@ -35,6 +39,8 @@ db.once('open', async () => {
         {
             name: 'Boundaries',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'country is hard set, the boundaries are clear and known. This was created when I was first discovering my own boundaries, a new and powerful experience.',
             price: 800,
             quantity: 1,
@@ -71,6 +77,8 @@ db.once('open', async () => {
         {
             name: 'Burst',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'Bursting with life and excitment, bubbling and spilling out. This was created when I found out my ex had moved on. I was bursting with joy',
             image: 'burst.jpg',
             category: categories[0]._id,
@@ -80,6 +88,8 @@ db.once('open', async () => {
         {
             name: 'Burning',
             details: '500mm x 400mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: "I grew up around bach burning. It is a normal and expected part of life. If burnings aren't done the landscape becomes dangerous. The same must be practiced inside us.",
             image: 'burning.jpg',
             category: categories[0]._id,
@@ -89,6 +99,8 @@ db.once('open', async () => {
         {
             name: 'Sisters',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'I am so lucky to have four older sisters. They have taught me how to be a woman, we have entwinded feminity because of this',
             price: 800,
             quantity: 1,
@@ -98,6 +110,8 @@ db.once('open', async () => {
         {
             name: 'Taking up Space',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'Being a loud and proud Aboriginal woman, I have always recived some form of being "too much". I voice my opinions strongly, laugh loudly, and I will continue to take up as much space as I deem fit. I refuse to let the colony control how I shine.',
             price: 800,
             quantity: 1,
@@ -116,6 +130,8 @@ db.once('open', async () => {
         {
             name: 'Ray',
             details: '600mm x 450mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '450mm x 600mm',
             description: "The Ray are the water spirits that vistit us in our dreams. They come to us through water. They see us, but we don't see them",
             price: 800,
             quantity: 1,
@@ -152,6 +168,8 @@ db.once('open', async () => {
         {
             name: 'Intergation',
             details: '900mm x 600mm, acrylic on canvas',
+            meduim: 'acrylic on canvas',
+            size: '900mm x 600mm',
             description: 'Guruwa is the Bunuba word for water ',
             price: 800,
             quantity: 1,
