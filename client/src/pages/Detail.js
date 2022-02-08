@@ -102,7 +102,8 @@ function Detail() {
           />
           <p className="my-3 py-3">{currentProduct.description}</p>
 
-          <h6 className="my-2 py-1">{currentProduct.details}</h6>
+          <h6 className="my-2 py-1">{currentProduct.size}</h6>
+          <h6 className="my-2 py-1">{currentProduct.meduim}</h6>
 
           <p className="my-2 py-2">
             

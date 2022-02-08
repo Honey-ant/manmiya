@@ -8,6 +8,12 @@ const productSchema = new Schema({
     required: true,
     trim: true
   },
+  size : {
+    type: String
+  },
+  Medium: {
+    type: String
+  },
   details: {
     type: String
   },
