@@ -19,7 +19,7 @@ export const ADD_ORDER = gql`
         _id
         name
         size
-        meduim
+        medium
         details
         description
         price
