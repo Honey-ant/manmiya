@@ -7,7 +7,7 @@ export const QUERY_PRODUCTS = gql`
       name
       details
       size
-      meduim
+      medium
       description
       price
       quantity
@@ -34,7 +34,7 @@ export const QUERY_ALL_PRODUCTS = gql`
       name
       details
       size
-      meduim
+      medium
       description
       price
       quantity
@@ -67,7 +67,7 @@ export const QUERY_USER = gql`
           name
           details
           size
-          meduim
+          medium
           description
           price
           quantity
