@@ -19,6 +19,25 @@ export const QUERY_PRODUCTS = gql`
   }
 `;
 
+export const QUERY_PRINTS = gql`
+  query getProducts($category: ID) {
+    prints(category: $category) {
+      _id
+      name
+      details
+      size
+      medium
+      description
+      price
+      quantity
+      image
+      category {
+        _id
+      }
+    }
+  }
+`;
+
 export const QUERY_CHECKOUT = gql`
   query getCheckout($products: [ID]!) {
     checkout(products: $products) {

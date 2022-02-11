@@ -1,5 +1,5 @@
 const db = require ('./connection.js');
-const { User, Product, Category } = require('../models');
+const { User, Product, Category, Print } = require('../models');
 
 db.once('open', async () => {
     await Category.deleteMany();
@@ -189,26 +189,26 @@ db.once('open', async () => {
 
     console.log("products seeded");
 
-    // await Print.deleteMany();
+    await Print.deleteMany();
 
-    // const prints = await Print.insertMany([
-    //     {
-    //         name: 'Set',
-    //         description: 'country is hard set, the boundaries are clear and known. This was created when I was first discovering my own boundaries',
-    //         price: 50,
-    //         image: 'set.jpg',
-    //         category: categories[1]._id
-    //     },
-    //     {
-    //         name: 'Gurwa',
-    //         description: 'country is hard set, the boundaries are clear and known. This was created when I was first discovering my own boundaries',
-    //         price: 800,
-    //         image: 'set.jpg',
-    //         category: categories[1]._id
-    //     },
-    // ]);
+    const prints = await Print.insertMany([
+        {
+            name: 'Set',
+            description: 'country is hard set, the boundaries are clear and known. This was created when I was first discovering my own boundaries',
+            price: 50,
+            image: 'set.jpg',
+            category: categories[1]._id
+        },
+        {
+            name: 'Gurwa',
+            description: 'country is hard set, the boundaries are clear and known. This was created when I was first discovering my own boundaries',
+            price: 800,
+            image: 'set.jpg',
+            category: categories[1]._id
+        },
+    ]);
 
-    // console.log("prints seeded");
+    console.log("prints seeded");
 
     await User.deleteMany();
 

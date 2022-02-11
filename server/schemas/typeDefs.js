@@ -19,6 +19,19 @@ const typeDefs = gql`
     category: Category
   }
 
+  type Print {
+    _id: ID
+    name: String
+    details: String
+    size: String
+    medium: String
+    description: String
+    image: String
+    quantity: Int
+    price: Float
+    category: Category
+  }
+
   type Order {
     _id: ID
     purchaseDate: String

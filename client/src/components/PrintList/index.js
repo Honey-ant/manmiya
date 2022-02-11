@@ -1,71 +1,71 @@
 import React, { useEffect } from 'react';
-import ProductItem from '../ProductItem';
+import PrintItem from '../Print';
 import { useDispatch, useSelector } from 'react-redux';
 import HorizontalScroll from 'react-horizontal-scrolling'
 
 import { useReduxStore } from "../../utils/GlobalState";
-import { UPDATE_PRODUCTS } from '../../utils/actions';
+import { UPDATE_PRINTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 
-import { QUERY_PRODUCTS } from '../../utils/queries';
+import { QUERY_PRINTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/gif.gif';
 
-function ProductList() {
+function PrintList() {
   // const dispatch = useDispatch();
   // const state = useSelector((state) => state);
   const [ state, dispatch ] = useReduxStore();
 
   const { currentCategory } = state;
 
-  const { loading, data } = useQuery(QUERY_PRODUCTS);
+  const { loading, data } = useQuery(QUERY_PRINTS);
 
   useEffect(() => {
     if (data) {
       dispatch({
-        type: UPDATE_PRODUCTS,
-        products: data.products,
+        type: UPDATE_PRINTS,
+        prints: data.prints,
       });
-      data.products.forEach((product) => {
-        idbPromise('products', 'put', product);
+      data.print.forEach((print) => {
+        idbPromise('prints', 'put', print);
       });
     } else if (!loading) {
-      idbPromise('products', 'get').then((products) => {
+      idbPromise('prints', 'get').then((prints) => {
         dispatch({
-          type: UPDATE_PRODUCTS,
-          products: products,
+          type: UPDATE_PRINTS,
+          prints: prints,
         });
       });
     }
   }, [data, loading, dispatch]);
 
-  function filterProducts() {
+  function filterPrints() {
     if (!currentCategory) {
-      return state.products;
+      return state.prints;
     }
 
-    return state.products.filter(
-      (product) => product.category._id === currentCategory
+    return state.prints.filter(
+      (print) => print.category._id === currentCategory
     );
   }
 
   return (
     // <HorizontalScroll>
-    <div className="my-3  proList space-between">
+    <div className="my-3  proList">
       {/* <h2> Browse through the Prints and Originals </h2> */}
       {state.products.length ? (
         <div className="flex-row">
-          {filterProducts().map((product) => (
-            <ProductItem
-              key={product._id}
-              _id={product._id}
-              image={product.image}
-              name={product.name}
-              details={product.details}
-              size={product.size}
-              medium={product.meduim}
-              price={product.price}
-              quantity={product.quantity}
+          {filterPrints().map((print) => (
+            <PrintItem
+              key={print._id}
+              _id={print._id}
+              image={print.image}
+              name={print.name}
+              details={print.details}
+              size={print.size}
+              medium={print.meduim}
+              price={print.price}
+              quantity={print.quantity}
             />
           ))}
         </div>
@@ -78,4 +78,4 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default PrintList;

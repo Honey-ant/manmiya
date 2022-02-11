@@ -9,10 +9,10 @@
   --spacing-two: calc(1rem);
   --spacing-three: calc(2rem);
   --spaceing-four: calc(3rem);
-  --brown:rgb(77, 51, 45);
-  --lightbrown:rgb(122, 94, 87);
+  --brown:#4d332d;
+  --lightbrown:#7a5e57;
   --me:#c1998f;
-  --darkbrown:rgb(38, 14, 4);
+  --darkbrown:#260e04;
   --sand:rgb(188, 96, 57);
   --orch:rgb(217, 143, 69);
   --light:#fff1b7ea;
@@ -20,7 +20,7 @@
   --lemon:rgb(248, 218, 48);
   --offwhite:#e6fdffea;
   --greenWash:rgb(66, 151, 130);
-  --nav:#c1998fbf;
+  --nav:#f5c7bcbf;
   --purple: #746befcc;
   --fire:#ed4a3bcc;
   --blue: #66aee6;
@@ -372,6 +372,7 @@ input:focus {
 
 .bedford {
   font-family: 'Rock Salt', cursive;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 2px 2px 2px rgba(193,153,143,0);
 }
 
 .intro {
@@ -489,8 +490,22 @@ input:focus {
   height:100%;
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  margin-top: calc(3rem);
+  margin-top: calc(2rem);
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
+}
+/* main menu */
+.float-right {
+  margin-left:55%;
+    position:absolute;
+    text-align: right;
+    color: var(--lightbrown);
+    margin-right: 6.5%;
+    border-left: 1px solid line var(darkbrown);
+    text-align: start;
+    border-top-style: dotted var(--purple);
+    margin-top: calc(2rem);
+    -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 /* Text pairing for About Page */
@@ -514,17 +529,6 @@ input:focus {
  /* height:10%; */
 }
 
-.float-right {
-  margin-left:55%;
-    position:absolute;
-    text-align: right;
-    color: var(--lightbrown);
-    margin-right: 6.5%;
-    border-left: 1px solid line var(darkbrown);
-    text-align: start;
-    border-top-style: dotted var(--purple);
-    margin-top: calc(2rem);
-}
 /* Artist bio title */
 .bio {
   top:0.5rem;
@@ -583,15 +587,22 @@ hr {
   margin-top: calc(3rem);
 }
 
+.ack {
+  height: 500px;
+  overflow: scroll;
+  -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0);
+border-radius: 1rem;
+}
+
 .card {
   width: 25%;
   text-align: center;
-  /* border: 1px solid var(--pink); */
   border-radius: 1rem;
   background-color: transparent;
   border: none;
   border-style: none;
-
+  background-color: transparent;
 }
 
 .pro {
