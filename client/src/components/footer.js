@@ -10,7 +10,7 @@ class Footer extends Component {
                     
                     <h5 className=" bi bi-instagram">  <a href="https://www.instagram.com/_manmiya/?hl=en" target="_blank">  @_manmiya</a></h5>
 
-                    <p>Webiste made by Manmiya, she's a skutta girl</p>
+                    <p>Website made by Manmiya, she's a skutta girl</p>
                     
                 </div>
             
