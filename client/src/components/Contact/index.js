@@ -38,8 +38,8 @@ export const Contact = () => {
 
         <h4 className="py-2 " >Please Fill Out The Form Below To Get In Contact</h4>
 
-        <form className="form py-2" ref={form} onSubmit={sendEmail}>
-        <div className="flex-row space-between my-2 py-2 im">
+        <form className="form py-2  inner px-4 " ref={form} onSubmit={sendEmail}>
+        <div className="flex-row space-between my-2 py-2 ">
           <label className="my-2" htmlFor="firstName">Name:</label>
           <input
             placeholder="Name"
@@ -49,7 +49,7 @@ export const Contact = () => {
             
           />
         </div>
-        <div className="flex-row space-between my-2 py-2 em">
+        <div className="flex-row space-between my-2 py-2 ">
           <label className="my-2" htmlFor="email">Email:</label>
           <input
             placeholder="youremail@email.com"
@@ -60,7 +60,7 @@ export const Contact = () => {
           />
         </div>
 
-        <div className="flex-row space-between my-2 py-2 im">
+        <div className="flex-row space-between my-2 py-2 ">
           <label className="my-2" htmlFor="email">Message:</label>
           <textarea
             placeholder="What you wanna ask? Gone then, ask me"

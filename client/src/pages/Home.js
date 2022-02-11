@@ -36,6 +36,10 @@ const Home = () => {
                 <p  className="mx-4 my-3">
                 I also acknowledge by white mans law that this not a country, 
                 but an invaded land, as there is no treaty between settlers and First Nations Peoples.
+                <b>
+                  Do you know who's Country you're on?
+                  
+                </b>
               </p>
             </div>
 
@@ -46,7 +50,7 @@ const Home = () => {
         </div>
     </div>    
     <div className="container">
-        <CategoryMenu />
+        {/* <CategoryMenu /> */}
         {/* <PrintList /> */}
         <ProductList />
         <Cart />

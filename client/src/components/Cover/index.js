@@ -29,7 +29,7 @@ export const Cover = () => {
                         <Link className=" py-2" to="/about">About Artist</Link>
                         <hr></hr>
 
-                        <Link className=" " to="/about">Exhibtions</Link>
+                        <Link className=" " to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
 
                         <Link className=" " to="/contact">Contact</Link>
