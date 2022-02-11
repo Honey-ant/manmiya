@@ -18,6 +18,9 @@ function Nav() {
            <li className="dropdown-item ">
             <Link to="/about">About</Link>
           </li>
+          <li className="dropdown-item ">
+            <Link to="/exhibtions">Exhibtions</Link>
+          </li>
           <li className="dropdown-item">
             <Link to="/contact">Contact</Link>
           </li>
@@ -46,6 +49,9 @@ function Nav() {
             <li className="dropdown-item">
               <Link to="/about">About</Link>
             </li>
+            <li className="dropdown-item ">
+            <Link to="/exhibtions">Exhibtions</Link>
+          </li>
             <li className="dropdown-item">
               <Link to="/contact">Contact</Link>
             </li>

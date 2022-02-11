@@ -16,7 +16,7 @@ export const Cover = () => {
                     <img src={crown} className="rounded crown" alt=" Responsive image" />
                     <h4 className="title bedford">Manmiya Bedford</h4>
                     <p className="my-3 py-1">
-                        Visual Artist || Software Developer || Bunuba Wiyi
+                        Visual Artist || Software Developer || Bunuba Wiyi || MCBC
                     </p>
                 </div>
 
