@@ -15,7 +15,7 @@ const ArtBio = () => {
         </div>
         <h4 className="title bio" >Artist Bio</h4>
         <div className="float-rightt overflow-auto">
-            <div className="border">
+            <div className="border inner">
             
               <p>
                   A self taught emerging artist . They are a visual artist 

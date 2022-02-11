@@ -17,7 +17,7 @@ import dance from '../assets/dance.jpg';
                         <Part1/>
                         <div className="top-right">  
         
-                            <img src={fx} className="pro img float-left  " alt="Card image cap  " />               
+                            <img src={fx} className="pro img   " alt="Card image cap  " />               
                                 <div className="container">
                                                 
                                      <p className=" intro py-3">
@@ -31,10 +31,10 @@ import dance from '../assets/dance.jpg';
                         </div>    
                             <div className="bottom-left-sand">
                             <br></br>
-                                <div className=" container">
+                                <div className="inner container">
 
-                                    <img src={home} className="pro img float-left " alt="Card image cap" />
-                                        <p className=" im py-3 ">
+                                    <img src={home} className="pro img my-4 mx-2" alt="Card image cap" />
+                                        <p className=" my-3 mx-3">
                                         I grew up with my six siblings in a house propped up on skilts.
                                         We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                         the water would rise up so high it would cut off the roads and we would have to move into town. 
@@ -43,11 +43,12 @@ import dance from '../assets/dance.jpg';
                              <br></br>   
                             </div>
                          <div className="em top-left-sand">
-                            <img src={dance} className="pro img float-left " alt="Card image cap" />
+                            
                         </div>
                         <div className="bottom-teal"></div>
-                            <div className="container ">
-                                <div>
+                            <div className="container inner">
+                                <div className="mx-3">
+                                 <img src={dance} className="pro img my-3 " alt="Card image cap" />   
                                     <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
                                                 Being painted up in ochre and dancing for my brother's lore ceremony. 
@@ -59,14 +60,14 @@ import dance from '../assets/dance.jpg';
                                                 He very sadly passed away from suicide. 
                                                 My region has the highest suicide rate in the world.  
                                                 </p>
-                                                <p className="im">
+                                                <p className="">
                                                 We are people who feel so deeply and truly. 
                                                 When we are happy our happiness is easily shared between us. 
                                                 Yet when we are hurting, we all hurt together.  
                                                 Intergenerational trauma is very present in my community 
                                                 and my painting is my largest tool in becoming a cycle breaker.  
                                                 </p>
-                                                <img src={lil} className="pro img float-left" alt="Card image cap" />
+                                                <img src={lil} className="pro img " alt="Card image cap" />
                                                 <p className="py-3">
                                                 I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
                                                 but I stopped when we moved away.  
@@ -76,7 +77,7 @@ import dance from '../assets/dance.jpg';
                                                     It was hard moving down to Victoria. 
                                                     I felt like an outsider, being one of the only Aboriginal kids that went to my school.
                                                 </p>
-                                                <p className="em">
+                                                <p className="">
                                                 I completed my high school years at Geelong Grammar school on a  <a href="https://www.yalari.org/" target="_blank">Yalari</a> scholarship. 
                                                 High school was difficult for me. 
                                                 I was one of few Aboriginal/Torres Strait Islander children there and the school was yet to change the history curriculum to one of truth. 
@@ -100,7 +101,7 @@ import dance from '../assets/dance.jpg';
                                                 I spent the next few years bartending at Crown Casino, 
                                                 feeling very lost, and disconnected from myself.  
                                                 </p>
-                                                <p className="im">
+                                                <p className="">
                                                 My healing journey started in 2020. 
                                                 It started with talk therapy and casual painting.  
                                                 Talk therapy didn’t do it for me, 
@@ -121,7 +122,7 @@ import dance from '../assets/dance.jpg';
                                                 and I wanted it to be accessible to everyone. 
                                                 I now work remotely for the Bunuba Cultural Conservation Institute.  
                                                 </p>
-                                                <p className="em">
+                                                <p className="">
                                                 When I sit down to paint, 
                                                 it is an unwavering urge to visualise what I am feeling inside. 
                                                 Quite often the pull to paint has me completing my paintings in one sitting, 
@@ -133,9 +134,11 @@ import dance from '../assets/dance.jpg';
                                                 It is the art that I grew up seeing and when lucky enough helped create.  
                                                 </p>
                                             
-                                                <p className="im">
-                                                The colours of water and my country are clear in my art, I treasure them. 
-                                            <b>
+                                                <p className="">
+                                                The colours of water and my country are clear in my art, I treasure them.
+                                                </p>
+                                                <p className="my-2 im"> 
+                                            <b >
                                                  I am so grateful to come from the line of people that I do.  
 
                                                 Creativity, love, laughter and courage are all special to me.  
