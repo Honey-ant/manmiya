@@ -11,6 +11,9 @@ import giki from '../assets/mee.jpg';
 import breathe from '../assets/breathe.jpg'; 
 import dad from '../assets/dad.jpg';
 
+import graphic from '../assets/graphic1.png';
+import graphic4 from '../assets/graphic4.png';
+
 const Home = () => {
   return (
     <>  
@@ -19,7 +22,7 @@ const Home = () => {
       <br></br>
      <br></br>
       <div className="container my-3  ">
-        
+      
         <div className=" my-2">
             <p className="">
               Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
@@ -44,7 +47,7 @@ const Home = () => {
                 </b>
               </p>
             </div>
-
+            <img src={graphic} className="  " alt="Card image cap  " /> 
           <h4 className="">
             Browse through Prints and Originals 
           </h4>

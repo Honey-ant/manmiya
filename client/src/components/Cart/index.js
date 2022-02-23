@@ -1,44 +1,47 @@
 import React, { useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
+
 import { QUERY_CHECKOUT } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
+
 import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
-import { useDispatch, useSelector } from 'react-redux';
+import { useStoreContext } from "../../utils/GlobalState";
+
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
 const stripePromise = loadStripe('pk_test_51JXeTvQR8ZQnmKpPpGZYIANsAd55jusCiji4eR5L6nZUyZkbLrhxmIcuNEsQLtqaNMiROEDzrYgG7pctE68yJcwQ00w5WUMtXz');
 
 const Cart = () => {
-  const dispatch = useDispatch();
-  const state = useSelector((state) => state);
+
+  const [state, dispatch] = useStoreContext();
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
-  // useEffect(() => {
-  //   if (data) {
-  //     stripePromise.then((res) => {
-  //       res.redirectToCheckout({ sessionId: data.checkout.session });
-  //     });
-  //   } else {
-  //     console.error("Stripe checkout");
-  //   }
-  // }, [data]);
+  useEffect(() => {
+    if (data) {
+      stripePromise.then((res) => {
+        res.redirectToCheckout({ sessionId: data.checkout.session });
+      })
+    } else {
+      console.error("Stripe checkout error");
+    }
+  }, [data]);
 
-  // useEffect(() => {
-  //   async function getCart() {
-  //     const cart = await idbPromise('cart', 'get');
-  //     dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
-  //   }
+  useEffect(() => {
+    async function getCart() {
+      const cart = await idbPromise('cart', 'get');
+      dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
+    }
 
-  //   if (!state.cart.length) {
-  //     getCart();
-  //   } else {
-  //     console.error("Cart /get func not working");
-  //   }
+    if (!state.cart.length) {
+      getCart();
+    } else {
+      console.error("Cart /get func not working");
+    }
 
-  // }, [state.cart.length, dispatch]);
+  }, [state.cart.length, dispatch]);
 
   function toggleCart() {
     dispatch({ type: TOGGLE_CART });
@@ -91,7 +94,7 @@ const Cart = () => {
           ))}
 
           <div className="flex-row space-between">
-            <strong>Total: ${calculateTotal()}</strong>
+            <strong>Total: ${calculateTotal()} </strong>
 
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Checkout</button>

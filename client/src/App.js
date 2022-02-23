@@ -6,10 +6,9 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
 
-import { Provider } from 'react-redux';
-import {store} from './utils/GlobalState';
+import { StoreProvider } from './utils/GlobalState';
+import { setContext } from '@apollo/client/link/context';
 import ScrollButton from './components/ScrollButton';
 import { Content, Heading } from './components/Styles';
 
@@ -56,8 +55,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <Provider store={store}>
-            {/* <Banner /> */}
+          <StoreProvider>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -75,7 +73,7 @@ function App() {
               <ScrollButton />
             </Switch>
             <Footer/>
-          </Provider>
+          </StoreProvider>
         </div>
       </Router>
     </ApolloProvider>

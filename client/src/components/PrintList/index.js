@@ -3,7 +3,7 @@ import PrintItem from '../Print';
 import { useDispatch, useSelector } from 'react-redux';
 import HorizontalScroll from 'react-horizontal-scrolling'
 
-import { useReduxStore } from "../../utils/GlobalState";
+import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_PRINTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 
@@ -14,7 +14,7 @@ import spinner from '../../assets/gif.gif';
 function PrintList() {
   // const dispatch = useDispatch();
   // const state = useSelector((state) => state);
-  const [ state, dispatch ] = useReduxStore();
+  const [ state, dispatch ] = useStoreContext();
 
   const { currentCategory } = state;
 

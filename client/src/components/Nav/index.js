@@ -77,8 +77,10 @@ function Nav() {
                 </p>
             </div>
             
-      <nav className=" mx-2">{showNavigation()}</nav>      
+      <nav className=" mx-2">{showNavigation()}</nav> 
+      <h4 className="title bedford">Manmiya Bedford</h4>     
       <div className=" mx-2  manmiya">
+      
       <h6 className=" mx-2  ">
           <Link className="title  mx-2" to="/">
             

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import giki from '../../assets/mee.jpg';
 import crown from '../../assets/crown.png';
+import graphic from '../../assets/graphic2.png';
+import graphic5 from '../../assets/graphic5.png';
 
 export const Cover = () => {
    
@@ -13,11 +15,11 @@ export const Cover = () => {
           
             <div className="container ">
                 <div className="start my-1">
-                    <img src={crown} className="rounded crown" alt=" Responsive image" />
-                    <h4 className="title bedford">Manmiya Bedford</h4>
+                <img src={graphic} className="graphic" alt=" Responsive image" />
                     <p className="my-3 py-1">
-                        Visual Artist || Software Developer || Bunuba Wiyi || MCBC
+                        Visual Artist || Software Developer || Bunuba Wiyi  
                     </p>
+                    
                 </div>
 
                 <div className="float-right px-3 py-3 ">
@@ -38,6 +40,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
+            {/* <img src={graphic5} className="rounded down" alt=" Responsive image" /> */}
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
              
 
