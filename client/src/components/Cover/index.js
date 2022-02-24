@@ -16,7 +16,7 @@ export const Cover = () => {
             <div className="container ">
                 <div className="start my-1">
                 <img src={graphic} className="graphic" alt=" Responsive image" />
-                    <p className="my-3 py-1">
+                    <p className="my-3 py-1 ">
                         Visual Artist || Software Developer || Bunuba Wiyi  
                     </p>
                     
@@ -40,7 +40,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-            {/* <img src={graphic5} className="rounded down" alt=" Responsive image" /> */}
+  
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
              
 

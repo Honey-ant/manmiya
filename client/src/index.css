@@ -599,7 +599,8 @@ hr {
   text-align: center;
   color: var(--brown);
   border-radius: 2rem;
-  margin-top: calc(3rem);
+  margin-top: calc(3rem); 
+  background-color: transparent;
 }
 
 .ack {
@@ -669,9 +670,9 @@ border-radius: 1rem;
 
   .graphic {
     position: absolute;
-    top:-140%; 
+    top:50%; 
     left:-4%;
-    z-index: 0;
+    /* z-index: -1; */
     width: 100px;
     height: 100px;
     border-radius: 2rem;

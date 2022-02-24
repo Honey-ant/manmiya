@@ -58,7 +58,7 @@ function ProductList() {
 
       {state.products.length ? (
         <div className="flex-row">
-                <img src={graphic4} className="graphic" alt=" Responsive image" />
+                {/* <img src={graphic4} className="graphic" alt=" Responsive image" /> */}
           {filterProducts().map((product) => (
             <ProductItem
               key={product._id}
