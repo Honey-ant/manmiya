@@ -746,9 +746,6 @@ border-radius: 1rem;
     right:0;
   }
 
-  body {
-    overflow-y: scroll;
-  }
 
 .proList {
   overflow-x: scroll;
