@@ -30,10 +30,10 @@ const Home = () => {
               Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
               They currently live on Boon Wurrong Country.
             </p>
-
+            <img src={dad} className="pro img   " alt="Card image cap  " /> 
             <div className="ack ">
-              <img src={dad} className="pro img   " alt="Card image cap  " />   
-              <p className="mx-4 my-3">
+                
+              <p className="mx-4 my-3 py-2">
                 I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
                 who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
                 (not emerging, we'll have our time). 
