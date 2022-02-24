@@ -12,11 +12,13 @@ import {
 } from '../utils/actions';
 import { QUERY_PRODUCTS } from '../utils/queries';
 import { idbPromise } from '../utils/helpers';
+import { useStoreContext } from "../utils/GlobalState";
 import spinner from '../assets/gif.gif';
 
 function Detail() {
-  const dispatch = useDispatch();
-  const state = useSelector((state) => state);
+  // const dispatch = useDispatch();
+  // const state = useSelector((state) => state);
+  const [state, dispatch] = useStoreContext();
   const { id } = useParams();
 
   const [currentProduct, setCurrentProduct] = useState({});

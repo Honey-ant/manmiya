@@ -13,6 +13,7 @@ import dad from '../assets/dad.jpg';
 
 import graphic from '../assets/graphic1.png';
 import graphic4 from '../assets/graphic4.png';
+import graphic6 from '../assets/graphic6.png';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
     <div className="top">
       <br></br>
      <br></br>
+
       <div className="container my-3  ">
       
         <div className=" my-2">
@@ -40,12 +42,15 @@ const Home = () => {
                 I also acknowledge by white mans law that this not a country, 
                 but an invaded land, as there is no treaty between settlers and First Nations Peoples.
                 </p>
+
                 <p className="mx-4 my-3">
                 <b>
                   Do you know who's Country you're on?
                   
                 </b>
+
               </p>
+
             </div>
             <img src={graphic} className="  " alt="Card image cap  " /> 
           <h4 className="">
@@ -53,7 +58,8 @@ const Home = () => {
           </h4>
 </div>
         </div>
-    </div>    
+    </div>
+
     <div className="container">
         {/* <CategoryMenu /> */}
         {/* <PrintList /> */}
