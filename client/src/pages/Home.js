@@ -27,6 +27,7 @@ const Home = () => {
       
         <div className="py-4 my-2">
           <hr></hr>
+          <br></br>
             <p className="">
               Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
               They currently live on Boon Wurrong Country.
