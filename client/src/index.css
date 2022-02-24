@@ -122,11 +122,11 @@ body {
 
 .graphic {
   position: absolute;
-  top:-260%; 
-  right:10%;
+  top:-450%; 
+  right:5%;
   z-index: 0;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 2rem;
 }
 
@@ -678,10 +678,11 @@ border-radius: 1rem;
 
   .graphic {
     position: absolute;
-    top:50%; 
-    right:-8%;
-    width: 60px;
-    height: 60px;
+  top:-150%; 
+  right:1%;
+  z-index: 0;
+  width: 200px;
+  height: 200px;
     border-radius: 2rem;
   }
   .graph {
