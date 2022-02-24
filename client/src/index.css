@@ -138,6 +138,15 @@ body {
   height: 100px;
 }
 
+.gra {
+  top:50%; 
+  right:5%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  padding:1%;
+}
+
 h1,
 h2,
 h3,
@@ -692,6 +701,8 @@ border-radius: 1rem;
     width: 100px;
     height: 100px;
   }
+
+
   /* main cover page */
 .bottom {
   height: max-content;

@@ -13,7 +13,7 @@ import dad from '../assets/dad.jpg';
 
 import graphic from '../assets/graphic1.png';
 import graphic4 from '../assets/graphic4.png';
-import graphic6 from '../assets/graphic6.png';
+import graphic6 from '../assets/spiral.png';
 
 const Home = () => {
   return (
@@ -22,10 +22,10 @@ const Home = () => {
     <div className="top">
       <br></br>
      <br></br>
-
+     <img src={graphic6} className="gra   " alt="Card image cap  " /> 
       <div className="container my-3  ">
       
-        <div className=" my-2">
+        <div className="py-4 my-2">
             <p className="">
               Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
               They currently live on Boon Wurrong Country.
