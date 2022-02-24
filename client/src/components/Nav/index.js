@@ -78,7 +78,7 @@ function Nav() {
             </div>
             
       <nav className=" mx-2">{showNavigation()}</nav> 
-      <h4 className="title bedford">Manmiya Bedford</h4>     
+      <h5 className="title bedford">Manmiya Bedford</h5>     
       <div className=" mx-2  manmiya">
       
       <h6 className=" mx-2  ">
