@@ -16,10 +16,10 @@ export const Cover = () => {
             <div className="container ">
                 <div className="start my-1">
                 <img src={graphic} className="graphic" alt=" Responsive image" />
-                    {/* <p className="my-3 py-1 ">
-                        Visual Artist || Software Developer || Bunuba Wiyi  
-                    </p> */}
-                    <br></br>
+                    <p className="my-3  ">
+                        Visual Artist || Software Developer || Bunuba Wiyi 
+                    </p>
+                   
                 </div>
 
                 <div className="float-right px-3 py-3 ">

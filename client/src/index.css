@@ -670,7 +670,7 @@ border-radius: 1rem;
 
   .graphic {
     position: absolute;
-    top:-100%; 
+    top:50%; 
     left:-4%;
     width: 100px;
     height: 100px;
