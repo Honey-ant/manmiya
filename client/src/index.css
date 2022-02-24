@@ -670,9 +670,8 @@ border-radius: 1rem;
 
   .graphic {
     position: absolute;
-    top:50%; 
+    top:-100%; 
     left:-4%;
-    /* z-index: -1; */
     width: 100px;
     height: 100px;
     border-radius: 2rem;
@@ -704,6 +703,8 @@ border-radius: 1rem;
 
   .float-left {
     margin-top: calc(5rem);
+    z-index: 1;
+    
   }
 /* About main photo */
   .right {
