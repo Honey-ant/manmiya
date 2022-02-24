@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import giki from '../../assets/mee.jpg';
 import crown from '../../assets/crown.png';
-import graphic from '../../assets/graphic2.png';
-import graphic5 from '../../assets/graphic5.png';
+import graphic from '../../assets/circle.png';
+import graphic5 from '../../assets/hill.png';
 
 export const Cover = () => {
    
@@ -15,7 +15,8 @@ export const Cover = () => {
           
             <div className="container ">
                 <div className="start my-1">
-                <img src={graphic} className="graphic" alt=" Responsive image" />
+                {/* <img src={graphic} className="graphic" alt=" Responsive image" /> */}
+                <img src={graphic5} className="graph" alt=" Responsive image" />
                     <p className="my-3  ">
                         Visual Artist || Software Developer || Bunuba Wiyi 
                     </p>

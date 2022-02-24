@@ -130,6 +130,14 @@ body {
   border-radius: 2rem;
 }
 
+.graph {
+  position: absolute;
+  top:-155%; 
+  left:-10.5%;
+  width: 100px;
+  height: 100px;
+}
+
 h1,
 h2,
 h3,
@@ -675,6 +683,13 @@ border-radius: 1rem;
     width: 60px;
     height: 60px;
     border-radius: 2rem;
+  }
+  .graph {
+    position: absolute;
+    top:95%; 
+    left:-15%;
+    width: 100px;
+    height: 100px;
   }
   /* main cover page */
 .bottom {
