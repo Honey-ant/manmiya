@@ -83,9 +83,9 @@ function Nav() {
       
       <h6 className=" mx-2  ">
           <Link className="title  mx-2" to="/">
-            
+            <i className="bi bi-house"></i>
             {/* Manmiya */}
-             <img src={Logo}  alt="React App Logo" className=" logo"/>
+             {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
           </Link>
         </h6>
       </div>
