@@ -33,7 +33,7 @@ const Home = () => {
               They currently live on Boon Wurrong Country.
             </p>
             <img src={dad} className="pro img   " alt="Card image cap  " /> 
-            <div className="ack ">
+            <div className=" ">
                 
               <p className="mx-4 my-3 py-2">
                 I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
