@@ -22,8 +22,9 @@ import Signup from './pages/Signup';
 
 import About from './pages/About.js';
 import ArtBio from './pages/ArtBio';
-import Exhibtions from './pages/Exhibtions'
+import Exhibtions from './pages/Exhibtions';
 import Contact from './components/Contact/index.js';
+import BlakFacts from './pages/BlakFacts';
 
 import Nav from './components/Nav';
 import Success from './pages/Success';
@@ -64,6 +65,7 @@ function App() {
               <Route exact path="/about" component={About} />
               <Route exact path="/artbio" component={ArtBio} />
               <Route exact path="/exhibtions" component={Exhibtions} />
+              <Route exact path="/blakfacts" component={BlakFacts} />
               <Route exact path="/checkout" component={Checkout} />
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/success" component={Success} />

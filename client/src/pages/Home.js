@@ -59,7 +59,7 @@ const Home = () => {
             Browse through Prints and Originals 
           </h4>
 </div>
-        </div>
+        </div> 
     </div>
 
     <div className="container">
