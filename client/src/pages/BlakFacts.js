@@ -8,7 +8,7 @@ export const BlakFacts = () => {
     return (
         <>
         <div className="container  my-3 py-3">
-        <Link className="my-3" to="/">← Back to main page</Link>
+        
             <div className="">
             
                 <div className="title"> 
@@ -49,6 +49,7 @@ export const BlakFacts = () => {
                         expresses that first and formost everyone is a person, their gender second.
                     </p>
                 </div>
+                <Link className="my-3" to="/">← Back to main page</Link>
             </div>
         </div>
         </>
