@@ -675,6 +675,7 @@ border-radius: 1rem;
 }
 .footer a {
   color: var(--nav);
+  text-align: center;
 }
 
 .bi {
