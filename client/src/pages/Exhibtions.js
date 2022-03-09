@@ -30,7 +30,8 @@ export const Exhibtions = () => {
                     <br></br>
                     <img src={kiss} className="  " alt="Card image cap  " />  
                     <br></br>
-                    <p className=" px-3 px-3">
+                    <br></br>
+                    <p className=" ">
                         The Kiss my art collective is made up of all femme people. Mainly poeple of colour (which we love to see). We have all been brought together by helping with muruals for the deadly Aretha Brown.
                     </p>
                     <p>
@@ -65,6 +66,7 @@ export const Exhibtions = () => {
                         sex slavery, and aids them in their recovery.
                     </p>
                     <img src={sit} className="  " alt="  " />  
+                    <br></br>
                     <p>
                         All of the art works in the collctive were created after therapy sessions when I have felt so 
                         centered and aligened.
