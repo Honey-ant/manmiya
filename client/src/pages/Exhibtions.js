@@ -28,7 +28,7 @@ export const Exhibtions = () => {
                 <br></br>
                     <h5 className="center">The Kiss my Art Collective!</h5>
                     <br></br>
-                    <img src={kiss} className="  w-50 p-3 " alt="Card image cap  " />  
+                    <img src={kiss} className="  " alt="Card image cap  " />  
                     <br></br>
                     <p className=" px-3 px-3">
                         The Kiss my art collective is made up of all femme people. Mainly poeple of colour (which we love to see). We have all been brought together by helping with muruals for the deadly Aretha Brown.
@@ -64,7 +64,7 @@ export const Exhibtions = () => {
                         The work the foundation does is centered around helping people who have been sold into
                         sex slavery, and aids them in their recovery.
                     </p>
-                    <img src={sit} className="  w-50 p-3" alt="  " />  
+                    <img src={sit} className="  " alt="  " />  
                     <p>
                         All of the art works in the collctive were created after therapy sessions when I have felt so 
                         centered and aligened.
