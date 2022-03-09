@@ -11,7 +11,7 @@ export const Exhibtions = () => {
     return (
         <>
         <div className="container">
-            <h3>Exhibtions</h3> 
+            <h3 className="title">Exhibtions</h3> 
             <p>
                 My debut exhibition was in January 2022 in Naarm (Melbourne Australia).
                 This was were a fantastic collection of artists called the 'Kiss my Art Collective'.
