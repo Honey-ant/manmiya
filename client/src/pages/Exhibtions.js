@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import exb from '../assets/exb.jpg'; 
 import kiss from '../assets/kiss.jpg';
+import sit from '../assets/sit.jpg';
 
 
 export const Exhibtions = () => {
@@ -27,9 +28,9 @@ export const Exhibtions = () => {
                 <br></br>
                     <h5 className="center">The Kiss my Art Collective!</h5>
                     <br></br>
-                    <img src={kiss} className="pro img   " alt="Card image cap  " />  
+                    <img src={kiss} className="  w-50 p-3 " alt="Card image cap  " />  
                     <br></br>
-                    <p className=" py-3 px-3">
+                    <p className=" px-3 px-3">
                         The Kiss my art collective is made up of all femme people. Mainly poeple of colour (which we love to see). We have all been brought together by helping with muruals for the deadly Aretha Brown.
                     </p>
                     <p>
@@ -63,13 +64,15 @@ export const Exhibtions = () => {
                         The work the foundation does is centered around helping people who have been sold into
                         sex slavery, and aids them in their recovery.
                     </p>
+                    <img src={sit} className="  w-50 p-3" alt="  " />  
                     <p>
                         All of the art works in the collctive were created after therapy sessions when I have felt so 
                         centered and aligened.
                     </p>
+                    
                     <p>
                         
-                        <a href="https://www.arttohealing.org/art-fundraiser-2022/" target="_blank">Art of healing Fundraiser</a>
+                      Click here to view the collection for the fundraiser  <a href="https://www.arttohealing.org/art-fundraiser-2022/" target="_blank">Art of healing Fundraiser</a>
                     </p>
                 </div>
             </div>
