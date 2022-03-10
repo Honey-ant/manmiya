@@ -637,7 +637,6 @@ border-radius: 1rem;
 .card {
   width: 25%;
   text-align: center;
-  
   background-color: transparent;
   border: none;
   border-style: none;
@@ -718,7 +717,7 @@ border-radius: 1rem;
   }
 
   .gra {
-    top:50%; 
+    top:55%; 
     right:5%;
     position: absolute;
     width: 200px;

@@ -41,7 +41,7 @@ function ProductList() {
     }
   }, [data, loading, dispatch]);
 
-  function filterProducts() {
+  function filterProducts() { 
     if (!currentCategory) {
       return state.products;
     }
