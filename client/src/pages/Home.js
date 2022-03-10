@@ -28,33 +28,39 @@ const Home = () => {
         <div className="py-4 my-2">
           <hr></hr>
           <br></br>
-            <p className="">
-              Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
-              They currently live on Boon Wurrong Country.
-            </p>
-            <img src={dad} className="pro img   " alt="Card image cap  " /> 
-            <div className=" ">
-                
-              <p className="mx-4 my-3 py-2">
-                I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
-                who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
-                (not emerging, we'll have our time). 
-                </p>
-                <p  className="mx-4 my-3">
-                I also acknowledge by white mans law that this not a country, 
-                but an invaded land, as there is no treaty between settlers and First Nations Peoples.
-                </p>
-
-                <p className="mx-4 my-3">
-                <b>
-                  Do you know who's Country you're on?
-                  
-                </b>
-
+          <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <p className="col-md-7">
+                Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.
+                They currently live on Boon Wurrong Country.
               </p>
+              <p className="col-md-5">
+                Their Father is Bunuba and her mother is settler Australian of Scottish descent.
+              </p>
+            </div>
+            <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
 
             </div>
-            <img src={graphic} className="  " alt="Card image cap  " /> 
+            <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <img src={dad} className="col-md-5 " alt="  " /> 
+              <div className=" ">
+                <p className="my-3 py-2">
+                  I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
+                  who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
+                  (not emerging, we'll have our time). 
+                  </p>
+                  <p  className=" my-3">
+                  I also acknowledge by white mans law that this not a country, 
+                  but an invaded land, as there is no treaty between settlers and First Nations Peoples.
+                  </p>
+                  <p className=" my-3">
+                  <b>
+                    Do you know who's Country you're on?              
+                  </b>
+                </p>
+                <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
+              </div>
+            </div>  
+            
           <h4 className="">
             Browse through Prints and Originals 
           </h4>

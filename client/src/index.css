@@ -314,7 +314,6 @@ button[disabled] {
 
 img {
   max-width: 100%;
-
 }
 
 .im {
@@ -640,6 +639,11 @@ border-radius: 1rem;
   border: none;
   border-style: none;
   background-color: transparent;
+}
+
+.col-md-6 {
+  background-color: var(--brown);
+  color: var(--nav);
 }
 
 .pro {

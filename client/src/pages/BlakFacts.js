@@ -18,9 +18,8 @@ export const BlakFacts = () => {
                 <div className="">
                     <p>
                         The everyday 'australian' doesn't know much about
-                        Aboriginal, or Torres Strait Islanders. Don't worry I get it, 
-                        I went through the same school system, they don't teach you anything.
-                        From that I know that I wouldn't know anything if I weren't Aboriginal myself.
+                        Aboriginal, or Torres Strait Islanders. Don't worry I get it. 
+                        I went through the same school system, they don't teach you anything
                     </p>
                     <p>
                         And since I'm just like the average Aboriginal, (super nice and generous),
@@ -28,27 +27,42 @@ export const BlakFacts = () => {
                     </p>
                 </div>
 
-                <div className="">
-                    <h4>Clues from grammar</h4>
-                    <p>
-                        Words and grammar matter
-                        as language holds a key part in shaping cultures and socities.
-                    </p>
-                    <p>
-                        A curious part of grammar when it comes to Kimberly kriol
-                        is our use of the they/them pronouns.
-                    </p>
-                    <p>
-                        It is very common to hear someone using those pronouns for a person 
-                        who's gender is known. 
-                        "Where them go?" "who they with".
-                        
-                    </p>
-                    <p>
-                        It is simple and flows off of the tongue. And most importantly,
-                        expresses that first and formost everyone is a person, their gender second.
-                    </p>
+                <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div className="col-md-6 px-3 mx-1 py-1 my-1">
+                        <h4>Clues from grammar</h4>
+                        <p>
+                            Words and grammar matter
+                            as language holds a key part in shaping cultures and socities.
+                        </p>
+                        <p>
+                            A curious part of grammar when it comes to Kimberly kriol
+                            is our use of the they/them pronouns.
+                        </p>
+                        <p>
+                            It is very common to hear someone using those pronouns for a person 
+                            who's gender is known. 
+                            "Where them go?" "who they with".
+                            
+                        </p>
+                        <p>
+                            It is simple and flows off of the tongue. And most importantly,
+                            expresses that first and formost everyone is a person, their gender second.
+                        </p>
+                    </div>
+                    <div className="col-md-6 px-3 mx-1 py-1 my-1">
+                        <h4>Pre-col clocks</h4>
+                        <p>
+                            Bunuba Women were so Intelligent, practical and stylish. 
+                            used the long straight grasses of the spinfex plants as a economical
+                            crown and a sundail. 
+                        </p>
+                        <p>
+                            They would be able to see the shadows of the 
+                            sun from their hair at any given time throughtout the day.
+                        </p>
+                    </div>
                 </div>
+                
                 <Link className="my-3" to="/">← Back to main page</Link>
             </div>
         </div>
