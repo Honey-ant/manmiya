@@ -13,7 +13,7 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
-const stripePromise = loadStripe(`${process.env.STRIPE}`);
+const stripePromise = loadStripe(`${process.env.STRIPE}` );
 
 // const product = await stripe.products.create({name: product.name});
 
