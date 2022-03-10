@@ -129,7 +129,7 @@ body {
   height: 200px;
   border-radius: 2rem;
   
-  opacity: .6;
+  opacity: .75;
 }
 
 .graph {
@@ -138,17 +138,18 @@ body {
   left:-10.5%;
   width: 100px;
   height: 100px;
-  opacity: .6;
+  opacity: .9;
 }
 
 .gra {
-  top:50%; 
-  right:5%;
+  top:80%; 
+  right:10%;
   position: absolute;
   width: 200px;
   height: 200px;
   padding:1%;
   opacity: .6;
+  z-index: 0;
 }
 
 h1,
@@ -510,6 +511,10 @@ input:focus {
   padding-top: var(--spaceing-four);
   padding-bottom: var(--spaceing-four);
 }
+
+.pink {
+  color: var(--pink);
+}
 /* main cover page */
 .cover {
 
@@ -646,6 +651,10 @@ border-radius: 1rem;
   color: var(--nav);
 }
 
+.col-md-6 px-3 mx-1 py-1 my-1 h4 {
+  color: var(--light);
+}
+
 .pro {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
@@ -713,7 +722,7 @@ border-radius: 1rem;
   }
 
   .gra {
-    top:70%; 
+    top:50%; 
     right:5%;
     position: absolute;
     width: 200px;

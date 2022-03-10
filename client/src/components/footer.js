@@ -5,9 +5,6 @@ class Footer extends Component {
         return (
             
                 <div className=" footer" >
-
-                    {/* <h5>Social Media</h5>
-                    <br></br> */}
                     <h5 > 
                         <i className=" bi bi-instagram">
                         </i> 
@@ -21,7 +18,8 @@ class Footer extends Component {
                         refernce to other first Nations peoples across the continent.
                     </p>
                     <p>
-                        Any questions about cultural practices should be asked, not assumed.
+                        Any questions about cultural practices should be asked,
+                        not assumed.
 
                     </p>
                 </div>

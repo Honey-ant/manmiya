@@ -22,12 +22,14 @@ const Home = () => {
     <div className="top">
       <br></br>
      <br></br>
-     <img src={graphic6} className="gra   " alt="Card image cap  " /> 
+     {/* <img src={graphic6} className="gra   " alt="Card image cap  " />  */}
       <div className="container my-3  ">
       
         <div className="py-4 my-2">
+           {/* <img src={breathe} className="col-md-5 " alt="  " />  */}
           <hr></hr>
           <br></br>
+         
           <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <p className="col-md-7">
                 Manmiya Bedford is a Bunuba artist from the Kimberly Western Australia.

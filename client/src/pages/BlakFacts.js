@@ -15,7 +15,7 @@ export const BlakFacts = () => {
                     <h4>Blak facts</h4>
                 </div>
 
-                <div className="">
+                <div className="mx-1">
                     <p>
                         The everyday 'australian' doesn't know much about
                         Aboriginal, or Torres Strait Islanders. Don't worry I get it. 
@@ -29,7 +29,7 @@ export const BlakFacts = () => {
 
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                     <div className="col-md-6 px-3 mx-1 py-1 my-1">
-                        <h4>Clues from grammar</h4>
+                        <h4 className="pink">Clues from grammar</h4>
                         <p>
                             Words and grammar matter
                             as language holds a key part in shaping cultures and socities.
@@ -50,7 +50,7 @@ export const BlakFacts = () => {
                         </p>
                     </div>
                     <div className="col-md-6 px-3 mx-1 py-1 my-1">
-                        <h4>Pre-col clocks</h4>
+                        <h4 className="pink">Pre-col clocks</h4>
                         <p>
                             Bunuba Women were so Intelligent, practical and stylish. 
                             used the long straight grasses of the spinfex plants as a economical

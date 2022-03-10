@@ -5,6 +5,7 @@ import giki from '../../assets/mee.jpg';
 import crown from '../../assets/crown.png';
 import graphic from '../../assets/spots.png';
 import graphic5 from '../../assets/hill.png';
+import graphic6 from '../../assets/spiral.png';
 
 export const Cover = () => {
    
@@ -43,7 +44,7 @@ export const Cover = () => {
             </div>
   
             <img src={giki} className="rounded float-left " alt=" Responsive image" />
-             
+            <img src={graphic6} className="gra   " alt=" " /> 
             <br></br>
         </div>
         
