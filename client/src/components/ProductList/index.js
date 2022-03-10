@@ -53,7 +53,7 @@ function ProductList() {
 
   return (
     // <HorizontalScroll>
-    <div className="my-3  proList space-between">
+    <div className=" proList ">
       {/* <h2> Browse through the Prints and Originals </h2> */}
 
       {state.products.length ? (

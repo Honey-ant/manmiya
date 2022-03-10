@@ -1,4 +1,5 @@
 import React from 'react';
+import { StripeProvider } from 'react-stripe-elements';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {
   ApolloClient,

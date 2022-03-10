@@ -515,10 +515,7 @@ input:focus {
 .pink {
   color: var(--pink);
 }
-/* main cover page */
-.cover {
 
-}
 
 /* Main Page Photo */
 .float-left {
@@ -529,6 +526,7 @@ input:focus {
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   margin-top: calc(1rem);
+  z-index:  1;
   /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
 }
 /* main menu */
@@ -639,7 +637,7 @@ border-radius: 1rem;
 .card {
   width: 25%;
   text-align: center;
-  border-radius: 1rem;
+  
   background-color: transparent;
   border: none;
   border-style: none;
@@ -651,10 +649,6 @@ border-radius: 1rem;
   color: var(--nav);
 }
 
-.col-md-6 px-3 mx-1 py-1 my-1 h4 {
-  color: var(--light);
-}
-
 .pro {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
@@ -663,6 +657,8 @@ border-radius: 1rem;
   rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 0.1rem;
 }
+
+
 
 .cat {
   background-color: transparent;
@@ -807,7 +803,7 @@ border-radius: 1rem;
   overflow-x: scroll;
   /* overflow-y: hidden; */
   white-space:nowarp;
-  height: 500px;
+  height: 700px;
   overflow-x:auto;
   display: inline-block;
 }
