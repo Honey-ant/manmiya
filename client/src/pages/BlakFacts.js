@@ -3,18 +3,20 @@ import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { useDispatch, useSelector } from 'react-redux';
 
+import graphic from '../assets/spots.png';
+
 export const BlakFacts = () => {
 
     return (
         <>
         <div className="container  my-3 py-3">
-        
+
+                <div className="title my-4"> 
+                    <h3>Blak facts</h3>
+                </div>
             <div className="">
             
-                <div className="title"> 
-                    <h4>Blak facts</h4>
-                </div>
-
+                <img src={graphic} className="graphic" alt=" Responsive image" />
                 <div className="mx-4">
                     <p>
                         Wanna get ed-u-macated (educated) with some blackfella facts?
@@ -25,7 +27,7 @@ export const BlakFacts = () => {
                         I'm going to be sharing some little known facts. 
                     </p>
                 </div>
-
+                <img src={graphic} className="graphic" alt=" Responsive image" />
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                     <div className="col-md-6 px-3 mx-1 py-1 my-1">
                         <h4 className="pink">Clues from grammar</h4>
@@ -59,6 +61,25 @@ export const BlakFacts = () => {
                             They would be able to see the shadows of the 
                             sun from their hair at any given time throughtout the day.
                         </p>
+                    </div>
+                </div>
+                <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div className="col-md-6 px-3 mx-1 py-1 my-1">
+                        <h4 className="pink">Black Matriarchy</h4>
+                            <p>
+                                The Bunuba poeple have the belief that because women have the children, 
+                                the children must follow the mothers way.
+                                We are Matriarchal.
+                            </p>
+                            <p>
+                                My grandparents on my father's side are from two different
+                                language groups, Bunuba and Jija/Kija.
+                                Yet I claim Bunuba because we go women's way.
+                            </p>
+                            <p>
+                                Many language groups are patriarchal, but don't compare that 
+                                to the white patriarchy we live in, they respected women.
+                            </p>
                     </div>
                 </div>
                 
