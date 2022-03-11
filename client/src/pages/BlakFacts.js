@@ -15,13 +15,13 @@ export const BlakFacts = () => {
                     <h4>Blak facts</h4>
                 </div>
 
-                <div className="mx-1">
+                <div className="mx-4">
                     <p>
                         Wanna get ed-u-macated (educated) with some blackfella facts?
                         Good. 
                     </p>
                     <p>
-                        And since I'm just like the average Aboriginal, (super nice and generous),
+                        Since I'm just like the average Aboriginal, (super nice and generous),
                         I'm going to be sharing some little known facts. 
                     </p>
                 </div>
