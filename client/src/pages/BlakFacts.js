@@ -17,9 +17,8 @@ export const BlakFacts = () => {
 
                 <div className="mx-1">
                     <p>
-                        The everyday 'australian' doesn't know much about
-                        Aboriginal, or Torres Strait Islanders. Don't worry I get it. 
-                        I went through the same school system, they don't teach you anything
+                        Wanna get ed-u-macated (educated) with some blackfella facts?
+                        Good. 
                     </p>
                     <p>
                         And since I'm just like the average Aboriginal, (super nice and generous),
