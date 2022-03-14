@@ -56,7 +56,7 @@ function ProductList() {
   return (
     // <HorizontalScroll>
     <div className=" proList ">
-      <h4 className="mx-2"> Browse through the Prints and Originals </h4>
+      <h4 className="mx-2 my-4"> Browse through the Prints and Originals </h4>
 
       {state.products.length ? (
         <div className=" flex-row ">
