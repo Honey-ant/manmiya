@@ -63,18 +63,14 @@ const Home = () => {
               </div>
             </div>  
             
-          <h4 className="">
-            Browse through Prints and Originals 
-          </h4>
+
 </div>
         </div> 
     </div>
 
     <div className="container">
-        {/* <CategoryMenu /> */}
-        {/* <PrintList /> */}
         <ProductList />
-        <Cart />
+       
     </div>  
       
   

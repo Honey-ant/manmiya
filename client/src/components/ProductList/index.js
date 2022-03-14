@@ -11,6 +11,8 @@ import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/gif.gif';
 
+import Cart from "../Cart";
+
 import graphic4 from '../../assets/graphic4.png';
 
 function ProductList() {
@@ -54,13 +56,13 @@ function ProductList() {
   return (
     // <HorizontalScroll>
     <div className=" proList ">
-      {/* <h2> Browse through the Prints and Originals </h2> */}
+      <h4 className="mx-2"> Browse through the Prints and Originals </h4>
 
       {state.products.length ? (
-        <div className="flex-row">
+        <div className=" flex-row ">
                 {/* <img src={graphic4} className="graphic" alt=" Responsive image" /> */}
           {filterProducts().map((product) => (
-            <ProductItem
+            <ProductItem className="list"
               key={product._id}
               _id={product._id}
               image={product.image}
@@ -73,10 +75,12 @@ function ProductList() {
             />
           ))}
         </div>
+        
       ) : (
         <h3 className="mb-2">Just a second</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
+      <Cart/>
     </div>
   // {/* </HorizontalScroll> */}
   );

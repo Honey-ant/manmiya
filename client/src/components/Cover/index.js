@@ -36,6 +36,9 @@ export const Cover = () => {
                         <Link className=" " to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
 
+                        <Link className=" " to="/productList">Shop</Link>
+                        <hr></hr>
+
                         <Link className=" " to="/contact">Contact</Link>
                         <hr></hr>
                     </b>

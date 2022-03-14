@@ -798,14 +798,18 @@ border-radius: 1rem;
   }
 
 
-.proList {
+/* .proList {
+
+  height: 600px;
+  overflow-x:hidden;
+} */
+
+/* .list {
   overflow-x: scroll;
-  /* overflow-y: hidden; */
-  white-space:nowarp;
   height: 700px;
   overflow-x:auto;
   display: inline-block;
-}
+} */
 
 }
 

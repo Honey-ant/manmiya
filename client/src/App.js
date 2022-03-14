@@ -15,6 +15,7 @@ import { Content, Heading } from './components/Styles';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
+import ProductList from './components/ProductList/index.js';
 import Checkout from './pages/Checkout';
 
 import NoMatch from './pages/NoMatch';
@@ -65,6 +66,7 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/about" component={About} />
               <Route exact path="/artbio" component={ArtBio} />
+              <Route exact path="/productList" component={ProductList} />
               <Route exact path="/exhibtions" component={Exhibtions} />
               <Route exact path="/blakfacts" component={BlakFacts} />
               <Route exact path="/checkout" component={Checkout} />

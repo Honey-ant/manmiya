@@ -10,14 +10,14 @@ export const BlakFacts = () => {
     return (
         <>
         <div className="container  my-3 py-3">
-
-                <div className="title my-4"> 
+                <img src={graphic} className="position-absolute fixed-top" alt=" Responsive image" />
+                <div className="title my-4 bedford"> 
                     <h3>Blak facts</h3>
                 </div>
             <div className="">
             
-                <img src={graphic} className="graphic" alt=" Responsive image" />
-                <div className="mx-4">
+
+                <div className="mx-3">
                     <p>
                         Wanna get ed-u-macated (educated) with some blackfella facts?
                         Good. 
@@ -63,6 +63,7 @@ export const BlakFacts = () => {
                         </p>
                     </div>
                 </div>
+                <img src={graphic} className="graphic" alt=" Responsive image" />
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                     <div className="col-md-6 px-3 mx-1 py-1 my-1">
                         <h4 className="pink">Black Matriarchy</h4>

@@ -22,6 +22,9 @@ function Nav() {
             <Link to="/exhibtions">Exhibtions</Link>
           </li>
           <li className="dropdown-item ">
+            <Link to="/productList">Shop</Link>
+          </li>
+          <li className="dropdown-item ">
             <Link to="/blakfacts">BlakFacts</Link>
           </li>
           <li className="dropdown-item">
