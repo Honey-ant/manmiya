@@ -14,12 +14,14 @@ export const Part1 = () => {
                             <img src={giki} className="right pro " alt=" Responsive image" />  
 
                             <div className="container " >
-                                <div className="flo-left container py-2 my-3">
+                                <div className="flo-left  py-2 my-3">
                                    <p className=" my-3 "> 
-                                        <b>
+                                        
                                          Manmiya is her Aboriginal name given to her by her grandparents.
+                                    </p>
+                                    <p className=" my-3 ">
                                          They pick names from five generations ago.
-                                        </b>
+                                        
                                     </p>
                                    
                                 </div>
