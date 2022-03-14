@@ -56,10 +56,10 @@ function ProductList() {
   return (
     // <HorizontalScroll>
     <div className=" proList ">
-      <h4 className="mx-2 my-4"> Browse through the Prints and Originals </h4>
-
+      <h4 className="container my-4"> Browse through the Prints and Originals </h4>
+      <hr className="container"></hr>
       {state.products.length ? (
-        <div className=" flex-row ">
+        <div className=" flex-row my-2">
                 {/* <img src={graphic4} className="graphic" alt=" Responsive image" /> */}
           {filterProducts().map((product) => (
             <ProductItem className="list"

@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <img src={dad} className="col-md-5 " alt="  " /> 
-              <div className=" mx-3">
+              <div className="box mx-3 px-3">
                 <p className="my-3 py-2">
                   I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
                   who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
@@ -59,8 +59,9 @@ const Home = () => {
                     Do you know who's Country you're on?              
                   </b>
                 </p>
-                <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
+                
               </div>
+              <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
             </div>  
             
 
@@ -69,10 +70,10 @@ const Home = () => {
     </div>
 
     <div className="container">
-        <ProductList />
+       
        
     </div>  
-      
+       <ProductList />
   
     </>
   );

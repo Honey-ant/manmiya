@@ -29,7 +29,7 @@ export const BlakFacts = () => {
                 </div>
                 <img src={graphic} className="graphic" alt=" Responsive image" />
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-                    <div className="col-md-6 px-3 mx-1 py-1 my-1">
+                    <div className=" box col-md-6 px-3 mx-1 py-1 my-1">
                         <h4 className="pink">Clues from grammar</h4>
                         <p>
                             Words and grammar matter
@@ -50,7 +50,7 @@ export const BlakFacts = () => {
                             expresses that first and formost everyone is a person, their gender second.
                         </p>
                     </div>
-                    <div className="col-md-6 px-3 mx-1 py-1 my-1">
+                    <div className="col-md-6 px-3 mx-1 py-1 my-1 box">
                         <h4 className="pink">Pre-col clocks</h4>
                         <p>
                             Bunuba Women were so Intelligent, practical and stylish. 
@@ -64,7 +64,7 @@ export const BlakFacts = () => {
                     </div>
                 </div>
                 <img src={graphic} className="graphic" alt=" Responsive image" />
-                <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 box">
                     <div className="col-md-6 px-3 mx-1 py-1 my-1">
                         <h4 className="pink">Black Matriarchy</h4>
                             <p>

@@ -393,6 +393,7 @@ input:focus {
   border-radius: 4rem;
   border-style: none;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: var(--nav);
 }
 
 .title {
@@ -643,7 +644,7 @@ border-radius: 1rem;
   background-color: transparent;
 }
 
-.col-md-6 {
+.box{
   background-color: var(--brown);
   color: var(--nav);
 }
