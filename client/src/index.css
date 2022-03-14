@@ -354,6 +354,7 @@ form {
 }
 
 .fit {
+  height: 30%;
   
 }
 
@@ -656,6 +657,7 @@ border-radius: 1rem;
 .boxx {
   background-color: rgb(77, 51, 45, 0.6);
   color: white;
+  overflow:hidden;
 }
 
 .pro {

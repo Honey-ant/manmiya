@@ -15,8 +15,8 @@ const ArtBio = () => {
         </div>
         <h4 className="title bio" >Artist Bio</h4>
         <div className="float-rightt overflow-auto">
-          <div className="boxx">
-            <div className="px-2">
+          <div className="boxx px-3">
+            <div className="mx-3 my-3">
                 <p>
                     A self taught emerging artist . They are a visual artist 
                     primarily working with acrylic paints and oils. 
@@ -29,14 +29,14 @@ const ArtBio = () => {
                 </p>
                 <p>
                     Their style is a mixture of inspriation of their own Cultural Idenity as a Bunuba Woman, 
-                    that coming from all the deadly artists at <a href="http://www.mangkaja.com/" target="_blank">Mangkaja</a> (art center from Fitzroy Crossing), and
+                    that coming from all the deadly artists at <a href="http://www.mangkaja.com/" className="pink" target="_blank">Mangkaja</a> (art center from Fitzroy Crossing), and
                     intertwined with all the complexities of living in this modern colony.
                 </p>
               </div>
             </div>
           </div>
       </div>
-      <img src={giki} className=" fit " alt=" Responsive image" /> 
+      <img src={giki} className=" fit  " alt=" Responsive image" /> 
       <div className="container">
       <div className="">
   
