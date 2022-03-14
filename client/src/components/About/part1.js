@@ -7,33 +7,36 @@ export const Part1 = () => {
     return (
         <>
           <div className="bottom-right">
-                            <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link>
-                            <h2 className=" title my-2" id="title">About</h2>
-                            
-                            <img src={giki} className="right pro img imm" alt=" Responsive image" />  
+                            {/* <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link> */}
+                            <h3 className="  container title " id="">About</h3>
+                            <hr className="container"></hr> 
+                           <div className="box py-3 my-2">  
+                            <img src={giki} className="right pro " alt=" Responsive image" />  
 
                             <div className="container " >
-                                <div className="flo-left container">
-                                   <p> 
+                                <div className="flo-left container py-2 my-3">
+                                   <p className=" my-3 "> 
                                         <b>
                                          Manmiya is her Aboriginal name given to her by her grandparents.
                                          They pick names from five generations ago.
                                         </b>
                                     </p>
-                                    <hr></hr>
+                                   
                                 </div>
-                                 
-                                    
-                                <p className="container  my-3">
+                            </div> 
+                             </div>
+                            <hr className="container"></hr> 
+                                  
+                                <p className="container py-2 my-3">
                                     My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                     I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
                                     and my gadinng (totem) is balga (barramundi). 
                                     I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
                                 </p>
                                     
-                                  
+                            <hr className="container"></hr> 
                         <br></br>
-                            </div>  
+                             
             </div> 
         </>
     )

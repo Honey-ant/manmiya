@@ -35,7 +35,7 @@ const ArtBio = () => {
                     intertwined with all the complexities of living in this modern colony.
                 </p>
                 <p className="">
-                  Read more about them <Link to="/about">here</Link>
+                  Read more about them <Link className="pink" to="/about">here</Link>
                 </p>
               </div>
             
