@@ -646,7 +646,7 @@ border-radius: 1rem;
 
 .box{
   background-color: var(--brown);
-  color: var(--nav);
+  color: white;
 }
 
 .pro {
