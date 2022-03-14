@@ -36,7 +36,7 @@ const ArtBio = () => {
             </div>
           </div>
       </div>
-      <img src={giki} className=" fit  " alt=" Responsive image" /> 
+      <img src={giki} className="   " alt=" Responsive image" /> 
       <div className="container">
       <div className="">
   
