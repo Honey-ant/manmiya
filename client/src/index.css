@@ -9,7 +9,7 @@
   --spacing-two: calc(1rem);
   --spacing-three: calc(2rem);
   --spaceing-four: calc(3rem);
-  --brown:#4d332d;
+  --brown:rgb(77, 51, 45);
   --lightbrown:#7a5e57;
   --me:rgb(193, 153, 143);
   --darkbrown:#260e04;
@@ -353,6 +353,10 @@ form {
   list-style: none;
 }
 
+.fit {
+  
+}
+
 input {
   font-size: 1rem;
   padding: 0.25rem;
@@ -646,6 +650,11 @@ border-radius: 1rem;
 
 .box{
   background-color: var(--brown);
+  color: white;
+}
+
+.boxx {
+  background-color: rgb(77, 51, 45, 0.6);
   color: white;
 }
 
