@@ -164,7 +164,7 @@ import dance from '../assets/dance.jpg';
                                             </p>
                                  </div>    
                             <hr className="container"></hr>       
-                            <Link className="my-2" to="/">← Back to main page</Link>
+                            <Link className="my-2 container" to="/">← Back to main page</Link>
                         </>
                     );
                 
