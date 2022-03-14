@@ -522,6 +522,9 @@ input:focus {
   color: var(--pink);
 }
 
+.white {
+  color: var(--white);
+}
 
 /* Main Page Photo */
 .float-left {

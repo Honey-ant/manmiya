@@ -34,19 +34,23 @@ const ArtBio = () => {
                     that coming from all the deadly artists at <a href="http://www.mangkaja.com/" className="pink" target="_blank">Mangkaja</a> (art center from Fitzroy Crossing), and
                     intertwined with all the complexities of living in this modern colony.
                 </p>
+                <p className="">
+                  Read more about them <Link to="/about">here</Link>
+                </p>
               </div>
+            
             </div>
+              
           </div>
+          {/* <Link className="my-3 white" to="/">← Back to main page</Link> */}
       </div>
       <img src={giki} className="   " alt=" Responsive image" /> 
       <div className="container">
       <div className="">
   
-          <p className="my-4 read">
-            Read more about them <Link to="/about">here</Link>
-          </p>
+
         </div>
-        <Link className="my-3" to="/">← Back to main page</Link>
+        
       </div>
     </div>
     </>

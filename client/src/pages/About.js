@@ -17,21 +17,23 @@ import dance from '../assets/dance.jpg';
                         <Part1/>
                         <div className="top-right">  
         
-                            <img src={fx} className="pro img   " alt="Card image cap  " />               
-                                <div className="container">
+                            <img src={fx} className="pro img   " alt="Card image cap  " /> 
+                            <hr className="container"></hr> 
+                                <div className="box py-3">
                                                 
-                                     <p className=" intro py-3">
+                                     <p className=" container white">
                                         It is considered a remote community, although I never saw it as that. 
                                         We lived in the last house in the Laaban community on the outskirts of the town 
                                         and there were many small communities further out in the Fitzroy Valley, 
                                         they were the ones I thought of as ‘remote’. 
                                      </p>
-                                 </div>                           
+                                 </div> 
+                                 <hr className="container"></hr>                           
                             <br></br>
                         </div>    
                             <div className="bottom-left-sand">
                             <br></br>
-                                <div className="inner container">
+                                <div className=" container">
 
                                     <img src={home} className="pro img my-4 mx-2" alt="Card image cap" />
                                         <p className=" my-3 mx-3">
@@ -46,8 +48,8 @@ import dance from '../assets/dance.jpg';
                             
                         </div>
                         <div className="bottom-teal"></div>
-                            <div className="container inner">
-                                <div className="mx-3">
+                            <div className="container ">
+                                <div className="">
                                  <img src={dance} className="pro img my-3 " alt="Card image cap" />   
                                     <p className="py-3">
                                                 My earliest memories are of taking part in ceremony. 
@@ -60,13 +62,21 @@ import dance from '../assets/dance.jpg';
                                                 He very sadly passed away from suicide. 
                                                 My region has the highest suicide rate in the world.  
                                                 </p>
-                                                <p className="">
+                            </div>
+                                </div>
+                                <hr className="container"></hr>  
+                                     <div className="box py-2">
+                                                <p className="container white">
                                                 We are people who feel so deeply and truly. 
                                                 When we are happy our happiness is easily shared between us. 
                                                 Yet when we are hurting, we all hurt together.  
                                                 Intergenerational trauma is very present in my community 
                                                 and my painting is my largest tool in becoming a cycle breaker.  
                                                 </p>
+                                    </div>   
+                                <hr className="container"></hr>               
+                        <div className="container ">
+                            <div className="">
                                                 <img src={lil} className="pro img " alt="Card image cap" />
                                                 <p className="py-3">
                                                 I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
@@ -137,7 +147,13 @@ import dance from '../assets/dance.jpg';
                                                 <p className="">
                                                 The colours of water and my country are clear in my art, I treasure them.
                                                 </p>
-                                                <p className="my-2 im"> 
+
+                                            </div>
+
+                            </div>
+                            <hr className="container"></hr>
+                                <div className="py-2 box ">
+                                        <p className="my-2 py-2 container "> 
                                             <b >
                                                  I am so grateful to come from the line of people that I do.  
 
@@ -145,9 +161,9 @@ import dance from '../assets/dance.jpg';
 
                                                 I honour my people, my culture and myself through this chosen form of self-expression.  
                                             </b>            
-                                                </p>
-                                            </div>
-                            </div>
+                                            </p>
+                                 </div>    
+                            <hr className="container"></hr>       
                             <Link className="my-2" to="/">← Back to main page</Link>
                         </>
                     );
