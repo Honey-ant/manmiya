@@ -23,7 +23,7 @@ export const Part1 = () => {
                                          They pick names from five generations ago.
                                         
                                     </p>
-                                   
+                                    <hr className="white"></hr> 
                                 </div>
                             </div> 
                              </div>
