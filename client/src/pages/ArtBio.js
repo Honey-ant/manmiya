@@ -13,9 +13,11 @@ const ArtBio = () => {
               
             </p>
         </div>
-        <h4 className="title bio" >Artist Bio</h4>
+        
         <div className="float-rightt overflow-auto">
+
           <div className="boxx px-3">
+            <h4 className="title bio pink" >Artist Bio</h4>
             <div className="mx-3 my-3">
                 <p>
                     A self taught emerging artist . They are a visual artist 
