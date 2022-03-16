@@ -14,7 +14,7 @@ const ArtBio = () => {
             </p>
         </div>
         
-        <div className="float-rightt overflow-auto">
+        <div className="float-rightt overflow-auto" data-spy="scroll">
 
           <div className="boxx px-3">
             <h4 className="title bio pink" >Artist Bio</h4>

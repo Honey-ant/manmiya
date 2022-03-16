@@ -163,6 +163,7 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
   font-family: 'Source Serif 4', sans-serif;
+  color: var(--darkbrown);
 }
 
 h1 {
@@ -788,16 +789,16 @@ border-radius: 1rem;
 }
 /* photo for ArtBio */
 .float-rightt {
-  margin-left:15%;
-  margin-top: calc(1rem);
+  margin-left:5%;
+  margin-top: calc(3rem);
   width: 90%;
   overflow-x: hidden;
     text-align: right;
     color: var(--darkbrown);
     text-align: start;
     padding: 10%;
-    top: 7rem;
-  height: 400px;
+    top: 3rem;
+  height: 600px;
 }
   .footer {
     padding:5%; 
