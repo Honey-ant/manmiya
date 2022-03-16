@@ -58,7 +58,7 @@ function Signup(props) {
       <hr className="container"></hr>
       <div className="box py-2 container">
         <form className="form container" onSubmit={handleFormSubmit}>
-          <div className="flex-row space-between my-2">
+          <div className="flex-row space-between my-2 input">
             <label className="my-2" htmlFor="firstName">First Name:</label>
             <input
               placeholder="First"
@@ -68,7 +68,7 @@ function Signup(props) {
               onChange={handleChange}
             />
           </div>
-          <div className="flex-row space-between my-2">
+          <div className="flex-row space-between my-2 input">
             <label className="my-" htmlFor="lastName">Last Name:</label>
             <input
               placeholder="Last"
@@ -78,7 +78,7 @@ function Signup(props) {
               onChange={handleChange}
             />
           </div>
-          <div className="flex-row space-between my-2">
+          <div className="flex-row space-between my-2 input">
             <label className="my-2" htmlFor="email">Email:</label>
             <input
               placeholder="youremail@email.com"
@@ -88,7 +88,7 @@ function Signup(props) {
               onChange={handleChange}
             />
           </div>
-          <div className="flex-row space-between my-2">
+          <div className="flex-row space-between my-2 input">
             <label className="my-2" htmlFor="pwd">Password:</label>
             <input
               placeholder="******"
@@ -99,7 +99,7 @@ function Signup(props) {
             />
           </div>
           <div className="flex-row flex-end py-4">
-            <button type="submit">Submit</button>
+            <button className="submit" type="submit">Submit</button>
           </div>
         </form>
       </div>

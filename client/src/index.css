@@ -354,6 +354,15 @@ form {
   list-style: none;
 }
 
+.submit {
+  background-color:var(--sand);
+  border-color: var(var(--orch));
+}
+
+.input {
+  border-color: var(var(--orch));
+}
+
 .fit {
   height: 30%;
   

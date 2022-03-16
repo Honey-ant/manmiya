@@ -68,7 +68,7 @@ function Login(props) {
             </div>
           ) : null}
           <div className="flex-row flex-end my-2 py-4">
-            <button type="submit">Submit</button>
+            <button className="submit" type="submit">Submit</button>
           </div>
         </form>
       </div>
