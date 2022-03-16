@@ -17,7 +17,7 @@ export const Part1 = () => {
                                 <div className="flo-left  py-2 my-3">
                                    <p className=" my-3 "> 
                                         
-                                         Manmiya is her Aboriginal name given to her by her grandparents.
+                                         Manmiya is her Aboriginal name given from grandparents.
                                     </p>
                                     <p className=" my-3 ">
                                          They pick names from five generations ago.
