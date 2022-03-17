@@ -40,7 +40,7 @@ import dance from '../assets/dance.jpg';
                                     <hr className="container"></hr> 
                               </div>
 
-                                <img src={fx} className=" col-md-4 h-50 " alt="Card image cap  " /> 
+                                <img src={fx} className=" col-md-4 " alt="Card image cap  " /> 
                                 <div className="col-md-4 px-3" >
                                 <hr className="container"></hr> 
                                     <div className=" ">
