@@ -37,6 +37,7 @@ export const Part1 = () => {
                                 </p>
                                     
                             <hr className="container"></hr>  */}
+                            <hr className="container"></hr>
                         <br></br>
                              
             </div> 

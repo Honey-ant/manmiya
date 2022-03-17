@@ -19,7 +19,7 @@ import dance from '../assets/dance.jpg';
                         <br></br>
                             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                                 <div className="col-md-4 px-3" >
-                                    <hr className="container"></hr> 
+                                    {/* <hr className="container"></hr>  */}
                                     
                                     <p className="py-2 my-3 container">
                                         My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
