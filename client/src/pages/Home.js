@@ -38,7 +38,7 @@ const Home = () => {
               <p className="col-md-5">
                 Their Father is Bunuba and her mother is settler Australian of Scottish descent.
               </p>
-            </div>
+          </div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
 
             </div>

@@ -11,7 +11,7 @@ export const Part1 = () => {
                             <h3 className="  container title " id="">About</h3>
                             <hr className="container"></hr> 
                            <div className="box py-3 my-2">  
-                            <img src={giki} className="right pro " alt=" Responsive image" />  
+                            <img src={giki} className="right pro h-10" alt=" Responsive image" />  
 
                             <div className="container " >
                                 <div className="flo-left  py-2 my-3">
@@ -27,7 +27,7 @@ export const Part1 = () => {
                                 </div>
                             </div> 
                              </div>
-                            <hr className="container"></hr> 
+                            {/* <hr className="container"></hr> 
                                   
                                 <p className="container py-2 my-3">
                                     My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
@@ -36,7 +36,7 @@ export const Part1 = () => {
                                     I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
                                 </p>
                                     
-                            <hr className="container"></hr> 
+                            <hr className="container"></hr>  */}
                         <br></br>
                              
             </div> 

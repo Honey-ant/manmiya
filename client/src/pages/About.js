@@ -16,56 +16,78 @@ import dance from '../assets/dance.jpg';
                         <>
                         <Part1/>
                         <div className="top-right">  
-        
-                            <img src={fx} className="pro img   " alt="Card image cap  " /> 
-                            <hr className="container"></hr> 
-                                <div className="box py-3">
-                                                
-                                     <p className=" container white">
-                                        It is considered a remote community, although I never saw it as that. 
-                                        We lived in the last house in the Laaban community on the outskirts of the town 
-                                        and there were many small communities further out in the Fitzroy Valley, 
-                                        they were the ones I thought of as ‘remote’. 
-                                     </p>
-                                 </div> 
-                                 <hr className="container"></hr>                           
+                        <br></br>
+                            <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                                <div className="col-md-4 px-3" >
+                                    <hr className="container"></hr> 
+                                    
+                                    <p className="py-2 my-3 container">
+                                        My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
+                                        I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
+                                        and my gadinng (totem) is balga (barramundi). 
+                                        I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
+                                    </p>
+                                    <hr className="container"></hr> 
+                                        <div className=" py-3 ">
+                                                        
+                                            <p className=" white container">
+                                                It is considered a remote community, although I never saw it as that. 
+                                                We lived in the last house in the Laaban community on the outskirts of the town 
+                                                and there were many small communities further out in the Fitzroy Valley, 
+                                                they were the ones I thought of as ‘remote’. 
+                                            </p>
+                                        </div> 
+                                    <hr className="container"></hr> 
+                              </div>
+
+                                <img src={fx} className=" col-md-4 h-50 " alt="Card image cap  " /> 
+                                <div className="col-md-4 px-3" >
+                                <hr className="container"></hr> 
+                                    <div className=" ">
+                                        
+                                            <p className="container my-3 mx-3">
+                                            I grew up with my six siblings in a house propped up on skilts.
+                                            We were close to the mighty fitzroy river and during bulurru (monsoon season) 
+                                            the water would rise up so high it would cut off the roads and we would have to move into town. 
+                                            </p>
+
+                                    </div>
+                                    <hr className="container"></hr> 
+                                    <div className="">
+                                        <p className=" container my-3 mx-3">
+                                                    My earliest memories are of taking part in ceremony. 
+                                                    Being painted up in ochre and dancing for my brother's lore ceremony. 
+                                                    Our dances, songs and stories have always been deeply nestled in my heart. 
+                                        </p>
+                                    </div>
+                                </div>    
+                            </div>
                             <br></br>
                         </div>    
-                            <div className="bottom-left-sand">
+            <div className="bottom-left-sand">
                             <br></br>
-                                <div className=" container">
-
-                                    <img src={home} className="pro img my-4 mx-2" alt="Card image cap" />
-                                        <p className=" my-3 mx-3">
-                                        I grew up with my six siblings in a house propped up on skilts.
-                                        We were close to the mighty fitzroy river and during bulurru (monsoon season) 
-                                        the water would rise up so high it would cut off the roads and we would have to move into town. 
-                                        </p>
-                                </div>
-                             <br></br>   
+                             
                             </div>
-                         <div className="em top-left-sand">
-                            
-                        </div>
-                        <div className="bottom-teal"></div>
-                            <div className="container ">
-                                <div className="">
-                                 <img src={dance} className="pro img my-3 " alt="Card image cap" />   
-                                    <p className="py-3">
-                                                My earliest memories are of taking part in ceremony. 
-                                                Being painted up in ochre and dancing for my brother's lore ceremony. 
-                                                Our dances, songs and stories have always been deeply nestled in my heart. 
+
+                        {/* <img src={home} className=" my-4 mx-2" alt="Card image cap" />   */}
+                <div className="top-left-sand">
+                            <br></br>
+                    <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
+                        <div className="col-md-4 px-3">
+                        <hr className="container"></hr>  
+                            <img src={dance} className="container mx-3 py-3" alt="Card image cap" />      
+                            <hr className="container"></hr>                          
+                                <div className="py-2 my-3 container">
+                                    <p>
+                                     Another exceedingly early memory of mine is also taking part in a funeral for an incredibly young uncle of mine. 
+                                     He very sadly passed away from suicide. 
+                                     My region has the highest suicide rate in the world.                                   
                                     </p>
-
-                                                <p>
-                                                Another exceedingly early memory of mine is also taking part in a funeral for an incredibly young uncle of mine. 
-                                                He very sadly passed away from suicide. 
-                                                My region has the highest suicide rate in the world.  
-                                                </p>
-                            </div>
                                 </div>
+                        </div>
+                            <div className="col-md-4 ">
                                 <hr className="container"></hr>  
-                                     <div className="box py-2">
+                                    <div className="box py-2">
                                                 <p className="container white">
                                                 We are people who feel so deeply and truly. 
                                                 When we are happy our happiness is easily shared between us. 
@@ -73,16 +95,37 @@ import dance from '../assets/dance.jpg';
                                                 Intergenerational trauma is very present in my community 
                                                 and my painting is my largest tool in becoming a cycle breaker.  
                                                 </p>
-                                    </div>   
+                                    </div>
+                                <hr className="container"></hr>   
+                                    <p className="py-3 container">
+                                        I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
+                                        but I stopped when we moved away.  
+                                    </p>
+                                   
+                                  
+                            </div>
+                            <div className="col-md-4 px-3">
+                                <hr className="container"></hr>  
+                                    <img src={lil} className="container py-3 mx-3" alt="Card image cap" />  
+                                <hr className="container"></hr>  
+                                <div className="py-3">
+                                    <p className="container ">
+                                        It was hard moving down to Victoria. 
+                                        I felt like an outsider, being one of the only Aboriginal kids that went to my school.
+                                    </p>
+                                </div>
+                            </div>
+
+                    </div>  
+
+                </div>
+             
                                 <hr className="container"></hr>               
                         <div className="container ">
                             <div className="">
-                                                <img src={lil} className="pro img " alt="Card image cap" />
-                                                <p className="py-3">
-                                                I have not always painted. I painted with my old people when I was growing up in Fitzroy, 
-                                                but I stopped when we moved away.  
-                                                </p>
-                                                
+                                               
+
+                                                 
                                                 <p >
                                                     It was hard moving down to Victoria. 
                                                     I felt like an outsider, being one of the only Aboriginal kids that went to my school.
@@ -163,7 +206,8 @@ import dance from '../assets/dance.jpg';
                                             </b>            
                                             </p>
                                  </div>    
-                            <hr className="container"></hr>       
+                            <hr className="container"></hr>  
+                            {/* <img src={dance} className=" my-3 " alt="Card image cap" />       */}
                             <Link className="my-2 container" to="/">← Back to main page</Link>
                         </>
                     );
