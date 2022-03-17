@@ -594,6 +594,7 @@ input:focus {
   /* height:10%;
   width: 40%; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  overflow-y: hidden;
 }
 
 /* text for artBio Page */
@@ -809,7 +810,7 @@ border-radius: 1rem;
     padding: 10%;
     top: 3rem;
   height: 600px;
-  
+  overflow-y: hidden;
 }
 
   .footer {

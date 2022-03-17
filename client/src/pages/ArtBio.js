@@ -20,10 +20,7 @@ const ArtBio = () => {
             <h4 className="title bio pink" >Artist Bio</h4>
             <div className=" my-3">
                 <p>
-                    A self taught artist. They are a visual artist 
-                    primarily working with acrylic paints and oils. 
-                </p>
-                <p>
+                    A self taught artist working with acrylic paints and oils. 
                     Their art is an expression of their inner most thoughts, 
                     healing and emotional processing. 
                     Many of their works come to life quickly, as the urge takes hold
