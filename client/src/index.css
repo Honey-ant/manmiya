@@ -787,7 +787,7 @@ border-radius: 1rem;
    overflow-x: hidden;
    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
    margin-top: calc(2rem);
-   height: 100%;
+   height: 50%;
   }
 
   /* Photo for ArtBio age */
