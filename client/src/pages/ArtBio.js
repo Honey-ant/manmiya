@@ -18,9 +18,9 @@ const ArtBio = () => {
 
           <div className="boxx px-3">
             <h4 className="title bio pink" >Artist Bio</h4>
-            <div className="mx-3 my-3">
+            <div className=" my-3">
                 <p>
-                    A self taught emerging artist . They are a visual artist 
+                    A self taught artist. They are a visual artist 
                     primarily working with acrylic paints and oils. 
                 </p>
                 <p>
@@ -44,7 +44,7 @@ const ArtBio = () => {
           </div>
           {/* <Link className="my-3 white" to="/">← Back to main page</Link> */}
       </div>
-      <img src={giki} className="   " alt=" Responsive image" /> 
+      <img src={giki} className=" float-leftt  " alt=" Responsive image" /> 
       <div className="container">
       <div className="">
   

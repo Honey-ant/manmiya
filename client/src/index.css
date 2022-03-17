@@ -313,7 +313,7 @@ button[disabled] {
   cursor: default;
   opacity: .8;
 }
-
+/* image  */
 img {
   max-width: 100%;
 }
@@ -586,21 +586,21 @@ input:focus {
 .bio {
   top:0.5rem;
 }
-/* Photo for ArtBio age */
+/* Photo for ArtBio page */
 .float-leftt {
   margin-right:60%;
-  margin-top: calc(7rem);
+  margin-top: calc(-50rem);
   overflow-x: hidden;
-  height:10%;
-  width: 40%;
+  /* height:10%;
+  width: 40%; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 /* text for artBio Page */
 .float-rightt {
-  margin-left:15%;
-  margin-top: calc(1rem);
-  width: 90%;
+  margin-left:30%;
+  margin-top: calc(0rem);
+  width: 60%;
   overflow-x: hidden;
     position:absolute;
     text-align: right;
@@ -610,7 +610,8 @@ input:focus {
     border-color: solid line 1rem white;
     padding: 10%;
     top: 3rem;
-  
+    margin-right:0%;
+    height:2000px;
 }
 /* link from ArtBio to About */
 .read {
@@ -789,18 +790,18 @@ border-radius: 1rem;
 
   /* Photo for ArtBio age */
 .float-leftt {
-  margin-right:60%;
-  margin-top: calc(7rem);
+  /* margin-right:60%; */
+  margin-top: calc(0rem);
   overflow-x: hidden;
-  height:10%;
-  width: 40%;
+  /* height:10%;
+  width: 40%; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 /* photo for ArtBio */
 .float-rightt {
-  margin-left:5%;
-  margin-top: calc(3rem);
-  width: 90%;
+  margin-left:20%;
+  margin-top: calc(2rem);
+  width: 80%;
   overflow-x: hidden;
     text-align: right;
     color: var(--darkbrown);
@@ -808,7 +809,9 @@ border-radius: 1rem;
     padding: 10%;
     top: 3rem;
   height: 600px;
+  
 }
+
   .footer {
     padding:5%; 
     margin-bottom: 0; 
@@ -821,20 +824,6 @@ border-radius: 1rem;
     right:0;
     text-align: center;
   }
-
-
-/* .proList {
-
-  height: 600px;
-  overflow-x:hidden;
-} */
-
-/* .list {
-  overflow-x: scroll;
-  height: 700px;
-  overflow-x:auto;
-  display: inline-block;
-} */
 
 }
 
