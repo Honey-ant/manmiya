@@ -16,8 +16,8 @@ import './style.css';
 
 
 
-// const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}` );
-const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}` );
+// const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
 // const product = await stripe.products.create({name: product.name});
 
@@ -38,7 +38,7 @@ const Cart = () => {
 
   useEffect(() => {
     async function getCart() {
-      const cart = await idbPromise("cart", "get");
+      const cart = await idbPromise('cart', 'get');
       dispatch({ type: ADD_MULTIPLE_TO_CART, products: [...cart] });
     }
 

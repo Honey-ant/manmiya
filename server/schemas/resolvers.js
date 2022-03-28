@@ -1,8 +1,8 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
-// const stripe = require('stripe')(`${process.env.STRIPE}`);
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')(`${process.env.STRIPE}`);
+// const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
 const resolvers = {
   Query: {
@@ -84,7 +84,7 @@ const resolvers = {
       }
 
       const session = await stripe.checkout.sessions.create({
-        payment_method_types: ['card', 'afterpay_clearpay'], 
+        payment_method_types: ['card'], 
         line_items,
         // shipping_address_collection: ['AU'],
         // billing_address_collection: 'required',
