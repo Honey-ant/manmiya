@@ -114,14 +114,14 @@ app.post('/webhook', async (req, res) => {
     // automate fullfillment based on the the ID of the Price, you'll
     // need to refetch the Checkout Session here, and expand the line items:
     //
-    // const session = await stripe.checkout.sessions.retrieve(
-    //   'cs_test_KdjLtDPfAjT1gq374DMZ3rHmZ9OoSlGRhyz8yTypH76KpN4JXkQpD2G0',
-    //   {
-    //     expand: ['line_items'],
-    //   }
-    // );
-    //
-    // const lineItems = session.line_items;
+    const session = await stripe.checkout.sessions.retrieve(
+      'cs_test_KdjLtDPfAjT1gq374DMZ3rHmZ9OoSlGRhyz8yTypH76KpN4JXkQpD2G0',
+      {
+        expand: ['line_items'],
+      }
+    );
+    
+    const lineItems = session.line_items;
   }
 
   res.sendStatus(200);

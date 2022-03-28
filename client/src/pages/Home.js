@@ -9,7 +9,6 @@ import Cart from "../components/Cart";
 
 import InjectedCheckoutForm from "./CheckoutForm";
 
-
 import giki from '../assets/mee.jpg';
 import breathe from '../assets/breathe.jpg'; 
 import dad from '../assets/dad.jpg';
@@ -22,6 +21,7 @@ const Home = () => {
   return (
     <>  
      <Cover/>
+    
     <div className="top">
       <br></br>
      <br></br>
@@ -50,6 +50,7 @@ const Home = () => {
 
            
             </div>  
+
             
 
 </div>
@@ -79,7 +80,7 @@ const Home = () => {
                      <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
        
     </div>  
-     <InjectedCheckoutForm />
+     {/* <InjectedCheckoutForm /> */}
        <ProductList />
     
     </>
