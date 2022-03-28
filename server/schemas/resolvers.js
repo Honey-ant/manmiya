@@ -1,6 +1,7 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
+// const stripe = require('stripe')(`${process.env.STRIPE}`);
 const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
 const resolvers = {
@@ -65,7 +66,7 @@ const resolvers = {
       for (let i = 0; i < products.length; i++) {
         const product = await stripe.products.create({
           name: products[i].name,
-          // details: products[i].details,
+          details: products[i].details,
           description: products[i].description,
           images: [`${url}/images/${products[i].image}`]
         });

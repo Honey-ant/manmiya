@@ -77,7 +77,7 @@ function ProductList() {
         </div>
         
       ) : (
-        <h3 className="mb-2">Just a second</h3>
+        <h3 className="mb-2 container">Just a second</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart/>

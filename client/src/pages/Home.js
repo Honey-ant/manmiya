@@ -7,6 +7,9 @@ import CategoryMenu from "../components/CategoryMenu";
 import Cover from "../components/Cover";
 import Cart from "../components/Cart";
 
+import InjectedCheckoutForm from "./CheckoutForm";
+
+
 import giki from '../assets/mee.jpg';
 import breathe from '../assets/breathe.jpg'; 
 import dad from '../assets/dad.jpg';
@@ -45,7 +48,7 @@ const Home = () => {
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <img src={dad} className="col-md-5 " alt="  " /> 
 
-
+           
             </div>  
             
 
@@ -76,8 +79,9 @@ const Home = () => {
                      <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
        
     </div>  
+     <InjectedCheckoutForm />
        <ProductList />
-  
+    
     </>
   );
 };
