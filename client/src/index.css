@@ -784,7 +784,7 @@ border-radius: 1rem;
   }
 
   .float-left {
-    margin-top: calc(-1rem);
+    margin-top: calc(0rem);
     z-index: 1;
     width: 100%;
   }

@@ -11,7 +11,7 @@ export const Cover = () => {
    
     return (
         <>
-        <div className="top">
+       
             {/* <br></br> */}
           
             <div className="container ">
@@ -51,7 +51,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-  
+   <div className="top">
             <img src={giki} className="rounded img-fluid float-left pro" alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
             <br></br>
