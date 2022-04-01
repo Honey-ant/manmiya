@@ -198,7 +198,7 @@ p {
 }
 
 a {
-  color: var(--darkbrown);
+  color: var(--orch);
   text-decoration: none;
   font-weight: bolder;
 }
@@ -643,7 +643,7 @@ hr {
 .start {
   position: relative;
   text-align: center;
-  color: var(--brown);
+  color: var(--orch);
   border-radius: 2rem;
   margin-top: calc(3rem); 
   background-color: transparent;
