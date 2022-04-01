@@ -37,7 +37,7 @@ import OrderHistory from './pages/OrderHistory';
 import Footer from './components/footer.js';
 import InjectedCheckoutForm from './pages/CheckoutForm';
 
-const stripePromise = loadStripe(`${process.env.STRIPE}`);
+const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
 // const publishableKey = loadStripe(`${process.env.PUBLISHABLEKEY}`);
 
 const httpLink = createHttpLink({
@@ -61,7 +61,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    // <StripeProvider>
+    // <StripeProvider stripe={stripePromise}>
       <Elements stripe={stripePromise}>
         <ApolloProvider client={client}>
           <Router>
@@ -84,7 +84,7 @@ function App() {
                   <Route exact path="/checkoutform" component={InjectedCheckoutForm} />
                   <Route exact path="/products/:id" component={Detail} />
                   {/* <Route exact path="/checkout/:id" component={Checkout} /> */}
-                  <Route component={NoMatch} />
+                  <Route exact path="/nomatch" component={NoMatch} />
                   <ScrollButton />
                 </Switch>
                 <Footer/>

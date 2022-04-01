@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { loadStripe, stripe } from '@stripe/stripe-js';
+import { loadStripe,  } from '@stripe/stripe-js';
 import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
 import { useLazyQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
@@ -14,10 +14,9 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
+const stripe = require('stripe')(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
 
-
-const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}` );
-// const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
+const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
 
 // const product = await stripe.products.create({name: product.name});
 
@@ -28,9 +27,13 @@ const Cart = () => {
 
   useEffect(() => {
     if (data) {
+      stripe =  stripePromise;
       stripePromise.then((res) => {
-        res.redirectToCheckout({ sessionId: data.checkout.session });
-      })
+        res.redirectToCheckout({ 
+          sessionId: data.checkout.session 
+        });
+        console.log('redicting to checkout');
+      }) 
     } else {
       console.error("Stripe checkout error");
     }
@@ -103,11 +106,11 @@ const Cart = () => {
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()} </strong>
             {Auth.loggedIn() ? (
-              <form action="/create-checkout-session" method="POST">
-              <input type="hidden" name="lookup_key" value="{{PRICE_LOOKUP_KEY}}" />
-              <button type="submit" id="submit" role="link">
-                Checkout
-              </button>
+              // <form action="/create-checkout-session" method="POST">
+              // <input type="hidden" name="lookup_key" value="{{PRICE_LOOKUP_KEY}}" />
+              // <button type="submit" id="submit" role="link">
+              //   Checkout
+              // </button>
                <button type="submit" onClick={submitCheckout}>
                  Checkout
                  </button>

@@ -1,8 +1,7 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
-const stripe = require('stripe')(`${process.env.STRIPE}`);
-// const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')(`${process.env.STRIPE_SECRET_KEY}`);
 
 const resolvers = {
   Query: {
@@ -68,7 +67,9 @@ const resolvers = {
           name: products[i].name,
           details: products[i].details,
           description: products[i].description,
-          images: [`${url}/images/${products[i].image}`]
+          images: [`${url}/images/${products[i].image}`],
+          size: products[i].size,
+          medium: products[i].medium,
         });
 
         const price = await stripe.prices.create({
@@ -84,13 +85,13 @@ const resolvers = {
       }
 
       const session = await stripe.checkout.sessions.create({
+        success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
+        cancel_url: `${url}/stripe`,
         payment_method_types: ['card'], 
         line_items,
-        // shipping_address_collection: ['AU'],
-        // billing_address_collection: 'required',
         mode: 'payment',
-        success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${url}/`
+        billing_address_collection: 'required',
+        shipping_address_collection: 'required',
         // cons
       });
 

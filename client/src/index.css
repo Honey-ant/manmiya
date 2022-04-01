@@ -773,15 +773,16 @@ border-radius: 1rem;
   
   .float-right {
     margin-left: 13rem;
-    margin-top: calc(4rem);
+    margin-top: calc(0.5rem);
+    position:absolute;
   }
 
-  .float-left {
+  /* .float-left {
     margin-top: calc(5rem);
     z-index: 1;
     
-  }
-/* About main photo */
+  } */
+/* About top photo */
   .right {
     margin-left:50%;
    overflow-x: hidden;
