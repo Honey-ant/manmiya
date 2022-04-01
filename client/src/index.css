@@ -21,7 +21,7 @@
   --offwhite:#e6fdffea;
   --greenWash:rgb(66, 151, 130);
   --nav:#f5c7bcbf;
-  --purple: #746befcc;
+  --purple: rgba(116, 107, 239, 0.8);
   --fire:#ed4a3bcc;
   --blue: #66aee6;
   --pink:#d25ea6;
@@ -688,8 +688,9 @@ border-radius: 1rem;
 }
 
 .shade {
-  background-color: rgb(193, 153, 143, 0.5);
-  
+  background-color: rgb(193, 153, 143, 0.7);
+  background-color:rgba(188, 96, 57, 0.8);
+  border-bottom-color: var(--orch);
 }
 
 .cat {
@@ -733,13 +734,12 @@ border-radius: 1rem;
 
   .graphic {
     position: absolute;
-  top:-150%; 
   right:1%;
   z-index: 0;
   width: 200px;
   height: 200px;
     border-radius: 2rem;
-    margin-top: calc(-8rem);
+    margin-top: calc(35rem);
   }
   .graph {
     position: absolute;
@@ -777,14 +777,18 @@ border-radius: 1rem;
   
   }
   
+  .rounded {
+    border-radius: 8rem;
+  }
+
   .float-right {
     margin-left: 13rem;
-    margin-top: calc(0.5rem);
+    margin-top: calc(3rem);
     position:absolute;
   }
 
   .float-left {
-    margin-top: calc(0rem);
+    margin-top: calc(1rem);
     z-index: 1;
     width: 100%;
   }

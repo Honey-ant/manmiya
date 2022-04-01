@@ -23,12 +23,13 @@ export const Exhibtions = () => {
                 This foundation was founded by my therapist Atira Tan. 
                 Someone I am in awe of for so many reasons. 
             </p>
-            <div className="inner">
-                <div className="mx-3 py-3 px-3">
+            <hr></hr>
+            <div className="">
+                <div className="">
                 <br></br>
                     <h5 className="center">The Kiss my Art Collective!</h5>
                     <br></br>
-                    <img src={kiss} className="  " alt="Card image cap  " />  
+                    <img src={kiss} className=" pro " alt="Card image cap  " />  
                     <br></br>
                     <br></br>
                     <p className=" ">
@@ -43,17 +44,17 @@ export const Exhibtions = () => {
                         They are both still for sale.
                     </p>
                     
-                    <img src={exb} className="pro img   " alt="Card image cap  " />  
+                    <img src={exb} className="pro img  my-4 " alt="Card image cap  " />  
                     <br></br>
-                    <Link className="py-4 my-3 px-3 center" to="/contact">Contact me to inquire about them</Link>
+                    <Link className="py-4 my-4 px-3 center" to="/contact">Contact me to inquire about them</Link>
                 </div>
             </div>
             <br></br>
             
-            <br></br>
+            <hr></hr>
 
-            <div className="inner">
-                <div className="mx-3 py-3 px-3">
+            <div className="">
+                <div className="">
                 <br></br>
                     <h5>The Art of Healing</h5>
                     <br></br>
@@ -65,7 +66,7 @@ export const Exhibtions = () => {
                         The work the foundation does is centered around helping people who have been sold into
                         sex slavery, and aids them in their recovery.
                     </p>
-                    <img src={sit} className="  " alt="  " />  
+                    <img src={sit} className=" pro my-3" alt="  " />  
                     <br></br>
                     <p>
                         All of the art works in the collctive were created after therapy sessions when I have felt so 

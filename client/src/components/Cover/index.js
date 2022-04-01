@@ -27,23 +27,23 @@ export const Cover = () => {
                 <div className="float-right px-2 py-2 ">
                     <div className="">
                 <b>
-                    <div className="shade ">
+                    <div className="shade rounded">
                         <Link className="px-1 " to="/artbio">Artist Bio</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade ">
+                    <div className="shade rounded">
                         <Link className=" px-1" to="/about">About Artist</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade ">
+                    <div className="shade rounded">
                         <Link className=" px-1" to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade ">
+                    <div className="shade rounded">
                         <Link className="px-1 " to="/productList">Shop</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade ">
+                    <div className="shade rounded">
                         <Link className=" px-1" to="/contact">Contact</Link>
                         <hr></hr>
                     </div>    
@@ -51,12 +51,15 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-   <div className="top">
             <img src={giki} className="rounded img-fluid float-left pro" alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
-            <br></br>
-        </div>
-        
+            <br></br> 
+            <br></br> 
+            <br></br> 
+            <br></br> 
+            <br></br> 
+            <br></br> 
+            <br></br>   
         </> 
     
     );

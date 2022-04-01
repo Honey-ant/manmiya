@@ -24,9 +24,9 @@ const Home = () => {
     
     <div className="top">
       <br></br>
-     <br></br>
+
      {/* <img src={graphic6} className="gra   " alt="Card image cap  " />  */}
-      <div className="container my-3  ">
+      <div className="container my-3  rounded">
       
         <div className="py-4 my-2">
            {/* <img src={breathe} className="col-md-5 " alt="  " />  */}
@@ -46,19 +46,17 @@ const Home = () => {
 
             </div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-              <img src={dad} className="col-md-5 " alt="  " /> 
-
-           
+              <img src={dad} className="col-md-5 " alt="  " />  
             </div>  
-
             
+        </div>
 
-</div>
         </div> 
+    <br></br>    
     </div>
     {/* <hr className=""></hr> */}
         <div className="box py-2 ">
-            <div className="container">
+            <div className="container rounded">
                 <p className="my-3 py-2">
                   I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
                   who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
