@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import giki from '../../assets/mee.jpg';
 import crown from '../../assets/crown.png';
 import graphic from '../../assets/spots.png';
-import graphic5 from '../../assets/hill.png';
+import graphic5 from '../../assets/break.png';
 import graphic6 from '../../assets/spiral.png';
 
 export const Cover = () => {
@@ -17,7 +17,7 @@ export const Cover = () => {
             <div className="container ">
                 <div className="start my-1 rounded">
                 <img src={graphic} className="graphic" alt=" Responsive image" />
-                {/* <img src={graphic5} className="graph" alt=" Responsive image" /> */}
+                
                     <h5 className="my-4  white">
                         Visual Artist || Bunuba Wiyi 
                     </h5>
@@ -60,6 +60,10 @@ export const Cover = () => {
             <br></br> 
             <br></br> 
             <br></br>   
+            <br></br> 
+            <br></br>   
+            {/* height 495px width 1126 */}
+            <img src={graphic5} className=" graph" alt=" Responsive image" />
         </> 
     
     );

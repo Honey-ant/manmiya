@@ -134,11 +134,8 @@ body {
 
 .graph {
   position: absolute;
-  top:-155%; 
-  left:-10.5%;
-  width: 100px;
-  height: 100px;
-  opacity: .9;
+  margin-top: calc(-38rem);
+  z-index: -1;
 }
 
 .gra {
@@ -739,14 +736,17 @@ border-radius: 1rem;
   width: 200px;
   height: 200px;
     border-radius: 2rem;
-    margin-top: calc(35rem);
+    margin-top: calc(-3.5rem);
   }
   .graph {
     position: absolute;
-    top:95%; 
-    left:-15%;
-    width: 100px;
-    height: 100px;
+    margin-top: calc(-12rem);
+    width:1200px;
+    /* margin-left: calc(-15.5em); */
+    height:200px;
+    /* max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; */
   }
 
   .gra {
