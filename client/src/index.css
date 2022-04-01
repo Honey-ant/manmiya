@@ -50,8 +50,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
-  background-color: var(--me);
+  color: white;
+  background-color: var(--darkbrown);
   font-family: 'Montserrat';
   font-family: Montserrat;
   
@@ -67,19 +67,19 @@ body {
 } */
 /* background gradient colours */
 /* pink */
-.bottom {
+/* .bottom {
   background-image: linear-gradient(to bottom, #c1998f, #bf978d, #bc958b, #ba938a, #b89188, #bc8d85, #bf8882, #c28381, #cb7983, #d16f8a, #d46696, #d25ea6);
-}
+} */
 
-.top {
+/* .top {
   background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
-}
+} */
 /* Sand */
-.circle {
+/* .circle {
   background-image: radial-gradient(circle, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
-}
+} */
 /* orche */
-.top-orch {
+/* .top-orch {
   background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
 }
 
@@ -109,7 +109,7 @@ body {
 
 .bottom-left-sand {
   background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
-}
+} */
 
 .crown {
   width: 100px;
@@ -163,7 +163,7 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
   font-family: 'Source Serif 4', sans-serif;
-  color: var(--darkbrown);
+  color: white;
 }
 
 h1 {
@@ -181,7 +181,7 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
-  color: var(--darkbrown)
+  
 }
 
 h5 {
@@ -249,7 +249,6 @@ header a:hover {
   box-shadow: 8px 8px 8px 8px var(--me);
   box-shadow: 0 -10px 10px -10px var(--pink);
   margin: 0;
-  /* font-family: 'Rock Salt', cursive; */
   color: var(darkbrown);
   text-align: center;
   margin-left: auto;
@@ -439,6 +438,7 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--darkbrown);
 }
 
 .flex-row {
@@ -628,8 +628,12 @@ input:focus {
 }
 
 hr {
-  border : 1px thin dotted var(--darkbrown);
-  color: var(--darkbrown);
+  border : 1px thin dotted var(--lightbrown);
+  color: var(--lightbrown);
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .float-right a {

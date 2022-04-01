@@ -56,7 +56,7 @@ const Home = () => {
 </div>
         </div> 
     </div>
-    <hr className="container"></hr>
+    <hr className=""></hr>
         <div className="box py-2 ">
             <div className="container">
                 <p className="my-3 py-2">
@@ -75,7 +75,7 @@ const Home = () => {
                 </p>
             </div>    
         </div>
-      <hr className="container"></hr>  
+      <hr className=""></hr>  
     <div className="container">
                      <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
        

@@ -18,7 +18,7 @@ export const Cover = () => {
                 <div className="start my-1">
                 <img src={graphic} className="graphic" alt=" Responsive image" />
                 {/* <img src={graphic5} className="graph" alt=" Responsive image" /> */}
-                    <p className="my-3  ">
+                    <p className="my-4  white">
                         Visual Artist || Bunuba Wiyi 
                     </p>
                    
@@ -52,7 +52,7 @@ export const Cover = () => {
                 </div>
             </div>
   
-            <img src={giki} className="rounded img-fluid float-left " alt=" Responsive image" />
+            <img src={giki} className="rounded img-fluid float-left pro" alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
             <br></br>
         </div>
