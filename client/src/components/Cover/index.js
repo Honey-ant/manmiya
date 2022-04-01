@@ -51,7 +51,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-            <img src={giki} className="rounded img-fluid float-left pro" alt=" Responsive image" />
+            <img src={giki} className="rounded img-fluid float-left  glow" alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
             <br></br> 
             <br></br> 

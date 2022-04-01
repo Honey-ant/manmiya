@@ -14,7 +14,7 @@
   --me:rgb(193, 153, 143);
   --darkbrown:rgb(38, 14, 4);
   --sand:rgb(188, 96, 57);
-  --orch:#d98f45;
+  --orch:rgb(217, 143, 69);
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
@@ -134,7 +134,7 @@ body {
 
 .graph {
   position: absolute;
-  margin-top: calc(-38rem);
+  margin-top: calc(-25rem);
   z-index: -1;
 }
 
@@ -544,6 +544,11 @@ input:focus {
   margin-top: calc(1rem);
   z-index:  1;
 } */
+.glow {
+  box-shadow: 1px -6px 46px -4px rgba(188,96,57,0.68);
+  -webkit-box-shadow: 1px -6px 46px -4px rgba(188,96,57,0.68);
+  -moz-box-shadow: 1px -6px 46px -4px rgba(188,96,57,0.68);
+}
 /* main menu */
 .float-right {
   margin-left:55%;
@@ -568,6 +573,7 @@ input:focus {
   width: 40%;
   border: none;
   margin-top: calc(3rem);
+
 }
 
 /* Photo for About Page */
