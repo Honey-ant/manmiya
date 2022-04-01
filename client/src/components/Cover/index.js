@@ -11,7 +11,7 @@ export const Cover = () => {
    
     return (
         <>
-        <div className="bottom">
+        <div className="top">
             {/* <br></br> */}
           
             <div className="container ">
