@@ -15,12 +15,12 @@ export const Cover = () => {
             {/* <br></br> */}
           
             <div className="container ">
-                <div className="start my-1">
+                <div className="start my-1 rounded">
                 <img src={graphic} className="graphic" alt=" Responsive image" />
                 {/* <img src={graphic5} className="graph" alt=" Responsive image" /> */}
-                    <p className="my-4  white">
+                    <h5 className="my-4  white">
                         Visual Artist || Bunuba Wiyi 
-                    </p>
+                    </h5>
                    
                 </div>
 

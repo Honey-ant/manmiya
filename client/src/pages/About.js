@@ -15,8 +15,8 @@ import dance from '../assets/dance.jpg';
                     return (
                         <>
                         <Part1/>
-                        <div className="top-right">  
-                        <br></br>
+                        <div className="">  
+                        {/* <br></br> */}
                             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                                 <div className="col-md-4 " >
                                     {/* <hr className="container"></hr>  */}
@@ -39,7 +39,7 @@ import dance from '../assets/dance.jpg';
                                         </div> 
                                     <hr className="container"></hr> 
                               </div>
-
+                </div> 
                                 <img src={fx} className=" col-md-4 " alt="Card image cap  " /> 
                                 <div className="col-md-4 " >
                                 <hr className="container"></hr> 
@@ -61,17 +61,17 @@ import dance from '../assets/dance.jpg';
                                         </p>
                                     </div>
                                 </div>    
-                            </div>
-                            <br></br>
-                        </div>    
+                        </div>
+                            {/* <br></br> */}
+                      
             <div className="bottom-left-sand">
-                            <br></br>
+                            {/* <br></br> */}
                              
                             </div>
 
                         {/* <img src={home} className=" my-4 mx-2" alt="Card image cap" />   */}
                 <div className="top-left-sand">
-                            <br></br>
+                            {/* <br></br> */}
                     <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
                         <div className="col-md-4 px-3">
                         <hr className="container"></hr>  

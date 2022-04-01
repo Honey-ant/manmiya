@@ -30,8 +30,8 @@ const Home = () => {
       
         <div className="py-4 my-2">
            {/* <img src={breathe} className="col-md-5 " alt="  " />  */}
-          <hr></hr>
-          <br></br>
+          {/* <hr></hr>
+          <br></br> */}
          
           <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <p className="col-md-7">
@@ -56,7 +56,7 @@ const Home = () => {
 </div>
         </div> 
     </div>
-    <hr className=""></hr>
+    {/* <hr className=""></hr> */}
         <div className="box py-2 ">
             <div className="container">
                 <p className="my-3 py-2">
@@ -77,8 +77,7 @@ const Home = () => {
         </div>
       <hr className=""></hr>  
     <div className="container">
-                     <img src={graphic} className=" col-md-1 " alt="Card image cap  " /> 
-       
+      
     </div>  
      {/* <InjectedCheckoutForm /> */}
        <ProductList />
