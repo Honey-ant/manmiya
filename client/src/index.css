@@ -12,7 +12,7 @@
   --brown:rgb(77, 51, 45);
   --lightbrown:#7a5e57;
   --me:rgb(193, 153, 143);
-  --darkbrown:#260e04;
+  --darkbrown:rgb(38, 14, 4);
   --sand:rgb(188, 96, 57);
   --orch:#d98f45;
   --light:#fff1b7ea;
@@ -555,6 +555,7 @@ input:focus {
     text-align: start;
     border-top-style: dotted var(--purple);
     margin-top: calc(4rem);
+    color: var(--sand);
 }
 
 /* Text pairing for About Page */
@@ -635,7 +636,7 @@ hr {
 }
 
 .float-right a {
-  color: var(--darkbrown);
+  color: var(--sand);
 }
 
 .start {
@@ -686,8 +687,8 @@ border-radius: 1rem;
 
 .shade {
   background-color: rgb(193, 153, 143, 0.7);
-  background-color:rgba(188, 96, 57, 0.8);
-  border-bottom-color: var(--orch);
+  background-color:rgb(38, 14, 4, 0.7);
+  
 }
 
 .cat {
@@ -736,11 +737,11 @@ border-radius: 1rem;
   width: 200px;
   height: 200px;
     border-radius: 2rem;
-    margin-top: calc(-3.5rem);
+    margin-top: calc(-3rem);
   }
   .graph {
     position: absolute;
-    margin-top: calc(-12rem);
+    margin-top: calc(-10rem);
     width:1200px;
     /* margin-left: calc(-15.5em); */
     height:200px;
@@ -785,6 +786,7 @@ border-radius: 1rem;
     margin-left: 13rem;
     margin-top: calc(3rem);
     position:absolute;
+    color: var(--sand);
   }
 
   .float-left {

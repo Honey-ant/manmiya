@@ -62,8 +62,11 @@ export const Cover = () => {
             <br></br>   
             <br></br> 
             <br></br>   
+
             {/* height 495px width 1126 */}
             <img src={graphic5} className=" graph" alt=" Responsive image" />
+            <br></br> 
+            <br></br>  
         </> 
     
     );
