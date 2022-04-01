@@ -28,24 +28,24 @@ export const Cover = () => {
                     <div className="">
                 <b>
                     <div className="shade rounded">
-                        <Link className="px-1 " to="/artbio">Artist Bio</Link>
+                        <Link className="px-1 my-3" to="/artbio">Artist Bio</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded">
-                        <Link className=" px-1" to="/about">About Artist</Link>
+                        <Link className=" px-1 my-3" to="/about">About Artist</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded">
-                        <Link className=" px-1" to="/exhibtions">Exhibtions</Link>
+                        <Link className=" px-1 my-3" to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded">
-                        <Link className="px-1 " to="/productList">Shop</Link>
+                        <Link className="px-1  my-3" to="/productList">Shop</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded">
-                        <Link className=" px-1" to="/contact">Contact</Link>
-                        <hr></hr>
+                        <Link className=" px-1 my-3" to="/contact">Contact</Link>
+                        <hr className="orch "></hr>
                     </div>    
                 </b>
                     </div>

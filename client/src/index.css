@@ -134,7 +134,7 @@ body {
 
 .graph {
   position: absolute;
-  margin-top: calc(-25rem);
+  margin-top: calc(-28rem);
   z-index: -1;
 }
 
@@ -642,7 +642,11 @@ hr {
 }
 
 .float-right a {
-  color: var(--darkbrown);
+  color: var(--orch);
+}
+
+.orch {
+ color: var(--orch);
 }
 
 .start {
@@ -694,9 +698,10 @@ border-radius: 1rem;
 .shade {
   background-color: rgb(193, 153, 143, 0.7);
   background-color:rgb(38, 14, 4, 0.7);
-  box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
+  /* box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
   -webkit-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
-  -moz-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
+  -moz-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset; */
+
 }
 
 .cat {
