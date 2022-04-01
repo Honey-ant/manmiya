@@ -642,7 +642,7 @@ hr {
 }
 
 .float-right a {
-  color: var(--sand);
+  color: var(--darkbrown);
 }
 
 .start {
@@ -694,7 +694,9 @@ border-radius: 1rem;
 .shade {
   background-color: rgb(193, 153, 143, 0.7);
   background-color:rgb(38, 14, 4, 0.7);
-  
+  box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
+  -webkit-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
+  -moz-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
 }
 
 .cat {
