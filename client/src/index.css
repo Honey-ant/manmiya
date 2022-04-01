@@ -11,7 +11,7 @@
   --spaceing-four: calc(3rem);
   --brown:rgb(77, 51, 45);
   --lightbrown:#7a5e57;
-  --me:#c1998f;
+  --me:rgb(193, 153, 143);
   --darkbrown:#260e04;
   --sand:rgb(188, 96, 57);
   --orch:rgb(217, 143, 69);
@@ -537,17 +537,15 @@ input:focus {
 }
 
 /* Main Page Photo */
-.float-left {
+/* .float-left {
   margin-right:50%;
-  /* margin-top: calc(3rem); */
   overflow-x: hidden;
   height:100%;
   width: 60%;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   margin-top: calc(1rem);
   z-index:  1;
-  /* box-shadow: inset -1em -1em var(--sand), 10px 10px 5px 5px var(--orch); */
-}
+} */
 /* main menu */
 .float-right {
   margin-left:55%;
@@ -684,7 +682,10 @@ border-radius: 1rem;
   border-radius: 0.1rem;
 }
 
-
+.shade {
+  background-color: rgb(193, 153, 143, 0.5);
+  
+}
 
 .cat {
   background-color: transparent;
@@ -733,7 +734,7 @@ border-radius: 1rem;
   width: 200px;
   height: 200px;
     border-radius: 2rem;
-    
+    margin-top: calc(-7.5rem);
   }
   .graph {
     position: absolute;
@@ -777,11 +778,11 @@ border-radius: 1rem;
     position:absolute;
   }
 
-  /* .float-left {
-    margin-top: calc(5rem);
+  .float-left {
+    margin-top: calc(-1rem);
     z-index: 1;
-    
-  } */
+    width: 100%;
+  }
 /* About top photo */
   .right {
     margin-left:50%;

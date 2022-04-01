@@ -19,34 +19,40 @@ export const Cover = () => {
                 <img src={graphic} className="graphic" alt=" Responsive image" />
                 {/* <img src={graphic5} className="graph" alt=" Responsive image" /> */}
                     <p className="my-3  ">
-                        Visual Artist || Software Developer || Bunuba Wiyi 
+                        Visual Artist || Bunuba Wiyi 
                     </p>
                    
                 </div>
 
-                <div className="float-right px-3 py-3 ">
+                <div className="float-right px-2 py-2 ">
                     <div className="">
-                    <b>
-                        <Link className="my-2 py-2" to="/artbio">Artist Bio</Link>
+                <b>
+                    <div className="shade ">
+                        <Link className="px-1 " to="/artbio">Artist Bio</Link>
                         <hr></hr>
-
-                        <Link className=" py-2" to="/about">About Artist</Link>
+                    </div>
+                    <div className="shade ">
+                        <Link className=" px-1" to="/about">About Artist</Link>
                         <hr></hr>
-
-                        <Link className=" " to="/exhibtions">Exhibtions</Link>
+                    </div>
+                    <div className="shade ">
+                        <Link className=" px-1" to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
-
-                        <Link className=" " to="/productList">Shop</Link>
+                    </div>
+                    <div className="shade ">
+                        <Link className="px-1 " to="/productList">Shop</Link>
                         <hr></hr>
-
-                        <Link className=" " to="/contact">Contact</Link>
+                    </div>
+                    <div className="shade ">
+                        <Link className=" px-1" to="/contact">Contact</Link>
                         <hr></hr>
-                    </b>
+                    </div>    
+                </b>
                     </div>
                 </div>
             </div>
   
-            <img src={giki} className="rounded float-left img-fluid" alt=" Responsive image" />
+            <img src={giki} className="rounded img-fluid float-left " alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
             <br></br>
         </div>
