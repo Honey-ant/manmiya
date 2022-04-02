@@ -565,14 +565,14 @@ input:focus {
 
 /* Text pairing for About Page */
 .flo-left {
-  margin-right:70%;
+  margin-right:60%;
   /* margin-left: 5%; */
   position:absolute;
   text-align: left;
-  top:10rem;
+  top:9.3rem;
   width: 40%;
   border: none;
-  margin-top: calc(1rem);
+ 
 
 }
 
@@ -581,7 +581,8 @@ input:focus {
   margin-left:50%;
  overflow-x: hidden;
  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
- margin-top: calc(3rem);
+
+ 
  /* height:400px; */
 }
 
