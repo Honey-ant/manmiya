@@ -15,9 +15,9 @@ import dance from '../assets/dance.jpg';
                     return (
                         <>
                         <Part1/>
-                        <div className="">  
+                        {/* <div className="">   */}
                         {/* <br></br> */}
-                            <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                        <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                                 <div className="col-md-4 " >
                                     {/* <hr className="container"></hr>  */}
                                     
@@ -39,29 +39,31 @@ import dance from '../assets/dance.jpg';
                                         </div> 
                                     <hr className="container"></hr> 
                               </div>
-                </div> 
+                       
+
                                 <img src={fx} className=" col-md-4 " alt="Card image cap  " /> 
                                 <div className="col-md-4 " >
-                                <hr className="container"></hr> 
-                                    <div className="container ">
-                                        
-                                            <p className=" ">
-                                            I grew up with my six siblings in a house propped up on skilts.
-                                            We were close to the mighty fitzroy river and during bulurru (monsoon season) 
-                                            the water would rise up so high it would cut off the roads and we would have to move into town. 
-                                            </p>
-
-                                    </div>
                                     <hr className="container"></hr> 
-                                    <div className="container">
-                                        <p className="  ">
-                                                    My earliest memories are of taking part in ceremony. 
-                                                    Being painted up in ochre and dancing for my brother's lore ceremony. 
-                                                    Our dances, songs and stories have always been deeply nestled in my heart. 
-                                        </p>
-                                    </div>
+                                        <div className="container ">
+                                            
+                                                <p className=" ">
+                                                I grew up with my six siblings in a house propped up on skilts.
+                                                We were close to the mighty fitzroy river and during bulurru (monsoon season) 
+                                                the water would rise up so high it would cut off the roads and we would have to move into town. 
+                                                </p>
+
+                                        </div>
+                                        <hr className="container"></hr> 
+                                        <div className="container">
+                                            <p className="  ">
+                                                        My earliest memories are of taking part in ceremony. 
+                                                        Being painted up in ochre and dancing for my brother's lore ceremony. 
+                                                        Our dances, songs and stories have always been deeply nestled in my heart. 
+                                            </p>
+                                        </div>
                                 </div>    
-                        </div>
+                         </div>         
+                        {/* </div> */}
                             {/* <br></br> */}
                       
             <div className="bottom-left-sand">
@@ -87,8 +89,8 @@ import dance from '../assets/dance.jpg';
                         </div>
                             <div className="col-md-4 ">
                                 <hr className="container"></hr>  
-                                    <div className="box py-2">
-                                                <p className="container white">
+                                    <div className="box py-2 rounded">
+                                                <p className="container white rounded">
                                                 We are people who feel so deeply and truly. 
                                                 When we are happy our happiness is easily shared between us. 
                                                 Yet when we are hurting, we all hurt together.  
