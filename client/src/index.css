@@ -565,14 +565,14 @@ input:focus {
 
 /* Text pairing for About Page */
 .flo-left {
-  margin-right:60%;
+  margin-right:70%;
   /* margin-left: 5%; */
   position:absolute;
   text-align: left;
   top:10rem;
   width: 40%;
   border: none;
-  margin-top: calc(3rem);
+  margin-top: calc(1rem);
 
 }
 
@@ -582,7 +582,7 @@ input:focus {
  overflow-x: hidden;
  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
  margin-top: calc(3rem);
- height:400px;
+ /* height:400px; */
 }
 
 /* Artist bio title */
@@ -633,7 +633,7 @@ input:focus {
 }
 
 hr {
-  border : 1px thin dotted var(--lightbrown);
+
   color: var(--lightbrown);
   width: 85%;
   max-width: 1200px;

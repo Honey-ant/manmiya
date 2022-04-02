@@ -21,14 +21,14 @@ import dance from '../assets/dance.jpg';
                                 <div className="col-md-4 " >
                                     {/* <hr className="container"></hr>  */}
                                     
-                                    <p className="py-2 my-3 container">
+                                    <p className=" container">
                                         My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                         I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
                                         and my gadinng (totem) is balga (barramundi). 
                                         I come from the heart of the Kimberley, Fitzroy Crossing Western Australia. 
                                     </p>
                                     <hr className="container"></hr> 
-                                        <div className=" py-3 ">
+                                        <div className="  ">
                                                         
                                             <p className=" white container">
                                                 It is considered a remote community, although I never saw it as that. 
@@ -43,9 +43,9 @@ import dance from '../assets/dance.jpg';
                                 <img src={fx} className=" col-md-4 " alt="Card image cap  " /> 
                                 <div className="col-md-4 " >
                                 <hr className="container"></hr> 
-                                    <div className=" ">
+                                    <div className="container ">
                                         
-                                            <p className="container my-3 mx-3">
+                                            <p className=" ">
                                             I grew up with my six siblings in a house propped up on skilts.
                                             We were close to the mighty fitzroy river and during bulurru (monsoon season) 
                                             the water would rise up so high it would cut off the roads and we would have to move into town. 
@@ -53,8 +53,8 @@ import dance from '../assets/dance.jpg';
 
                                     </div>
                                     <hr className="container"></hr> 
-                                    <div className="">
-                                        <p className=" container my-3 mx-3">
+                                    <div className="container">
+                                        <p className="  ">
                                                     My earliest memories are of taking part in ceremony. 
                                                     Being painted up in ochre and dancing for my brother's lore ceremony. 
                                                     Our dances, songs and stories have always been deeply nestled in my heart. 
@@ -73,11 +73,11 @@ import dance from '../assets/dance.jpg';
                 <div className="top-left-sand">
                             {/* <br></br> */}
                     <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
-                        <div className="col-md-4 px-3">
+                        <div className="col-md-4 ">
                         <hr className="container"></hr>  
-                            <img src={dance} className="container mx-3 py-3" alt="Card image cap" />      
+                            <img src={dance} className="" alt="Card image cap" />      
                             <hr className="container"></hr>                          
-                                <div className="py-2 my-3 container">
+                                <div className=" container">
                                     <p>
                                      Another exceedingly early memory of mine is also taking part in a funeral for an incredibly young uncle of mine. 
                                      He very sadly passed away from suicide. 
@@ -103,18 +103,18 @@ import dance from '../assets/dance.jpg';
                                     </p>
                                    
                             {/* <hr className="container"></hr>   */}
-                                    <img src={lil} className="container py-3 mx-3" alt="Card image cap" />  
+                                    <img src={lil} className=" " alt="Card image cap" />  
                                 <hr className="container"></hr> 
                             </div>
-                            <div className="col-md-4 px-3">
+                            <div className="col-md-4 ">
  
-                                <div className="py-3">
-                                    <p className="container ">
+                                <div className=" container">
+                                    <p className=" ">
                                         It was hard moving down to Victoria. 
                                         I felt like an outsider, being one of the only Aboriginal kids that went to my school.
                                     </p>
                                 </div>
-                                <div className="py-3">
+                                <div className="">
                                     <p className="container ">
                                         It was hard moving down to Victoria. 
                                         I felt like an outsider, being one of the only Aboriginal kids that went to my school.
@@ -136,25 +136,28 @@ import dance from '../assets/dance.jpg';
 
                 </div>
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
-                <div className="col-md-4 px-3">
-                                                <p className="container ">
+                <div className="col-md-4 ">
+                                <div className="container">
+                                                <p className=" ">
                                                 I sadly developed a deep depression there
                                                 But my ancestors also gave me strength and resilience, 
                                                 not just the trauma they endured.  
                                                 </p>
-                                                <p className="container ">
+                                                <p className="">
                                                 I triumphantly completed high school in 2015 
                                                 and went on to start a Bachelor of Arts degree at the University of Melbourne in 2016.  
                                                 </p>
-                                                <p className="container ">
+                                                <p className=" ">
                                                 I didn’t have a passion for it, 
                                                 I was doing it because it felt like it was expected of me. 
                                                 I didn’t complete this degree. 
                                                 I spent the next few years bartending at Crown Casino, 
                                                 feeling very lost, and disconnected from myself.  
                                                 </p>
+                                </div>                
+
                 </div>
-                <div className="col-md-4 px-3">
+                <div className="col-md-4 ">
                     <p className="container">
                                                 My healing journey started in 2020. 
                                                 It started with talk therapy and casual painting.  
@@ -177,7 +180,7 @@ import dance from '../assets/dance.jpg';
                                                 I now work remotely for the Bunuba Cultural Conservation Institute.  
                                                 </p>
                 </div>
-                <div className="col-md-4 px-3">
+                <div className="col-md-4 ">
                                                                     <p className="container">
                                                 When I sit down to paint, 
                                                 it is an unwavering urge to visualise what I am feeling inside. 
