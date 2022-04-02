@@ -13,7 +13,6 @@ import spinner from '../../assets/gif.gif';
 
 import Cart from "../Cart";
 
-import graphic4 from '../../assets/graphic4.png';
 
 function ProductList() {
   // const dispatch = useDispatch();

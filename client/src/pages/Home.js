@@ -10,12 +10,9 @@ import Cart from "../components/Cart";
 import InjectedCheckoutForm from "./CheckoutForm";
 
 import giki from '../assets/mee.jpg';
-import breathe from '../assets/breathe.jpg'; 
+
 import dad from '../assets/dad.jpg';
 
-import graphic from '../assets/graphic1.png';
-import graphic4 from '../assets/graphic4.png';
-import graphic6 from '../assets/spiral.png';
 
 const Home = () => {
   return (

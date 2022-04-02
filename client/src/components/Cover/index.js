@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import giki from '../../assets/mee.jpg';
-import crown from '../../assets/crown.png';
+
 import graphic from '../../assets/spots.png';
 import graphic5 from '../../assets/break.png';
-import graphic6 from '../../assets/spiral.png';
+
 
 export const Cover = () => {
    

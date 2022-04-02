@@ -6,7 +6,7 @@ import dad from '../assets/dad.jpg';
 import giki from '../assets/giki.jpg';
 import fx from '../assets/fx.JPG';
 
-import home from '../assets/home.jpg';
+import home from '../assets/angerOverlay.jpg';
 import lil from '../assets/lil.jpg';
 import dance from '../assets/dance.jpg';
 
@@ -159,8 +159,8 @@ import dance from '../assets/dance.jpg';
                                 </div>                
 
                 </div>
-                <div className="col-md-4 ">
-                    <p className="container">
+                <div className="col-md-4 rounded">
+                    <p className="container ">
                                                 My healing journey started in 2020. 
                                                 It started with talk therapy and casual painting.  
                                                 Talk therapy didn’t do it for me, 
@@ -182,7 +182,8 @@ import dance from '../assets/dance.jpg';
                                                 I now work remotely for the Bunuba Cultural Conservation Institute.  
                                                 </p>
                 </div>
-                <div className="col-md-4 ">
+                <img src={home} className="graph" alt="Card image cap" />  
+                <div className="col-md-4 rounded">
                                                                     <p className="container">
                                                 When I sit down to paint, 
                                                 it is an unwavering urge to visualise what I am feeling inside. 
