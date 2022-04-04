@@ -416,7 +416,7 @@ input:focus {
 
 .bedford {
   font-family: 'Rock Salt', cursive;
-  color:var(--sand);
+  color:var(--orch);
 }
 
 .intro {
@@ -654,7 +654,7 @@ hr {
 .start {
   position: relative;
   text-align: center;
-  color: var(--orch);
+  color: var(--sand);
   border-radius: 2rem;
   margin-top: calc(3rem); 
   background-color: transparent;
