@@ -16,9 +16,9 @@ export const Cover = () => {
           
             <div className="container ">
                 <div className="start my-1 rounded">
-                <img src={graphic} className="graphic" alt=" Responsive image" />
+                {/* <img src={graphic} className="graphic" alt=" Responsive image" /> */}
                 
-                    <h5 className="my-4  white">
+                    <h5 className="myb-2  white">
                         Visual Artist || Bunuba Wiyi 
                     </h5>
                    
@@ -51,7 +51,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-            <img src={giki} className="rounded img-fluid float-left  glow" alt=" Responsive image" />
+            <img src={giki} className="rounded img-fluid   glow" alt=" Responsive image" />
             {/* <img src={graphic6} className="gra   " alt=" " />  */}
             <br></br> 
             <br></br> 

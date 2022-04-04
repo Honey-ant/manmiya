@@ -90,16 +90,15 @@ function Nav() {
             </div>
             
       <nav className=" mx-2">{showNavigation()}</nav> 
-      <h5 className="title bedford">Manmiya Bedford</h5>     
+      <h5 className="title bedford myt-2">Manmiya Bedford</h5>     
       <div className=" mx-2  manmiya">
-      
-      <h6 className=" mx-2  ">
-          <Link className="title  mx-2" to="/">
-            <i className="bi bi-house"></i>
-            {/* Manmiya */}
-             {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
-          </Link>
-        </h6>
+        <h6 className=" mx-2  ">
+            <Link className="title  mx-2" to="/">
+              <i className="bi bi-house"></i>
+              {/* Manmiya */}
+              {/* <img src={Logo}  alt="React App Logo" className=" logo"/> */}
+            </Link>
+          </h6>
       </div>
       
     </header>

@@ -6,6 +6,7 @@ import dad from '../assets/dad.jpg';
 import giki from '../assets/giki.jpg';
 import fx from '../assets/fx.JPG';
 
+import wide from '../assets/wideSet.png';
 import home from '../assets/angerOverlay.jpg';
 import lil from '../assets/lil.jpg';
 import dance from '../assets/dance.jpg';
@@ -123,7 +124,7 @@ import dance from '../assets/dance.jpg';
                                     </p>
                                 </div>
                                 <div className="py-3">
-                                    <p className="container">
+                                    <p className="container rounded">
                                                 I completed my high school years at Geelong Grammar school on a  <a href="https://www.yalari.org/" target="_blank">Yalari</a> scholarship. 
                                                 High school was difficult for me. 
                                                 I was one of few Aboriginal/Torres Strait Islander children there and the school was yet to change the history curriculum to one of truth. 
@@ -137,9 +138,10 @@ import dance from '../assets/dance.jpg';
                     </div>  
 
                 </div>
+                <img src={wide} className="graphi" alt="Card image cap" /> 
                 <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
                 <div className="col-md-4 ">
-                                <div className="container">
+                                <div className="container rounded">
                                                 <p className=" ">
                                                 I sadly developed a deep depression there
                                                 But my ancestors also gave me strength and resilience, 

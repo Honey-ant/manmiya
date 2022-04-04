@@ -111,14 +111,6 @@ body {
   background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
 } */
 
-.crown {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top:-80%; 
-  left:45%;
-  /* right:50%; */
-}
 
 .graphic {
   position: absolute;
@@ -130,6 +122,12 @@ body {
   border-radius: 2rem;
   
   opacity: .75;
+}
+
+.graphi {
+  position: absolute;
+  margin-top: calc(-11rem);
+  z-index: -1;
 }
 
 .graph {
@@ -497,6 +495,14 @@ input:focus {
   margin-bottom: var(--spacing-three);
 }
 
+.myt-2 {
+  margin-top: var(--spacing-two);
+}
+
+.myb-2 {
+  margin-bottom: var(--spacing-two);
+}
+
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
@@ -565,26 +571,21 @@ input:focus {
 
 /* Text pairing for About Page */
 .flo-left {
-  margin-right:60%;
+  /* margin-right:60%; */
   /* margin-left: 5%; */
   position:absolute;
   text-align: left;
-  top:9.3rem;
-  width: 40%;
+  top:9.5rem;
   border: none;
- 
-
+  margin-left:40%;
+ overflow-x: hidden;
+ box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 /* Photo for About Page */
-.right {
-  margin-left:50%;
- overflow-x: hidden;
- box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+/* .right {
 
- 
- /* height:400px; */
-}
+} */
 
 /* Artist bio title */
 .bio {
@@ -807,15 +808,13 @@ border-radius: 1rem;
     margin-top: calc(1rem);
     z-index: 1;
     width: 100%;
-  }
-/* About top photo */
-  .right {
-    margin-left:50%;
+  margin-left:50%;
    overflow-x: hidden;
    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
    margin-top: calc(2rem);
-   /* height: 50%; */
   }
+/* About top photo */
+
 
   /* Photo for ArtBio age */
 .float-leftt {

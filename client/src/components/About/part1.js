@@ -8,13 +8,14 @@ export const Part1 = () => {
         <>
           <div className="">
                             {/* <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link> */}
-                            <h3 className="  container title " id="">About</h3>
+                            
                             <hr className="container"></hr> 
                            <div className="box glow">  
+                           <h3 className="  title " id="">About</h3>
                             <img src={giki} className=" pro img py-2" alt=" Responsive image Card image cap" />  
 
                             <div className="container glow" >
-                                <div className="flo-left right my-1 shade rounded glow">
+                                <div className="flo-left my-1 shade rounded glow">
                                    
                                    <p className=" m-3 "> 
                                         
