@@ -27,8 +27,8 @@ export const Cover = () => {
                 <div className="float-right px-2 py-2 ">
                     <div className="">
                 <b>
-                    <div className="shade rounded my-2">
-                        <Link className="px-2 py-2" to="/artbio">Artist Bio</Link>
+                    <div className="shade rounded my-2 ">
+                        <Link className="px-2 py-2 " to="/artbio">Artist Bio</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded my-2">
@@ -36,15 +36,15 @@ export const Cover = () => {
                         <hr></hr>
                     </div>
                     <div className="shade rounded my-2">
-                        <Link className=" px-2 py-2" to="/exhibtions">Exhibtions</Link>
+                        <Link className=" px-2 py-2 " to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded my-2">
-                        <Link className="px-2  py-2" to="/productList">Shop</Link>
+                        <Link className="px-2  py-2 " to="/productList">Shop</Link>
                         <hr></hr>
                     </div>
                     <div className="shade rounded my-2">
-                        <Link className=" px-2 py-2" to="/contact">Contact</Link>
+                        <Link className=" px-2 py-2 " to="/contact">Contact</Link>
                         <hr className="orch "></hr>
                     </div>    
                 </b>
