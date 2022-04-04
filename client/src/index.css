@@ -212,7 +212,7 @@ header {
 }
 
 .manmiya {
-  background-color: var(--me);
+  background-color: transparent;
   position:relative;
   box-shadow: rgba(38, 14, 4, 0.4) 0px 5px, 
   rgba(77, 51, 45, 0.3) 0px 10px, 
@@ -382,27 +382,31 @@ input:focus {
 }
 
 .navbar {
-  color: var(--darkbrown);
+  /* color: var(--darkbrown); */
   list-style: none;
   /* font-family: 'Rock Salt', cursive; */
 /* background-color: transparent; */
 } 
 
 .dropdown-menu {
-  background-color: var(--nav);
+  /* background-color: var(--darkbrown); */
   border:none;
   border-style: none;
   position: absolute;
   margin-top: 70px;
   right: 1%;
+  color:white;
 }
 
+.dropdown ul li a{
+  color:white;
+}
 
 .dropdown-toggle {
   border-radius: 4rem;
   border-style: none;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  background-color: var(--nav);
+  background-color: var(--orch);
 }
 
 .title {
@@ -583,9 +587,7 @@ input:focus {
 }
 
 /* Photo for About Page */
-/* .right {
 
-} */
 
 /* Artist bio title */
 .bio {
@@ -699,7 +701,7 @@ border-radius: 1rem;
 
 .shade {
   background-color: rgb(193, 153, 143, 0.7);
-  background-color:rgb(38, 14, 4, 0.75);
+  background-color:rgb(38, 14, 4, 0.8);
   /* box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
   -webkit-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset;
   -moz-box-shadow: 62px 58px 35px -47px rgba(217,143,69,0.78) inset; */

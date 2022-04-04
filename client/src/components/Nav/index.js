@@ -7,11 +7,14 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <div className="dropdown ">
+        <div className="dropdown shade">
         <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         
         </button>
-        <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
+        <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
+        <li className="dropdown-item">
+              <Link to="/">Home</Link>
+            </li>
         <li className="dropdown-item">
               <Link to="/artbio">Artist Bio</Link>
             </li>
@@ -48,7 +51,10 @@ function Nav() {
           <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             
           </button>
-          <ul className=" dropdown-menu " aria-labelledby="dropdownMenuButton1">
+          <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
+          <li className="dropdown-item">
+              <Link to="/">Home</Link>
+            </li>
           <li className="dropdown-item">
               <Link to="/artbio">Artist Bio</Link>
             </li>
@@ -83,27 +89,19 @@ function Nav() {
   return (
 
     <header className="sticky-top navbar  ">
-             <div className=" container-fluid banner ">
-                <p className="banner">
-                    Purchasing will be available soon.
-                </p>
-            </div>
-            
+
+       <div className=" container-fluid banner ">
+           <p className="banner">
+              Purchasing will be available soon.
+            </p>
+        </div>     
+
       <nav className=" ">{showNavigation()}</nav> 
       <h5 className="title bedford myt-2">           
-      <Link className="title bedford  " to="/">
-              
-              Manmiya Bedford  
-              
-            </Link></h5>     
-      {/* <div className=" mx-2  manmiya">
-        <h6 className=" mx-2  ">
-            <Link className="title  mx-2" to="/">
-              <i className="bi bi-house"></i>
-            </Link>
-          </h6>
-      </div> */}
-      
+        <Link className="title bedford  " to="/">  
+          Manmiya Bedford       
+        </Link></h5>     
+     
     </header>
   );
 }
