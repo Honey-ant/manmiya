@@ -11,7 +11,7 @@ export const Part1 = () => {
                             
                             <hr className="container"></hr> 
                            <div className="box glow">  
-                           <h3 className="  title " id="">About</h3>
+                           <h4 className="py-1  title " id="">About Manmiya</h4>
                             <img src={giki} className=" pro img py-2" alt=" Responsive image Card image cap" />  
 
                             <div className="container glow" >
