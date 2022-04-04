@@ -27,24 +27,24 @@ export const Cover = () => {
                 <div className="float-right px-2 py-2 ">
                     <div className="">
                 <b>
-                    <div className="shade rounded">
-                        <Link className="px-1 my-3" to="/artbio">Artist Bio</Link>
+                    <div className="shade rounded my-2">
+                        <Link className="px-2 py-2" to="/artbio">Artist Bio</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade rounded">
-                        <Link className=" px-1 my-3" to="/about">About Artist</Link>
+                    <div className="shade rounded my-2">
+                        <Link className=" px-2 py-2" to="/about">About Artist</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade rounded">
-                        <Link className=" px-1 my-3" to="/exhibtions">Exhibtions</Link>
+                    <div className="shade rounded my-2">
+                        <Link className=" px-2 py-2" to="/exhibtions">Exhibtions</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade rounded">
-                        <Link className="px-1  my-3" to="/productList">Shop</Link>
+                    <div className="shade rounded my-2">
+                        <Link className="px-2  py-2" to="/productList">Shop</Link>
                         <hr></hr>
                     </div>
-                    <div className="shade rounded">
-                        <Link className=" px-1 my-3" to="/contact">Contact</Link>
+                    <div className="shade rounded my-2">
+                        <Link className=" px-2 py-2" to="/contact">Contact</Link>
                         <hr className="orch "></hr>
                     </div>    
                 </b>
