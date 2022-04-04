@@ -8,7 +8,7 @@ import { QUERY_CHECKOUT } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
 import CartItem from '../CartItem';
-import Auth from '../../utils/auth';
+// import Auth from '../../utils/auth';
 import { useStoreContext } from "../../utils/GlobalState";
 
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
@@ -25,19 +25,20 @@ const Cart = () => {
   const [state, dispatch] = useStoreContext();
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
-  useEffect(() => {
-    if (data) {
-      stripe =  stripePromise;
-      stripePromise.then((res) => {
-        res.redirectToCheckout({ 
-          sessionId: data.checkout.session 
-        });
-        console.log('redicting to checkout');
-      }) 
-    } else {
-      console.error("Stripe checkout error");
-    }
-  }, [data]);
+  // useEffect(() => {
+  //   if (data) {
+  //     stripe =  stripePromise;
+  //     stripePromise.then((res) => {
+  //       res.redirectToCheckout({ 
+  //         sessionId: data.checkout.session 
+  //       });
+  //       console.log('redicting to checkout');
+  //     }) 
+  //   } else {
+  //     console.error('error #%d');
+  //   }
+    
+  // }, [data]);
 
   useEffect(() => {
     async function getCart() {
@@ -78,7 +79,8 @@ const Cart = () => {
     getCheckout({
       variables: { products: productIds },
     });
-  }
+    
+  }  
 
   if (!state.cartOpen) {
     return (
@@ -105,19 +107,19 @@ const Cart = () => {
 
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()} </strong>
-            {Auth.loggedIn() ? (
-              // <form action="/create-checkout-session" method="POST">
-              // <input type="hidden" name="lookup_key" value="{{PRICE_LOOKUP_KEY}}" />
-              // <button type="submit" id="submit" role="link">
-              //   Checkout
-              // </button>
+            <button type="submit" onClick={submitCheckout}>
+                 Checkout
+                 </button>
+            {/* {Auth.loggedIn() ? (
+
                <button type="submit" onClick={submitCheckout}>
                  Checkout
                  </button>
-            // </form>
+
             ) : (
               <span>(<Link to="/login">Login</Link> to check out)</span>
-            )}           
+            )}   */}
+                     
           </div>
           
         </div>

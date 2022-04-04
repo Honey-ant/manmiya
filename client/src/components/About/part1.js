@@ -10,8 +10,9 @@ export const Part1 = () => {
                             {/* <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link> */}
                             
                             <hr className="container"></hr> 
-                           <div className="box glow">  
+            <div className="box glow">  
                            <h4 className="py-1  title " id="">About Manmiya</h4>
+                        
                             <img src={giki} className=" pro img py-2" alt=" Responsive image Card image cap" />  
 
                             <div className="container glow" >
@@ -28,7 +29,7 @@ export const Part1 = () => {
                                     
                                 </div>
                             </div> 
-                             </div>
+            </div>
                             <hr className="container"></hr>
                         <br></br>
                              

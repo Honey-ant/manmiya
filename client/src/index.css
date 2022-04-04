@@ -808,7 +808,7 @@ border-radius: 1rem;
     margin-top: calc(1rem);
     z-index: 1;
     width: 100%;
-  margin-left:50%;
+    margin-left:50%;
    overflow-x: hidden;
    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
    margin-top: calc(2rem);
