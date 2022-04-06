@@ -19,7 +19,7 @@ export const Cover = () => {
                 <div className="start my-1 rounded">
                
                 
-                    <h6 className="myb-2  white animate-charcter">
+                    <h6 className="  white animate-charcter">
                         Visual Artist || Bunuba Wiyi 
                     </h6>
                    
