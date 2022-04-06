@@ -16,7 +16,7 @@ export const Cover = () => {
             {/* <br></br> */}
           
             <div className="container ">
-                <div className="start my-1 rounded">
+                <div className="start  rounded">
                
                 
                     <h6 className="  white animate-charcter">

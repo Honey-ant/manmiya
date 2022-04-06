@@ -675,7 +675,7 @@ hr {
   text-align: center;
   color: var(--sand);
   border-radius: 2rem;
-  margin-top: calc(3rem); 
+  margin-top: calc(-1.5rem); 
   background-color: transparent;
 }
 
