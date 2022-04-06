@@ -30,8 +30,8 @@ const Cart = () => {
     if (data) {
       stripePromise.then((res) => {
         res.redirectToCheckout({ sessionId: data.checkout.session });
-      });
-    }else {
+      }); console.log("stripepromise: %d")
+    } else {
       console.error("redirect to checkout not working");
     }
   }, [data]);

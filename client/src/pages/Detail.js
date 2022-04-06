@@ -109,18 +109,18 @@ function Detail() {
             
             <strong>Price:</strong>${currentProduct.price}{' '}
             </p>
-            <div className="my- py-1">
-            <p>
-            {/* <button onClick={A3}>A3</button> */}
-            <button className="mx-1 px-3" onClick={addToCart}>Add to Cart</button>
-            <button
-              className="mx-1 px-3"
-              disabled={!cart.find((p) => p._id === currentProduct._id)}
-              onClick={removeFromCart}
-            >
-              Remove from Cart
-            </button>
-            </p>
+            <div className="my-2 py-1">
+              <p>
+                {/* <button onClick={A3}>A3</button> */}
+                <button className="  button-74" onClick={addToCart}>Add to Cart</button>
+                <button
+                    className="  button-74"
+                    disabled={!cart.find((p) => p._id === currentProduct._id)}
+                    onClick={removeFromCart}
+                >
+                  Remove from Cart
+                </button>
+              </p>
             </div>
           
         </div>

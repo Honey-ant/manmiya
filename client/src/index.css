@@ -855,10 +855,6 @@ border-radius: 1rem;
     font-size: 5px
   }
 
-  .float-right Link {
-    
-  }
-
   .float-left {
     margin-top: calc(1rem);
     z-index: 1;
