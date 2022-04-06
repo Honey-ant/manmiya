@@ -90,7 +90,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="cart py-3">
+    <div className="cart py-3 container">
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
@@ -103,7 +103,7 @@ const Cart = () => {
 
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()} </strong>
-            <button type="submit" onClick={submitCheckout}>
+            <button className="shade white button-74" type="submit" onClick={submitCheckout}>
                  Checkout
                  </button>
             {/* {Auth.loggedIn() ? (

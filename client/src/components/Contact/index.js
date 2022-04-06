@@ -34,13 +34,12 @@ export const Contact = () => {
   };
 
   return (
-      <div className=" my-3">
+      <div className=" ">
 
-        <h4 className="py-1 container">
-          Please Fill Out The Form Below To Get In Contact
-        </h4>
-     
-       
+        <h5 className="my-2 py-2 container">
+          Fill Out The Form To Get In Contact
+        </h5>
+    
         <div className="box py-2 container glow rounded py-4">
           <form className="form container rounded py-2" ref={form} onSubmit={sendEmail}>
             <div className="flex-row space-between my-2 py-2 ">
@@ -49,8 +48,7 @@ export const Contact = () => {
                 placeholder=" Your Name"
                 name="from_name"
                 type="firstName"
-                id="firstName"
-                
+                id="firstName"           
               />
             </div>
             <div className="flex-row space-between my-2 py-2 ">
@@ -59,8 +57,7 @@ export const Contact = () => {
                 placeholder="youremail@email.com"
                 name="reply_to"
                 type="email"
-                id="email"
-                
+                id="email"             
               />
             </div>
 

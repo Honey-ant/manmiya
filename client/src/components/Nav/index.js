@@ -8,7 +8,7 @@ function Nav() {
     if (Auth.loggedIn()) {
       return (
         <div className="dropdown shade">
-        <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button className="btn  dropdown-toggle button-74 shade white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         
         </button>
         <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
@@ -48,8 +48,8 @@ function Nav() {
 
       return (
         <div className="dropdown ">
-          <button className="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            
+          <button className="btn   button-74 shade white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i className="bi bi-box"></i>
           </button>
           <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
           <li className="dropdown-item">
@@ -93,17 +93,18 @@ function Nav() {
            <p className="banner">
               Purchasing will be available soon.
             </p>
-        </div>     
+        </div>  
 
-      <nav >{showNavigation()}</nav> 
+      <nav className=" " >{showNavigation()}</nav>   
+
         <div className="title ">     
-          <Link className="  gt " to="/">  
+          <Link className=" gt " to="/">  
             <h5 className=" myt-2 animate-charcter">
                 Manmiya Bedford     
             </h5> 
-          </Link>
-              
+          </Link>           
       </div>
+
     </header>
   );
 }
