@@ -347,29 +347,6 @@ img {
   max-width: 100%;
 }
 
-.im {
-  max-width: 100%;
-  border-right: 1px solid white;
-  padding:5%;
-  border-top: 1px solid white;
-}
-.imm {
-  max-width: 100%;
-  padding:5%;
-  border: 1px solid white;
-}
-.em {
-  max-width: 100%;
-  border-left: 1px solid var(--sand);
-  padding:5%;
-  border-bottom: 1px solid var(--sand);
-}
-
-.emg {
-  max-width: 100%;
-  padding:5%;
-  border: 1px solid var(--sand);
-}
 
 span[role="img"] {
   cursor: default;
@@ -417,13 +394,11 @@ input:focus {
 }
 
 .navbar {
-  /* color: var(--darkbrown); */
   list-style: none;
-  /* font-family: 'Rock Salt', cursive; */
 } 
 
 .mb {
-  margin-right: 4vh;
+  margin-right: 7vh;
 }
 
 .animate-charcter
