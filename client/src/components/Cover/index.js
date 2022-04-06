@@ -19,7 +19,7 @@ export const Cover = () => {
                 <div className="start  ">
                
                 
-                    <h5 className="  white animate-charcter">
+                    <h5 className=" myt-2 white animate-charcter">
                         Visual Artist || Bunuba Wiyi 
                     </h5>
                    
