@@ -61,56 +61,10 @@ body {
   width: 40px;
   height: 40px;
 }
-/* 
-.down {
-  top:20%;
-} */
-/* background gradient colours */
-/* pink */
-/* .bottom {
-  background-image: linear-gradient(to bottom, #c1998f, #bf978d, #bc958b, #ba938a, #b89188, #bc8d85, #bf8882, #c28381, #cb7983, #d16f8a, #d46696, #d25ea6);
-} */
 
 .top {
   background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
 }
-/* Sand */
-/* .circle {
-  background-image: radial-gradient(circle, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
-} */
-/* orche */
-/* .top-orch {
-  background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
-}
-
-.bottom-orch {
-  background-image: linear-gradient(to bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
-}
-
-.top-left {
-  background-image: linear-gradient(to left top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
-}
-
-.bottom-left {
-  background-image: linear-gradient(to left bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #bf9084, #bf8c7d, #bf8776, #c07d67, #bf7358, #be6a49, #bc6039);
-}
-
-.top-right {
-  background-image: linear-gradient(to right top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
-}
-
-.bottom-right {
-  background-image: linear-gradient(to right bottom, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29486, #c69281, #c9917b, #d08f6f, #d58e62, #d88e54, #d98f45);
-}
-
-.top-left-sand {
-  background-image: linear-gradient(to left top, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
-}
-
-.bottom-left-sand {
-  background-image: linear-gradient(to left bottom, #c1998f, #c1998f, #c1998f, #c1998f, #c1998f, #c29488, #c38f81, #c38a7a, #c37f6a, #c2755a, #bf6a4a, #bc6039);
-} */
-
 
 .graphic {
   position: absolute;
@@ -120,7 +74,6 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 2rem;
-  
   opacity: .75;
 }
 
@@ -132,7 +85,7 @@ body {
 
 .graph {
   position: absolute;
-  margin-top: calc(-12rem);
+  margin-top: calc(-10rem);
   margin-left: calc(9.5rem);
   /* margin-right: calc(80rem); */
   z-index: -1;
@@ -221,17 +174,6 @@ header {
   background-color:transparent;
 }
 
-.manmiya {
-  background-color: transparent;
-  position:relative;
-  box-shadow: rgba(38, 14, 4, 0.4) 0px 5px, 
-  rgba(77, 51, 45, 0.3) 0px 10px, 
-  rgba(123,94,87, 0.2) 0px 15px, 
-  rgba(188,96,57, 0.1) 0px 20px, 
-  rgba(217, 143,69, 0.05) 0px 25px;
-  border-radius: 2rem;
-  border-top-style: dotted var(--purple)
-}
 
 header a {
   color: var(--brown);
@@ -689,7 +631,7 @@ hr {
   text-align: center;
   color: var(--sand);
   border-radius: 2rem;
-  margin-top: calc(-1.5rem); 
+  margin-top: calc(-1rem); 
   background-color: transparent;
   width: 85%;
   max-width: 1200px;
