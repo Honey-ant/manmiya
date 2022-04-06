@@ -36,11 +36,11 @@ export const Contact = () => {
   return (
       <div className=" my-3">
 
-        <h4 className="py-2 container">
+        <h4 className="py-1 container">
           Please Fill Out The Form Below To Get In Contact
         </h4>
      
-        <hr className="container"></hr>
+       
         <div className="box py-2 container glow rounded py-4">
           <form className="form container rounded py-2" ref={form} onSubmit={sendEmail}>
             <div className="flex-row space-between my-2 py-2 ">
