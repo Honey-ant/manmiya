@@ -80,7 +80,7 @@ export const Cover = () => {
             <br></br> 
 
             <img src={graphic5} className=" graph" alt=" Responsive image" />
-
+            <div className="dline pro"></div>
         </> 
     
     );

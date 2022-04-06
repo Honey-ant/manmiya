@@ -144,6 +144,11 @@ body {
   height: 100vh;
 }
 
+.dline {
+  background-color: var(--fire);
+  height:1vh;
+}
+
 .gra {
   top:80%; 
   right:10%;
