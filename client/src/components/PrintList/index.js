@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import PrintItem from '../Print';
-import { useDispatch, useSelector } from 'react-redux';
+import { useReduxStore } from "../../utils/GlobalState";
+
 import HorizontalScroll from 'react-horizontal-scrolling'
 
-import { useStoreContext } from "../../utils/GlobalState";
+// import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_PRINTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 
@@ -12,10 +13,8 @@ import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/gif.gif';
 
 function PrintList() {
-  // const dispatch = useDispatch();
-  // const state = useSelector((state) => state);
-  const [ state, dispatch ] = useStoreContext();
-
+  const [state, dispatch] = useReduxStore();
+  
   const { currentCategory } = state;
 
   const { loading, data } = useQuery(QUERY_PRINTS);

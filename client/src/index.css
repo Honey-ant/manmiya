@@ -13,8 +13,8 @@
   --lightbrown:#7a5e57;
   --me:rgb(193, 153, 143);
   --darkbrown:rgb(38, 14, 4);
-  --sand:rgb(188, 96, 57);
-  --orch:rgb(217, 143, 69);
+  --sand:#bc6039;
+  --orch:#d98f45;
   --light:#fff1b7ea;
   --yellow:#e6c240;
   --lemon:rgb(248, 218, 48);
@@ -50,12 +50,12 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: white;
-  background-color: var(--darkbrown);
   font-family: 'Montserrat';
   font-family: Montserrat;
-  
+  background-color: var(--darkbrown);
+  color:white;
 }
+
 .logo{
   border-radius: 0.5rem;
   width: 40px;
@@ -204,11 +204,8 @@ a:hover {
 }
 
 header {
-  background-color: var(--nav);
-
   position:relative;
   background-color:transparent;
-  
 }
 
 .manmiya {
@@ -385,9 +382,37 @@ input:focus {
   /* color: var(--darkbrown); */
   list-style: none;
   /* font-family: 'Rock Salt', cursive; */
-/* background-color: transparent; */
 } 
 
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #7a5e57 0%,
+    #d98f45 29%,
+    #d25ea6 67%,
+     #bc6039 100%
+  );
+  background-size: auto auto;
+  /* background-clip: border-box; */
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      /* font-size: 5.5vh; */
+      /* font-family: 'Rock Salt', cursive; */
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .dropdown-menu {
   /* background-color: var(--darkbrown); */
   border:none;
@@ -410,17 +435,11 @@ input:focus {
 }
 
 .title {
-  /* font-family: 'Rock Salt', cursive; */
-  color: var(darkbrown);
+  /* color: var(darkbrown); */
   text-align: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.bedford {
-  font-family: 'Rock Salt', cursive;
-  color:var(--orch);
 }
 
 .intro {
@@ -439,6 +458,7 @@ input:focus {
   margin-right: auto;
   background-color: var(--darkbrown);
   border: none;
+  color:white;
 }
 
 .flex-row {
@@ -841,6 +861,10 @@ border-radius: 1rem;
   height: 600px;
   overflow-y: hidden;
 }
+
+/* .animate-charcter {
+  font-size: 3vh;
+} */
 
   .footer {
     padding:5%; 

@@ -87,7 +87,6 @@ function Nav() {
   }
 
   return (
-
     <header className="sticky-top navbar  ">
 
        <div className=" container-fluid banner ">
@@ -96,12 +95,15 @@ function Nav() {
             </p>
         </div>     
 
-      <nav className=" ">{showNavigation()}</nav> 
-      <h5 className="title bedford myt-2">           
-        <Link className="title bedford  " to="/">  
-          Manmiya Bedford       
-        </Link></h5>     
-     
+      <nav >{showNavigation()}</nav> 
+        <div className="title ">     
+          <Link className="  gt " to="/">  
+            <h5 className=" myt-2 animate-charcter">
+                Manmiya Bedford     
+            </h5> 
+          </Link>
+              
+      </div>
     </header>
   );
 }

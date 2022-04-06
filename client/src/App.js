@@ -7,19 +7,18 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
+import { Provider } from 'react-redux';
+import { store } from './utils/GlobalState';
 
 import {Elements} from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
 
-import { StoreProvider } from './utils/GlobalState';
-import { setContext } from '@apollo/client/link/context';
 import ScrollButton from './components/ScrollButton';
-import { Content, Heading } from './components/Styles';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import ProductList from './components/ProductList/index.js';
-
 
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
@@ -62,12 +61,12 @@ const client = new ApolloClient({
 function App() {
   return (
     // <StripeProvider stripe={stripePromise}>
-      <Elements stripe={stripePromise}>
+      // <Elements stripe={stripePromise}>
         <ApolloProvider client={client}>
           <Router>
             <div>
-              <StoreProvider>
-                <Nav />
+              <Provider store={store}>
+              <Nav />
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/login" component={Login} />
@@ -87,12 +86,12 @@ function App() {
                   <Route exact path="/nomatch" component={NoMatch} />
                   <ScrollButton />
                 </Switch>
-                <Footer/>
-              </StoreProvider>
+              <Footer/>
+              </Provider>
             </div>
           </Router>
         </ApolloProvider>
-      </Elements>
+
     // </StripeProvider>
   );
 }

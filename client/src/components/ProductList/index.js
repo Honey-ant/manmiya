@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
-// import { useDispatch, useSelector } from 'react-redux';
-import HorizontalScroll from 'react-horizontal-scrolling'
+import { useReduxStore } from "../../utils/GlobalState";
 
-import { useStoreContext } from "../../utils/GlobalState";
+import HorizontalScroll from 'react-horizontal-scrolling'
+// import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 
@@ -13,11 +13,8 @@ import spinner from '../../assets/gif.gif';
 
 import Cart from "../Cart";
 
-
 function ProductList() {
-  // const dispatch = useDispatch();
-  // const state = useSelector((state) => state);
-  const [ state, dispatch ] = useStoreContext();
+  const [state, dispatch] = useReduxStore();
 
   const { currentCategory } = state;
 
@@ -56,10 +53,9 @@ function ProductList() {
     // <HorizontalScroll>
     <div className=" proList ">
       <h4 className="container my-4"> Browse through Prints and Originals </h4>
-      <hr className="container"></hr>
+      
       {state.products.length ? (
         <div className=" flex-row my-2">
-                {/* <img src={graphic4} className="graphic" alt=" Responsive image" /> */}
           {filterProducts().map((product) => (
             <ProductItem className="list"
               key={product._id}

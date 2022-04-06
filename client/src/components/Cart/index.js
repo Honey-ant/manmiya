@@ -1,44 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import { loadStripe,  } from '@stripe/stripe-js';
-import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
 import { useLazyQuery } from '@apollo/client';
-import { Link } from 'react-router-dom';
-
 import { QUERY_CHECKOUT } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
+import { useReduxStore } from "../../utils/GlobalState";
+import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
+
+import { Link } from 'react-router-dom';
 
 import CartItem from '../CartItem';
 // import Auth from '../../utils/auth';
-import { useStoreContext } from "../../utils/GlobalState";
+// import { useStoreContext } from "../../utils/GlobalState";
 
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
 const stripe = require('stripe')(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
 
-const stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
+const stripePromise = loadStripe("pk_test_51JXeTvQR8ZQnmKpPpGZYIANsAd55jusCiji4eR5L6nZUyZkbLrhxmIcuNEsQLtqaNMiROEDzrYgG7pctE68yJcwQ00w5WUMtXz");
 
 // const product = await stripe.products.create({name: product.name});
 
 const Cart = () => {
+  const [state, dispatch] = useReduxStore();
 
-  const [state, dispatch] = useStoreContext();
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
-  // useEffect(() => {
-  //   if (data) {
-  //     stripe =  stripePromise;
-  //     stripePromise.then((res) => {
-  //       res.redirectToCheckout({ 
-  //         sessionId: data.checkout.session 
-  //       });
-  //       console.log('redicting to checkout');
-  //     }) 
-  //   } else {
-  //     console.error('error #%d');
-  //   }
-    
-  // }, [data]);
+  useEffect(() => {
+    if (data) {
+      stripePromise.then((res) => {
+        res.redirectToCheckout({ sessionId: data.checkout.session });
+      });
+    }else {
+      console.error("redirect to checkout not working");
+    }
+  }, [data]);
 
   useEffect(() => {
     async function getCart() {
