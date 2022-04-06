@@ -94,7 +94,7 @@ body {
   /* margin-left: calc(-29.5rem); */
   /* width:1200px; */
   /* z-index: -1; */
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .dline {
@@ -111,6 +111,10 @@ body {
   padding:1%;
   opacity: .6;
   z-index: 0;
+}
+
+.full {
+    margin-top: calc(-5.5rem);
 }
 
 h1,
@@ -732,7 +736,7 @@ border-radius: 1rem;
     margin-left: calc(.1rem);
     width:1200px;
     /* z-index: -1; */
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .gra {
