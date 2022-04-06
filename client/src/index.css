@@ -132,8 +132,16 @@ body {
 
 .graph {
   position: absolute;
-  margin-top: calc(-28rem);
+  margin-top: calc(-12rem);
+  margin-left: calc(9.5rem);
+  /* margin-right: calc(80rem); */
   z-index: -1;
+  position:relative;
+  /* margin-top: calc(-18.5rem); */
+  /* margin-left: calc(-29.5rem); */
+  /* width:1200px; */
+  /* z-index: -1; */
+  height: 100vh;
 }
 
 .gra {
@@ -473,6 +481,7 @@ input:focus {
   background-color: var(--darkbrown);
   border: none;
   color:white;
+
 }
 
 .flex-row {
@@ -677,6 +686,10 @@ hr {
   border-radius: 2rem;
   margin-top: calc(-1.5rem); 
   background-color: transparent;
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ack {
@@ -767,9 +780,12 @@ border-radius: 1rem;
     margin-top: calc(-3rem);
   }
   .graph {
-    position: absolute;
-    margin-top: calc(-8rem);
+    position:relative;
+    margin-top: calc(-18.5rem);
+    margin-left: calc(-.5rem);
     width:1200px;
+    /* z-index: -1; */
+    height: 100vh;
   }
 
   .gra {
