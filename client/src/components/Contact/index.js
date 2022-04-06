@@ -41,8 +41,8 @@ export const Contact = () => {
         </h4>
      
         <hr className="container"></hr>
-        <div className="box py-2 container glow rounded">
-          <form className="form container rounded" ref={form} onSubmit={sendEmail}>
+        <div className="box py-2 container glow rounded py-2">
+          <form className="form container rounded py-2" ref={form} onSubmit={sendEmail}>
             <div className="flex-row space-between my-2 py-2 ">
               <label className="my-2" htmlFor="firstName">Name:</label>
               <input
