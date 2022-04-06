@@ -11,7 +11,7 @@
   --spaceing-four: calc(3rem);
   --brown:#4d332d;
   --lightbrown:#7a5e57;
-  --me:rgb(193, 153, 143);
+  --me:#c1998f;
   --darkbrown:#260e04;
   --sand:#bc6039;
   --orch:#d98f45;
@@ -422,15 +422,19 @@ input:focus {
   /* font-family: 'Rock Salt', cursive; */
 } 
 
+.mb {
+  margin-right: 4vh;
+}
+
 .animate-charcter
 {
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #7a5e57 0%,
-    #7a5e57 29%,
-    #4d332d 67%,
-    #7a5e57 100%
+    #f5c7bcbf 0%,
+    #c1998f 29%,
+    #7a5e57 67%,
+    #f5c7bcbf 100%
   );
   background-size: auto auto;
   /* background-clip: border-box; */

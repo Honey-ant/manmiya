@@ -9,7 +9,7 @@ function Nav() {
       return (
         <div className="dropdown shade">
         <button className="btn  dropdown-toggle button-74 shade white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        
+        <i className="bi bi-box"></i>
         </button>
         <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
         <li className="dropdown-item">
@@ -99,7 +99,7 @@ function Nav() {
 
         <div className="title ">     
           <Link className=" gt " to="/">  
-            <h5 className=" myt-2 animate-charcter">
+            <h5 className="mb myt-2 animate-charcter">
                 Manmiya Bedford     
             </h5> 
           </Link>           
