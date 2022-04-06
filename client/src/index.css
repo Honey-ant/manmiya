@@ -398,7 +398,7 @@ input:focus {
 } 
 
 .mb {
-  margin-right: 7.5vh;
+  margin-right: 17vh;
 }
 
 .animate-charcter
@@ -580,6 +580,7 @@ input:focus {
 
 /* Main Page Photo */
 
+
 .glow {
   box-shadow: 1px -6px 46px -4px rgba(188,96,57,0.68);
   -webkit-box-shadow: 1px -6px 46px -4px rgba(188,96,57,0.68);
@@ -654,7 +655,6 @@ input:focus {
 
 
 hr {
-
   color: var(--lightbrown);
   width: 85%;
   max-width: 1200px;
@@ -779,6 +779,10 @@ border-radius: 1rem;
     width: 200px;
     height: 200px;
     padding:1%;
+  }
+
+  .mb {
+    margin-right: 7.5vh;
   }
   /* main cover page */
 .bottom {

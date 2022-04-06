@@ -58,7 +58,7 @@ export const Cover = () => {
                 </div>
             </div>
             
-            <img src={giki} className="rounded img-fluid   glow" alt=" Responsive image" />
+            <img src={giki} className="rounded img-fluid  full glow" alt=" Responsive image" />
             {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" >
                 <div className="carousel-inner">
                     <div className="carousel-item active">

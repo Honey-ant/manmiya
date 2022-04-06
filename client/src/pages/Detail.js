@@ -109,7 +109,7 @@ function Detail() {
             
             <strong>Price:</strong>${currentProduct.price}{' '}
             </p>
-            <div className="my-2 py-1">
+            <div className="my-2 py-2">
               <p>
                 {/* <button onClick={A3}>A3</button> */}
                 <button className="shade white button-74 " onClick={addToCart}>Add to Cart</button>
