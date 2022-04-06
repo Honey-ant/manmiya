@@ -444,7 +444,7 @@ input:focus {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
+  animation: textclip 4s linear infinite;
   display: inline-block;
 
 }
@@ -542,8 +542,6 @@ input:focus {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
-
-
 
 .my-1 {
   margin-top: var(--spacing-one);
@@ -679,10 +677,6 @@ input:focus {
   padding: 10%;
 }
 
-.inner {
-  -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0);
-}
 
 hr {
 
@@ -821,9 +815,6 @@ border-radius: 1rem;
   .card {
     width: 100%;
   }
-  /* .rounded {
-    border-radius: 8rem;
-  } */
 
   .float-right {
     margin-left: 9.5rem;
@@ -847,11 +838,8 @@ border-radius: 1rem;
 
   /* Photo for ArtBio age */
 .float-leftt {
-  /* margin-right:60%; */
   margin-top: calc(0rem);
   overflow-x: hidden;
-  /* height:10%;
-  width: 40%; */
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 /* photo for ArtBio */
