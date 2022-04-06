@@ -112,9 +112,9 @@ function Detail() {
             <div className="my-2 py-1">
               <p>
                 {/* <button onClick={A3}>A3</button> */}
-                <button className="shade white button-74" onClick={addToCart}>Add to Cart</button>
+                <button className="shade white button-74 animate-charcter" onClick={addToCart}>Add to Cart</button>
                 <button
-                    className="shade white button-74"
+                    className="shade white button-74 animate-charcter"
                     disabled={!cart.find((p) => p._id === currentProduct._id)}
                     onClick={removeFromCart}
                 >

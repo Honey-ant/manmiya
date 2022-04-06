@@ -31,31 +31,26 @@ export const Cover = () => {
                             <div className="my-3 mx-1">
                                 <div className="shade rounded  button-74 ">
                                     <Link className=" animate-charcter " to="/artbio">Artist Bio</Link>
-                                    
                                 </div>
                             </div>
                             <div className="my-3 mx-1">
                                 <div className="shade rounded button-74 ">
-                                    <Link className=" animate-charcter " to="/about">About </Link>
-                                    
+                                    <Link className=" animate-charcter " to="/about">About </Link>                            
                                 </div>
                             </div>    
                             <div className="my-3 mx-1">
                                 <div className="shade rounded   button-74 ">
-                                    <Link className=" animate-charcter  " to="/exhibtions">Exhibtions</Link>
-                                    
+                                    <Link className=" animate-charcter  " to="/exhibtions">Exhibtions</Link>                                    
                                 </div>
                             </div>    
                             <div className="my-3 mx-1">
                                 <div className="shade rounded   button-74 ">
-                                    <Link className=" animate-charcter  " to="/productList">Shop</Link>
-                                    
+                                    <Link className=" animate-charcter  " to="/productList">Shop</Link>                        
                                 </div>
                             </div>    
                             <div className="my-3 mx-1">
                                 <div className="shade rounded  button-74 ">
-                                    <Link className=" animate-charcter  " to="/contact">Contact</Link>
-                                    
+                                    <Link className=" animate-charcter  " to="/contact">Contact</Link>                           
                                 </div> 
                             </div>
                         </b>

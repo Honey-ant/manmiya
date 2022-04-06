@@ -433,7 +433,7 @@ input:focus {
     -225deg,
     #f5c7bcbf 0%,
     #c1998f 29%,
-    #7a5e57 67%,
+    white 67%,
     #f5c7bcbf 100%
   );
   background-size: auto auto;
@@ -444,7 +444,7 @@ input:focus {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  animation: textclip 3s linear infinite;
   display: inline-block;
 
 }
@@ -826,7 +826,7 @@ border-radius: 1rem;
   } */
 
   .float-right {
-    margin-left: 11rem;
+    margin-left: 9.5rem;
     margin-top: calc(2rem);
     position:absolute;
     color: var(--sand);
