@@ -49,7 +49,7 @@ function Nav() {
       return (
         <div className="dropdown ">
           <button className="btn   button-74 shade white  " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <i className="bi bi-box animate-charcter "></i>
+            <i className="bi bi-box  "></i>
           </button>
           <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
           <li className="dropdown-item">
