@@ -843,25 +843,20 @@ border-radius: 1rem;
   .card {
     width: 100%;
   }
-
-  .crown {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top:-4rem; 
-    left: 6.6rem; 
-  
-  }
-  
-  .rounded {
+  /* .rounded {
     border-radius: 8rem;
-  }
+  } */
 
   .float-right {
-    margin-left: 13rem;
-    margin-top: calc(3rem);
+    margin-left: 11rem;
+    margin-top: calc(2rem);
     position:absolute;
     color: var(--sand);
+    font-size: 5px
+  }
+
+  .float-right Link {
+    
   }
 
   .float-left {

@@ -26,28 +26,38 @@ export const Cover = () => {
                 </div>
 
                 <div className="float-right  ">
-                    <div className="">
+                    <div className="mx-1">
                         <b>
-                            <div className="shade rounded my-2 button-74">
-                                <Link className="  " to="/artbio">Artist Bio</Link>
-                                
+                            <div className="my-3 mx-1">
+                                <div className="shade rounded  button-74 ">
+                                    <Link className="  " to="/artbio">Artist Bio</Link>
+                                    
+                                </div>
                             </div>
-                            <div className="shade rounded my-2 button-74">
-                                <Link className="  " to="/about">About Artist</Link>
-                                
-                            </div>
-                            <div className="shade rounded my-2  button-74">
-                                <Link className="   " to="/exhibtions">Exhibtions</Link>
-                                
-                            </div>
-                            <div className="shade rounded my-2  button-74">
-                                <Link className="   " to="/productList">Shop</Link>
-                                
-                            </div>
-                            <div className="shade rounded my-2  button-74">
-                                <Link className="   " to="/contact">Contact</Link>
-                                
+                            <div className="my-3 mx-1">
+                                <div className="shade rounded button-74 ">
+                                    <Link className="  " to="/about">About </Link>
+                                    
+                                </div>
                             </div>    
+                            <div className="my-3 mx-1">
+                                <div className="shade rounded   button-74 ">
+                                    <Link className="   " to="/exhibtions">Exhibtions</Link>
+                                    
+                                </div>
+                            </div>    
+                            <div className="my-3 mx-1">
+                                <div className="shade rounded   button-74 ">
+                                    <Link className="   " to="/productList">Shop</Link>
+                                    
+                                </div>
+                            </div>    
+                            <div className="my-3 mx-1">
+                                <div className="shade rounded  button-74 ">
+                                    <Link className="   " to="/contact">Contact</Link>
+                                    
+                                </div> 
+                            </div>
                         </b>
                     </div>
                 </div>
