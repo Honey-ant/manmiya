@@ -19,36 +19,36 @@ export const Cover = () => {
                 <div className="start my-1 rounded">
                
                 
-                    <h5 className="myb-2  white animate-charcter">
+                    <h6 className="myb-2  white animate-charcter">
                         Visual Artist || Bunuba Wiyi 
-                    </h5>
+                    </h6>
                    
                 </div>
 
-                <div className="float-right px-2 py-2 ">
+                <div className="float-right  ">
                     <div className="">
-                <b>
-                    <div className="shade rounded my-2 ">
-                        <Link className="px-2 py-2 " to="/artbio">Artist Bio</Link>
-                        <hr></hr>
-                    </div>
-                    <div className="shade rounded my-2">
-                        <Link className=" px-2 py-2" to="/about">About Artist</Link>
-                        <hr></hr>
-                    </div>
-                    <div className="shade rounded my-2">
-                        <Link className=" px-2 py-2 " to="/exhibtions">Exhibtions</Link>
-                        <hr></hr>
-                    </div>
-                    <div className="shade rounded my-2">
-                        <Link className="px-2  py-2 " to="/productList">Shop</Link>
-                        <hr></hr>
-                    </div>
-                    <div className="shade rounded my-2">
-                        <Link className=" px-2 py-2 " to="/contact">Contact</Link>
-                        <hr className="orch "></hr>
-                    </div>    
-                </b>
+                        <b>
+                            <div className="shade rounded my-2 button-74">
+                                <Link className="  " to="/artbio">Artist Bio</Link>
+                                
+                            </div>
+                            <div className="shade rounded my-2 button-74">
+                                <Link className="  " to="/about">About Artist</Link>
+                                
+                            </div>
+                            <div className="shade rounded my-2  button-74">
+                                <Link className="   " to="/exhibtions">Exhibtions</Link>
+                                
+                            </div>
+                            <div className="shade rounded my-2  button-74">
+                                <Link className="   " to="/productList">Shop</Link>
+                                
+                            </div>
+                            <div className="shade rounded my-2  button-74">
+                                <Link className="   " to="/contact">Contact</Link>
+                                
+                            </div>    
+                        </b>
                     </div>
                 </div>
             </div>
