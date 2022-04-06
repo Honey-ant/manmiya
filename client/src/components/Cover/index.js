@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import giki from '../../assets/mee.jpg';
+import giki from '../../assets/paintingGaruwa.PNG';
 import love from '../../assets/paintingLove.PNG';
 
 import graphic from '../../assets/spots.png';

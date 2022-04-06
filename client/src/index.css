@@ -797,7 +797,7 @@ border-radius: 1rem;
 
   .float-right {
     margin-left: 9.5rem;
-    margin-top: calc(2rem);
+    margin-top: calc(4rem);
     position:absolute;
     color: var(--sand);
     font-size: 5px
