@@ -99,9 +99,9 @@ function Nav() {
 
         <div className="title ">     
           <Link className=" gt " to="/">  
-            <h5 className="mb  animate-charcter">
+            <h4 className="mb  animate-charcter">
                 Manmiya Bedford     
-            </h5> 
+            </h4> 
           </Link>           
       </div>
 

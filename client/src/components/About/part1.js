@@ -8,14 +8,13 @@ export const Part1 = () => {
         <>
           <div className="">
                             {/* <Link className="my-3 py-3 mx-4" to="/">← Back to main page</Link> */}
-                            
-                            <hr className="container"></hr> 
-            <div className="box glow">  
-                           <h4 className="py-1  title " id="">About Manmiya</h4>
-                        
+                <div className=" start">          
+                    <h5 className="py-1  white animate-charcter" id="">About Manmiya</h5>   
+                </div>          
+            <div className=" glow">  
                             <img src={giki} className=" pro img py-2" alt=" Responsive image Card image cap" />  
 
-                            <div className="container glow" >
+                            <div className="glow" >
                                 <div className="flo-left my-1 shade rounded glow">
                                    
                                    <p className=" m-3 "> 
