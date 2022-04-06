@@ -781,7 +781,7 @@ border-radius: 1rem;
   }
   .graph {
     position:relative;
-    margin-top: calc(-18.5rem);
+    margin-top: calc(-13.5rem);
     margin-left: calc(.1rem);
     width:1200px;
     /* z-index: -1; */
