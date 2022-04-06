@@ -115,6 +115,7 @@ body {
 
 .full {
     margin-top: calc(-5.5rem);
+    height: 85vh;
 }
 
 h1,
