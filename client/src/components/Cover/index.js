@@ -50,6 +50,7 @@ export const Cover = () => {
                         </b>
                     </div>
                 </div>
+
             </div>
     
             <img src={giki} className=" img-fluid full   pro" alt=" Responsive image" />
@@ -67,6 +68,13 @@ export const Cover = () => {
                 </div>
             </div> */}
             <img src={graphic5} className="  graph glow" alt=" Responsive image" />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        
             <div className="dline glow"></div>
         </> 
     
