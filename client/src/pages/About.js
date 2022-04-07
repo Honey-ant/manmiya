@@ -16,7 +16,7 @@ import dance from '../assets/dance.jpg';
                         <Part1/>
                         {/* <div className="">   */}
                         {/* <br></br> */}
-                        <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                        <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 myt-2">
                                 <div className="col-md-4 " >
                                     {/* <hr className="container"></hr>  */}
                                     

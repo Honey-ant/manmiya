@@ -565,7 +565,7 @@ input:focus {
 .flo-left {
   position:absolute;
   text-align: left;
-  top: 10.1em;
+  top: 7.1em;
   border: none;
   margin-left:40%;
  overflow-x: hidden;
@@ -573,7 +573,9 @@ input:focus {
 }
 
 /* Photo for About Page */
-
+.top {
+  margin-top: calc(-8rem);
+}
 
 /* Artist bio title */
 .bio {
