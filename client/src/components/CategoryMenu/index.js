@@ -41,10 +41,10 @@ function CategoryMenu() {
   console.log('Categories logged')
   ;
 
-  const handleClick = (id) => {
+  const handleClick = (_id) => {
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id,
+      currentCategory: _id,
     });
     console.log("categories selected");
   };
