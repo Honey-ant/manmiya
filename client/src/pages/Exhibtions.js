@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import cover from '../assets/cover.JPG';
+
 import exb from '../assets/exb.jpg'; 
 import kiss from '../assets/kiss.jpg';
 import sit from '../assets/sit.jpg';
@@ -10,8 +12,11 @@ export const Exhibtions = () => {
 
     return (
         <>
-        <div className="container">
-            <h3 className="title">Exhibtions</h3> 
+        <div className=" start">          
+          <h5 className="py-1  white animate-charcter container" id="">Exhibtions</h5>   
+        </div>  
+        <img src={cover} className=" rounded img-fluid  pro top " alt="Card image cap  " />  
+        <div className="container myt-2">
             <p>
                 My debut exhibition was in January 2022 in Naarm (Melbourne Australia).
                 This was were a fantastic collection of artists called the 'Kiss my Art Collective'.
@@ -27,7 +32,7 @@ export const Exhibtions = () => {
             <div className="">
                 <div className="">
                 <br></br>
-                    <h5 className="center">The Kiss my Art Collective!</h5>
+                    <h5 className="center white animate-charcter py-2">The Kiss my Art Collective!</h5>
                     <br></br>
                     <img src={kiss} className=" pro " alt="Card image cap  " />  
                     <br></br>
@@ -56,7 +61,7 @@ export const Exhibtions = () => {
             <div className="">
                 <div className="">
                 <br></br>
-                    <h5>The Art of Healing</h5>
+                    <h5 className="center white animate-charcter py-2">The Art of Healing</h5>
                     <br></br>
                     <p>
                         An amazingly appropriate name for all of the work the founders
