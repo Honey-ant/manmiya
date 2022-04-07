@@ -12,43 +12,37 @@ export const Cover = () => {
    
     return (
         <>
-       
-            {/* <br></br> */}
-          
             <div className=" ">
                 <div className="start  ">
-               
-                
                     <h5 className=" my-2 white animate-charcter">
                         Visual Artist || Bunuba Wiyi 
-                    </h5>
-                   
+                    </h5>    
                 </div>
 
                 <div className="float-right  ">
-                    <div className="mx-1">
+                    <div className="">
                         <b>
-                            <div className="my-3 mx-1">
+                            <div className="my-3 ">
                                 <div className="shade rounded  button-74 ">
                                     <Link className=" animate-charcter " to="/artbio">Artist Bio</Link>
                                 </div>
                             </div>
-                            <div className="my-3 mx-1">
+                            <div className="my-3 ">
                                 <div className="shade rounded button-74 ">
                                     <Link className=" animate-charcter " to="/about">About </Link>                            
                                 </div>
                             </div>    
-                            <div className="my-3 mx-1">
+                            <div className="my-3 ">
                                 <div className="shade rounded   button-74 ">
                                     <Link className=" animate-charcter  " to="/exhibtions">Exhibtions</Link>                                    
                                 </div>
                             </div>    
-                            <div className="my-3 mx-1">
+                            <div className="my-3 ">
                                 <div className="shade rounded   button-74 ">
                                     <Link className=" animate-charcter  " to="/productList">Shop</Link>                        
                                 </div>
                             </div>    
-                            <div className="my-3 mx-1">
+                            <div className="my-3 ">
                                 <div className="shade rounded  button-74 ">
                                     <Link className=" animate-charcter  " to="/contact">Contact</Link>                           
                                 </div> 
@@ -57,8 +51,8 @@ export const Cover = () => {
                     </div>
                 </div>
             </div>
-            
-            <img src={giki} className="rounded img-fluid  full pro" alt=" Responsive image" />
+    
+            <img src={giki} className=" img-fluid full   pro" alt=" Responsive image" />
             {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" >
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -72,14 +66,7 @@ export const Cover = () => {
                     </div>
                 </div>
             </div> */}
-            <br></br> 
-            <br></br> 
-            <br></br> 
-            <br></br> 
-            <br></br> 
-            <br></br> 
-
-            <img src={graphic5} className=" graph" alt=" Responsive image" />
+            <img src={graphic5} className="  graph glow" alt=" Responsive image" />
             <div className="dline glow"></div>
         </> 
     

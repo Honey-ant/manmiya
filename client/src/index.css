@@ -84,11 +84,10 @@ body {
 }
 
 .graph {
-  position: absolute;
-  margin-top: calc(-10rem);
+  margin-top: calc(-6rem);
   margin-left: calc(9.5rem);
   /* margin-right: calc(80rem); */
-  z-index: -1;
+  z-index: -6;
   position:relative;
   /* margin-top: calc(-18.5rem); */
   /* margin-left: calc(-29.5rem); */
@@ -115,7 +114,10 @@ body {
 
 .full {
     margin-top: calc(-5.5rem);
-    height: 95vh;
+    height: 80vh;
+    position:absolute;
+    /* margin-right: calc(50rem); */
+    margin-left: calc(9.5rem);
 }
 
 h1,
@@ -551,16 +553,12 @@ input:focus {
 }
 /* main menu */
 .float-right {
-  margin-left:55%;
     position:absolute;
-    text-align: right;
-    color: var(--lightbrown);
     margin-right: 6.5%;
-    border-left: 1px solid line var(darkbrown);
+    margin-left:55%;
     text-align: start;
-    border-top-style: dotted var(--purple);
     margin-top: calc(4rem);
-    color: var(--sand);
+ 
 }
 
 /* Text pairing for About Page */
@@ -731,7 +729,7 @@ border-radius: 1rem;
     margin-top: calc(-3rem);
   }
   .graph {
-    position:relative;
+    /* position:relative; */
     margin-top: calc(-13.5rem);
     margin-left: calc(.1rem);
     width:1200px;
@@ -747,6 +745,17 @@ border-radius: 1rem;
     height: 200px;
     padding:1%;
   }
+
+  .full {
+    margin-top: calc(-5.5rem);
+    height: 95vh;
+    position: relative;
+    margin-left: calc(0rem);
+}
+
+.start {
+  z-index:2;
+}
 
   .mb {
     margin-right: 7.5vh;
@@ -767,7 +776,8 @@ border-radius: 1rem;
     margin-top: calc(4rem);
     position:absolute;
     color: var(--sand);
-    font-size: 5px
+    font-size: 5px;
+    z-index:  2;
   }
 
   .float-left {
