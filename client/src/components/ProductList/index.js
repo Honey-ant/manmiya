@@ -7,6 +7,8 @@ import HorizontalScroll from 'react-horizontal-scrolling'
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 
+import CategoryMenu from '../CategoryMenu';
+
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/gif.gif';
@@ -55,6 +57,7 @@ function ProductList() {
       <div className="center container m">
         <h4 className=" my-4 animate-charcter "> Browse through Prints and Originals </h4>
       </div>
+      <CategoryMenu />
       {state.products.length ? (
         <div className=" flex-row my-2">
           {filterProducts().map((product) => (

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 // import { useStoreContext } from "../../utils/GlobalState";
+import { useReduxStore } from "../../utils/GlobalState";
 import { useDispatch, useSelector } from 'react-redux';
 import {
   UPDATE_CATEGORIES,
@@ -10,8 +11,9 @@ import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
-  const dispatch = useDispatch();
-  const state = useSelector((state) => state);
+  // const dispatch = useDispatch();
+  // const state = useSelector((state) => state);
+  const [state , dispatch] = useReduxStore();
   // const [ state, dispatch ] = useStoreContext();
 
   const { categories } = state;
@@ -48,17 +50,19 @@ function CategoryMenu() {
   };
 
   return (
-    <div >
+    <div className="container flex-row myb-2">
       {/* <h2 className="py-2">Original or print?</h2> */}
       {categories.map((item) => (
-        <button className="cat"
-          key={item._id}
-          onClick={() => {
-            handleClick(item._id);
-          }}
-        >
-          {item.name}
-        </button>
+        <div >
+          <button className="shade white button-74 mx-2"
+            key={item._id}
+            onClick={() => {
+              handleClick(item._id);
+            }}
+          >
+            {item.name}
+          </button>
+        </div>
       ))}
     </div>
   );

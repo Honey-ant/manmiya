@@ -459,6 +459,8 @@ input:focus {
 
 .space-between {
   justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .flex-end {
@@ -685,11 +687,6 @@ border-radius: 1rem;
 
 .shade {
   background-color:rgb(38, 14, 4, 0.8);
-}
-
-.cat {
-  background-color: transparent;
-  border: none;
 }
 
 .error-text {
