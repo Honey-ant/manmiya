@@ -10,7 +10,7 @@ export const Part1 = () => {
                 <div className=" start">          
                     <h5 className="py-1  white animate-charcter" id="">About Manmiya</h5>   
                 </div>          
-                         <div className="glow" >
+                         {/* <div className="glow" >
                                 <div className="flo-left my-1 shade rounded glow">
                                    
                                    <p className=" m-3 "> 
@@ -23,7 +23,7 @@ export const Part1 = () => {
                                     </p>
                                     
                                 </div>
-                            </div>                       
+                            </div>                        */}
                         <br></br>
                              
         </div>
