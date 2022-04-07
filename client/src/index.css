@@ -584,7 +584,7 @@ input:focus {
 /* Photo for ArtBio page */
 .float-leftt {
   margin-right:60%;
-  margin-top: calc(-50rem);
+  /* margin-top: calc(-50rem); */
   overflow-x: hidden;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   overflow-y: hidden;

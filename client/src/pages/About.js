@@ -14,12 +14,10 @@ import dance from '../assets/dance.jpg';
                     return (
                         <>
                         <Part1/>
-                        {/* <div className="">   */}
-                        {/* <br></br> */}
+  
                         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 myt-2">
                                 <div className="col-md-4 " >
-                                    {/* <hr className="container"></hr>  */}
-                                    
+                                  
                                     <p className=" container">
                                         My name is Manmiya Bedford and I am a self taught Bunuba Artist. 
                                         I am a fresh water girl with a desert name (from the Walmarjerri tribe), 
@@ -37,7 +35,7 @@ import dance from '../assets/dance.jpg';
                                             </p>
                                         </div> 
                                     <hr className="container"></hr> 
-                              </div>
+                                 </div>
                        
 
                                 <img src={fx} className=" col-md-4 " alt="Card image cap  " /> 
