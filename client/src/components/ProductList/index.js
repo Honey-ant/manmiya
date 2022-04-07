@@ -39,7 +39,9 @@ function ProductList() {
         });
       });
     }
-  }, [data, loading, dispatch]);
+  }, [data, loading, dispatch])
+  console.log('Products logged')
+  ;
 
   function filterProducts() { 
     if (!currentCategory) {
@@ -49,6 +51,7 @@ function ProductList() {
     return state.products.filter(
       (product) => product.category._id === currentCategory
     );
+    console.log('Products Printed')
   }
 
   return (

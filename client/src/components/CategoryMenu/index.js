@@ -41,10 +41,11 @@ function CategoryMenu() {
   console.log('Categories logged')
   ;
 
-  const handleClick = (_id) => {
+
+  const handleClick = (id) => {
     dispatch({
       type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: _id,
+      currentCategory: id,
     });
     console.log("categories selected");
   };
@@ -52,15 +53,17 @@ function CategoryMenu() {
   return (
     <div className="container flex-row myb-2">
       {/* <h2 className="py-2">Original or print?</h2> */}
-      {categories.map((item) => (
+      {categories.map((category) => (
         <div >
           <button className="shade white button-74 mx-2"
-            key={item._id}
+            key={category._id}
+            _id={category._id}
+            name={category.name}
             onClick={() => {
-              handleClick(item._id);
+              handleClick(category._id);
             }}
           >
-            {item.name}
+            {category.name}
           </button>
         </div>
       ))}
