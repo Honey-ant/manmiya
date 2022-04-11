@@ -11,10 +11,8 @@ import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
-  // const dispatch = useDispatch();
-  // const state = useSelector((state) => state);
+
   const [state , dispatch] = useReduxStore();
-  // const [ state, dispatch ] = useStoreContext();
 
   const { categories } = state;
 
@@ -53,19 +51,18 @@ function CategoryMenu() {
   return (
     <div className="container flex-row myb-2">
       {/* <h2 className="py-2">Original or print?</h2> */}
-      {categories.map((category) => (
-        <div >
+      {categories.map((item) => (
+        // <div >
           <button className="shade white button-74 mx-2"
-            key={category._id}
-            _id={category._id}
-            name={category.name}
+          key={item._id}
+          _id={item._id}
             onClick={() => {
-              handleClick(category._id);
+              handleClick(item._id);
             }}
           >
-            {category.name}
+            {item.name}
           </button>
-        </div>
+        // </div>
       ))}
     </div>
   );
