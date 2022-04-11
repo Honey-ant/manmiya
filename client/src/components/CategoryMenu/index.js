@@ -52,17 +52,15 @@ function CategoryMenu() {
     <div className="container flex-row myb-2">
       {/* <h2 className="py-2">Original or print?</h2> */}
       {categories.map((item) => (
-        // <div >
           <button className="shade white button-74 mx-2"
           key={item._id}
-          _id={item._id}
+          
             onClick={() => {
               handleClick(item._id);
             }}
           >
             {item.name}
-          </button>
-        // </div>
+          </button>   
       ))}
     </div>
   );
