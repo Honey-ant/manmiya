@@ -39,6 +39,16 @@ function CategoryMenu() {
   console.log('Categories logged')
   ;
 
+  function filterCategories() { 
+    if (!categories) {
+      return state.categories;
+    }
+
+    return state.categories.filter(
+      (item) => item.category._id === categories
+    );
+    console.log('categories Printed')
+  }
 
   const handleClick = (id) => {
     dispatch({
@@ -50,7 +60,6 @@ function CategoryMenu() {
 
   return (
     <div className="container flex-row myb-2">
-      {/* {state.categories.length ? ()} */}
         {categories.map((item) => (
             <button className="shade white button-74 mx-2"
             key={item._id}
@@ -61,8 +70,25 @@ function CategoryMenu() {
               {item.name}
             </button>   
         ))}
-
     </div>
+
+    //   <div className="container flex-row myb-2">
+    //   {state.categories.length ? (
+    //     <div className="flex-row myb-2">
+    //     {filterCategories().map((item) => (
+    //         <button className="shade white button-74 mx-2"
+    //         key={item._id}
+    //           onClick={() => {
+    //             handleClick(item._id);
+    //           }}
+    //         >
+    //           {item.name}
+    //         </button>   
+    //     ))}
+    //     </div>
+    //   )}
+    // </div>
+
   );
 
 }
