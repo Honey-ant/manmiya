@@ -50,20 +50,21 @@ function CategoryMenu() {
 
   return (
     <div className="container flex-row myb-2">
-      {/* <h2 className="py-2">Original or print?</h2> */}
-      {categories.map((item) => (
-          <button className="shade white button-74 mx-2"
-          key={item._id}
-          
-            onClick={() => {
-              handleClick(item._id);
-            }}
-          >
-            {item.name}
-          </button>   
-      ))}
+      {/* {state.categories.length ? ()} */}
+        {categories.map((item) => (
+            <button className="shade white button-74 mx-2"
+            key={item._id}
+              onClick={() => {
+                handleClick(item._id);
+              }}
+            >
+              {item.name}
+            </button>   
+        ))}
+
     </div>
   );
+
 }
 
 export default CategoryMenu;
