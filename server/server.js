@@ -3,10 +3,10 @@ const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
 // const { resolve } = require('path');
 // require('dotenv').config({ path: './.env' });
-
 const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
+const stripe = require('stripe')(`${process.env.TEST}`);
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -50,6 +50,23 @@ app.post('/webhook', express.raw({type: 'application/json'}), (request, response
   }
   // Return a 200 response to acknowledge receipt of the event
   response.send();
+});
+
+app.post('/create-checkout-session', async (req, res) => {
+  const session = await stripe.checkout.sessions.create({
+    line_items: [
+      {
+        // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
+        price: '{{PRICE_ID}}',
+        quantity: 1,
+      },
+    ],
+    mode: 'payment',
+    success_url: `${YOUR_DOMAIN}/success.html`,
+    cancel_url: `${YOUR_DOMAIN}/cancel.html`,
+  });
+
+  res.redirect(303, session.url);
 });
 
 app.get('*', (req, res) => {

@@ -43,6 +43,7 @@
     "react-stripe-checkout": "^2.6.3",
     "react-stripe-elements": "^6.1.2",
     "stripe": "^8.208.0",
+    "stripe-as-promised": "^2.1.1",
     "styled-components": "^5.3.3"
   }
 }

@@ -90,8 +90,8 @@ const resolvers = {
         payment_method_types: ['card'], 
         line_items,
         mode: 'payment',
-        billing_address_collection: 'required',
-        shipping_address_collection: 'required',
+        // billing_address_collection: 'required',
+        // shipping_address_collection: 'required',
         // cons
       });
 

@@ -5,7 +5,6 @@ import { QUERY_CHECKOUT } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { useReduxStore } from "../../utils/GlobalState";
 import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
-
 import { Link } from 'react-router-dom';
 
 import CartItem from '../CartItem';
@@ -15,10 +14,7 @@ import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 // const stripe = require('stripe')(`${process.env.STRIPE_PUBLISHABLE_KEY}`);
 
-
-
 const stripePromise = loadStripe(`${process.env.TEST}`);
-
 // const product = await stripe.products.create({name: product.name});
 
 const Cart = () => {
