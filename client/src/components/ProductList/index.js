@@ -58,7 +58,7 @@ function ProductList() {
     // <HorizontalScroll>
     <div className=" proList ">
       <div className="center container m">
-        <h4 className=" my-4 animate-charcter "> Browse through Prints and Originals </h4>
+        <h4 className=" my-4 animate-charcter "> Shop </h4>
       </div>
       <CategoryMenu />
       {state.products.length ? (

@@ -65,9 +65,13 @@ body {
   height: 40px;
 }
 
-.top {
-  background-image: linear-gradient(to top, #c1998f, #c0988e, #c0978d, #bf968c, #be958b, #c29188, #c58c85, #c98783, #d07c85, #d5718b, #d66697, #d25ea6);
-}
+/* .top {
+  background-image: linear-gradient
+  (to top, 
+  #c1998f, #c0988e, #c0978d, #bf968c, 
+  #be958b, #c29188, #c58c85, #c98783, 
+  #d07c85, #d5718b, #d66697, #d25ea6);
+} */
 
 .graphic {
   position: absolute;
@@ -89,7 +93,8 @@ body {
 .graph {
   margin-top: calc(-68rem);
   margin-left: calc(9.5rem);
-  z-index: -1;
+  z-index: -5;
+  position: relative;
 }
 
 .dline {
@@ -114,7 +119,8 @@ body {
     /* position:absolute; */
     /* margin-right: calc(50rem); */
     margin-left: calc(25.5rem);
-    z-index: 1;
+    z-index: -1;
+    position: relative;
 }
 
 h1,
@@ -428,7 +434,7 @@ input:focus {
   /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--darkbrown);
+  /* background-color: var(--darkbrown); */
   border: none;
   color:white;
 }
@@ -539,6 +545,14 @@ input:focus {
 }
 
 /* Main Page Photo */
+
+.from{
+  margin-top: -12rem;
+  background-color: rgb(77, 51, 45, 0.6);
+  text-align: left;
+  width: 25%;
+  margin-right:28rem;
+}
 
 .product {
   
@@ -752,6 +766,14 @@ border-radius: 1rem;
     margin-left: calc(0rem);
 }
 
+.from{
+  margin-top: -10.7rem;
+  background-color: rgb(77, 51, 45, 0.8);
+  text-align: left;
+  width: 100%;
+  margin-right:0rem;
+}
+
 .start {
   z-index:2;
 }
@@ -771,7 +793,7 @@ border-radius: 1rem;
   }
 
   .float-right {
-    margin-left: 9.5rem;
+    margin-left: 13rem;
     margin-top: calc(4rem);
     position:absolute;
     color: var(--sand);

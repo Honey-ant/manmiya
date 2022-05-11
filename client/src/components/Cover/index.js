@@ -67,15 +67,8 @@ export const Cover = () => {
                     </div>
                 </div>
             </div> */}
-            <img src={graphic5} className="  graph glow" alt=" Responsive image" />
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-        
-            <div className="dline glow"></div>
+            {/* <img src={graphic5} className="  graph glow" alt=" Responsive image" /> */}
+
         </> 
     
     );
