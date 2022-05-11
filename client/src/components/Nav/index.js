@@ -98,8 +98,8 @@ function Nav() {
       <nav className=" " >{showNavigation()}</nav>   
 
         <div className="title ">     
-          <Link className=" gt " to="/">  
-            <h2 className="mb myt-2 animate-charcter">
+          <Link className="  " to="/">  
+            <h2 className="mb myt-2 ">
                 Manmiya     
             </h2> 
           </Link>           

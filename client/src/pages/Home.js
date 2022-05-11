@@ -20,17 +20,15 @@ const Home = () => {
      <Cover/>
     <div className=" ">
  
-
-     
     </div>
           <div className="">
         {/* <div className=""> */}
-            <div className=" container rounded from py-1">
-                <p className="">
+            <div className=" rounded from py-2 ">
+                <p className="container">
                   Manmiya is a Bunuba artist from the Kimberly Western Australia.
                   They currently live on Boon Wurrong Country.
                 </p>
-                <p className="">
+                <p className="container">
                   Their Father is Bunuba and mother is of Scottish ancestry.
                 </p>
             </div>

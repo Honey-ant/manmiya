@@ -7,7 +7,7 @@ const ArtBio = () => {
     return (
     <>       
         <div className=" start">          
-          <h5 className="py-1  white animate-charcter container" id="">Artist Bio</h5>   
+          <h5 className="py-1  white titles container" id="">Artist Bio</h5>   
         </div>  
     <img src={giki} className=" rounded img-fluid  pro top" alt=" Responsive image" /> 
 

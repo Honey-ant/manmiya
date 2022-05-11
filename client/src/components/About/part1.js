@@ -8,7 +8,7 @@ export const Part1 = () => {
         <>
         <div className="">
                 <div className=" start">          
-                    <h5 className="py-1  white animate-charcter" id="">About Manmiya</h5>   
+                    <h5 className="py-1  white titles" id="">About Manmiya</h5>   
                 </div>          
                          {/* <div className="glow" >
                                 <div className="flo-left my-1 shade rounded glow">

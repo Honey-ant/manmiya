@@ -13,7 +13,7 @@ export const Exhibtions = () => {
     return (
         <>
         <div className=" start">          
-          <h5 className="py-1  white animate-charcter container" id="">Exhibtions</h5>   
+          <h5 className="py-1  white titles container" id="">Exhibtions</h5>   
         </div>  
         <img src={cover} className=" rounded img-fluid  pro top " alt="Card image cap  " />  
         <div className="container myt-2">
@@ -32,7 +32,7 @@ export const Exhibtions = () => {
             <div className="">
                 <div className="">
                 <br></br>
-                    <h5 className="center white animate-charcter py-2">The Kiss my Art Collective!</h5>
+                    <h5 className="center white titles py-2">The Kiss my Art Collective!</h5>
                     <br></br>
                     <img src={kiss} className=" pro " alt="Card image cap  " />  
                     <br></br>
@@ -61,7 +61,7 @@ export const Exhibtions = () => {
             <div className="">
                 <div className="">
                 <br></br>
-                    <h5 className="center white animate-charcter py-2">The Art of Healing</h5>
+                    <h5 className="center white titles py-2">The Art of Healing</h5>
                     <br></br>
                     <p>
                         An amazingly appropriate name for all of the work the founders

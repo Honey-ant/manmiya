@@ -99,7 +99,7 @@ const Cart = () => {
 
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()} </strong>
-            <button className="shade white button-74 animate-charcter" type="submit" onClick={submitCheckout}>
+            <button className="shade white button-74 titles" type="submit" onClick={submitCheckout}>
                  Checkout
                  </button>
             {/* {Auth.loggedIn() ? (
