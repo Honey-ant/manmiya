@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { loadStripe,  } from '@stripe/stripe-js';
+import { loadStripe  } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
 import { QUERY_CHECKOUT } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { useReduxStore } from "../../utils/GlobalState";
-import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
+// import {Elements, redirectToCheckout } from '@stripe/react-stripe-js';
 import { Link } from 'react-router-dom';
 
 import CartItem from '../CartItem';
@@ -26,7 +26,8 @@ const Cart = () => {
     if (data) {
       stripePromise.then((res) => {
         res.redirectToCheckout({ sessionId: data.checkout.session });
-      }); console.log("stripepromise: %d")
+      }); console.log({sessionId: data.checkout.session });
+  
     } else {
       console.error("redirect to checkout not working");
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Auth from '../../utils/auth';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/home.png';
+
 
 function Nav() {
   function showNavigation() {
@@ -99,9 +99,9 @@ function Nav() {
 
         <div className="title ">     
           <Link className="  " to="/">  
-            <h2 className="mb myt-2 ">
+            <h1 className="mb myt-2 m">
                 Manmiya     
-            </h2> 
+            </h1> 
           </Link>           
       </div>
 

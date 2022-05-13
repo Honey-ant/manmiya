@@ -66,14 +66,6 @@ body {
   height: 40px;
 }
 
-/* .top {
-  background-image: linear-gradient
-  (to top, 
-  #c1998f, #c0988e, #c0978d, #bf968c, 
-  #be958b, #c29188, #c58c85, #c98783, 
-  #d07c85, #d5718b, #d66697, #d25ea6);
-} */
-
 .graphic {
   position: absolute;
   top:-450%; 
@@ -98,10 +90,6 @@ body {
   position: relative;
 }
 
-.dline {
-  background-color: var(--fire);
-  height:1vh;
-}
 
 .gra {
   top:80%; 
@@ -114,14 +102,28 @@ body {
   z-index: 0;
 }
 
-.full {
+/* .full {
     margin-top: calc(-5.5rem);
     height: 100vh;
-    /* position:absolute; */
-    /* margin-right: calc(50rem); */
     margin-left: calc(25.5rem);
     z-index: -1;
     position: relative;
+} */
+
+.full {
+  margin-top: calc(3rem);
+  height: 100vh;
+  /* margin-left: calc(25.5rem); */
+  z-index: -1;
+  position: relative;
+}
+
+.ful {
+  margin-top: calc(-6rem);
+  height: 100vh;
+  margin-left: calc(20.5rem);
+  z-index: -1;
+  position: relative;
 }
 
 h1,
@@ -274,23 +276,21 @@ button:hover {
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: .5;
 }
-
-
 
 /* CSS */
 .button-74 {
-  background-color: #fbeee0;
+  background-color: var(--lightbrown);
   /* border: 2px solid var(--brown); */
   border-radius: 30px;
   box-shadow: var(--brown) 4px 4px 0 0;
-  color: #422800;
+  color: var(--orch);
   cursor: pointer;
   /* display: inline-block; */
   font-weight: 600;
   font-size: 18px;
-  padding: 0 18px;
+  padding: 0 14px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
@@ -326,27 +326,38 @@ span[role="img"] {
 
 form {
   width: 100%;
+  background-image: url(../src/assets/angerOverlay.jpg);
 }
 
 .form {
   list-style: none;
 }
 
-.input {
-  border-color: var(var(--orch));
+input {
+  border: none;
+  background-color: transparent;
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+}
+
+textarea:focus {
+  border: none;
 }
 
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  /* border: 1px solid var(--dark); */
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  /* border: 1px solid var(--secondary); */
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -360,7 +371,7 @@ input:focus {
 } 
 
 .mb {
-  margin-right: 17vh;
+  /* margin-right: 17vh; */
   text-transform: uppercase;
   color: white;
   font-weight: 1000;
@@ -374,25 +385,19 @@ input:focus {
   var(--lightbrown) 3px 3px ,
   var(--lightbrown) 3px 3px ,
   var(--nav) 2px 2px 2px;
-  margin-left:55%;
+  /*   */
+}
+
+.m {
+  margin-right: 14vh;
 }
 
 .titles {
   color:#b28478;
-  text-shadow: var(--brown) 2px 2px 2px ;
   text-transform: uppercase;
   font-weight: 1000;
   z-index:3;
   color:var(--sand);
-  text-shadow: var(--darkbrown) 2px 2px 2px,
-  var(--brown) 2.2px 2.2px 2.2px,
-  var(--lightbrown) 2.5px 2.5px ,
-  var(--lightbrown) 2.5px 2.5px ,
-  var(--lightbrown) 2.5px 2.5px ,
-  var(--lightbrown) 3px 3px ,
-  var(--lightbrown) 3px 3px ,
-  var(--nav) 2px 2px 2px;
-
 }
 
 @keyframes textclip {
@@ -415,8 +420,6 @@ input:focus {
 
 .dropdown-toggle {
   border-radius: 4rem;
-  /* border-style: none;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
   background-color: var(--orch);
 }
 
@@ -437,13 +440,12 @@ input:focus {
 }
 
 .container {
-  width: 95%;
+  /* width: 95%; */
   /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
-  /* background-color: var(--darkbrown); */
   border: none;
-  color:white;
+  /* color:white; */
 }
 
 .flex-row {
@@ -454,6 +456,7 @@ input:focus {
 
 .center {
   justify-content:center;
+  align-items: center;
 }
 
 .name {
@@ -551,6 +554,21 @@ input:focus {
   color: var(--white);
 }
 
+.orch {
+ color: var(--orch);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.darkBrown {
+  color: var(--darkbrown);
+}
+
+.ltBrown {
+  color: var(--lightbrown);
+}
 /* Main Page Photo */
 
 .glow {
@@ -560,12 +578,14 @@ input:focus {
 }
 
 .from{
-  margin-top: -16rem;
+  margin-top: -30rem;
   text-align: left;
   width: 25%;
-  margin-left:60rem;
+  margin-left:39.7rem;
   background-color: rgb(38, 14, 4, 0.85);
   position:absolute;
+  border-top: solid 3px  var(--blue);
+  border-bottom: solid 3px  var(--blue);
 }
 
 /* main menu */
@@ -574,8 +594,8 @@ input:focus {
     /* margin-right: 6.5%; */
     margin-left:55%;
     text-align: start;
-    margin-top: calc(4rem);
- 
+    margin-top: calc(9rem);
+    z-index: 3;
 }
 
 /* Text pairing for About Page */
@@ -591,14 +611,12 @@ input:focus {
 
 /* Photo for About Page */
 .top {
-  margin-top: calc(-55rem);
-  margin-right:60%;
+  margin-top: calc(-20rem);
+  margin-left:16%;
 }
 
 /* Artist bio title */
-.bio {
-  top:0.5rem;
-}
+
 /* Photo for ArtBio page */
 .float-leftt {
   margin-right:60%;
@@ -624,6 +642,22 @@ input:focus {
     margin-right:0%;
     height:2000px;
 }
+
+.bio {
+  margin-left:50%;
+  margin-top: calc(5rem);
+  width: 30%;
+  overflow-x: hidden;
+    position:absolute;
+    text-align: right;
+
+    text-align: right;
+    border-color: solid line 1rem white;
+    top: 3rem;
+    margin-right:0%;
+color: white;
+}
+
 /* link from ArtBio to About */
 .read {
   margin-top: calc(3rem);
@@ -642,29 +676,33 @@ hr {
   margin-right: auto;
 }
 
-.orch {
- color: var(--orch);
-}
+
 
 .start {
   position: relative;
-  /* text-align: left; */
-  border-radius: 2rem;
   margin-top: calc(-1rem); 
   background-color: transparent;
-  /* width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; */
-  z-index:5;
-  margin-left: 51.5%;
+   margin-left: 41%; 
+}
+
+.line {
+  background-color: var(--lightbrown);
+  height: 3px;
 }
 
 .ack {
   height: 500px;
   overflow: scroll;
-  -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0); 
-box-shadow: inset 2px 2px 2px 2px #260e04, inset 11px 11px 2px 0px #4d332d, inset 20px 20px 2px 1px #7a5e57, inset 29px 29px 2px 1px #c1998f, 5px 5px 15px 5px rgba(0,0,0,0);
+  -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, 
+  inset 11px 11px 2px 0px #4d332d, 
+  inset 20px 20px 2px 1px #7a5e57, 
+  inset 29px 29px 2px 1px #c1998f, 
+  5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset 2px 2px 2px 2px #260e04, 
+inset 11px 11px 2px 0px #4d332d, 
+inset 20px 20px 2px 1px #7a5e57, 
+inset 29px 29px 2px 1px #c1998f,
+5px 5px 15px 5px rgba(0,0,0,0);
 border-radius: 1rem;
 }
 
@@ -676,6 +714,18 @@ border-radius: 1rem;
   border-style: none;
   background-color: transparent;
 }
+
+.contact {
+  background-color: var(--darkbrown);
+  color: black;
+}
+
+.inContact {
+  /* border-bottom: 3px solid var(--blue); */
+  background-color: var(--lightbrown);
+  color: var(--darkbrown);
+}
+
 
 .box{
   background-color: var(--brown);
@@ -698,7 +748,15 @@ border-radius: 1rem;
 }
 
 .shade {
-  background-color:rgb(38, 14, 4, 0.85);
+  background-color:rgb(38, 14, 4, 0.95);
+}
+/* borders for exhibtion page */
+.exb {
+  border-left: 1px solid var(--sand);
+  border-right: 1px solid var(--sand);
+  margin-left:1rem;
+  margin-right: 1rem;
+  /* padding: 1rem; */
 }
 
 .error-text {
@@ -768,7 +826,7 @@ border-radius: 1rem;
 }
 
 .from{
-  margin-top: -10.7rem;
+  margin-top: -9rem;
   background-color: rgb(38, 14, 4, 0.85);
   text-align: left;
   width: 100%;
@@ -780,7 +838,7 @@ border-radius: 1rem;
   z-index:2;
   position: relative;
   text-align: center;
-  border-radius: 2rem;
+  
   margin-top: calc(-1rem); 
   background-color: transparent;
   width: 85%;
@@ -809,7 +867,7 @@ border-radius: 1rem;
 
   .float-right {
     margin-left: 13rem;
-    margin-top: calc(4rem);
+    margin-top: calc(5rem);
     position:absolute;
     /* color: var(--sand); */
     font-size: 5px;
@@ -830,13 +888,34 @@ border-radius: 1rem;
 
   /* Photo for ArtBio age */
 .top {
-  margin-top: calc(-15rem);
+  margin-top: calc(-10rem);
 }
+
+
 /* Photo for artBio */
 .float-leftt {
   margin-top: calc(0rem);
   overflow-x: hidden;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.ful {
+  margin-top: calc(-15rem);
+  height: 75vh;
+  margin-left: calc(0rem);
+  z-index: -1;
+  position: relative;
+}
+
+.bio {
+  margin-left:2%;
+  margin-top: calc(-2.5rem);
+  width: 100%;
+
+    position:relative;
+    text-align:left;
+    color: var(--white);
+
 }
 /* photo for ArtBio */
 .float-rightt {
@@ -853,6 +932,22 @@ border-radius: 1rem;
   overflow-y: hidden;
 }
 
+/* Product list */
+/* .proList {
+  width: auto;
+  height: auto;
+  overflow: auto;
+  overflow-y: hidden;
+  margin: 0 auto;
+  white-space: nowrap
+}
+
+.list {
+  width: auto;
+  height: auto;
+  margin: 20px 10px;
+  display: inline;
+} */
 /* .titles {
   font-size: 3vh;
 } */

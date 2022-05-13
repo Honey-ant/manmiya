@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
 import { useReduxStore } from "../../utils/GlobalState";
-
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import HorizontalScroll from 'react-horizontal-scrolling'
 // import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_PRODUCTS } from '../../utils/actions';
@@ -53,35 +54,56 @@ function ProductList() {
     );
     console.log('Products Printed')
   }
+  // const responsive = {
+  //   desktop: {
+  //     breakpoint: { max: 3000, min: 1024 },
+  //     items: 3,
+  //     slidesToSlide: 3 // optional, default to 1.
+  //   },
+  //   tablet: {
+  //     breakpoint: { max: 1024, min: 464 },
+  //     items: 2,
+  //     slidesToSlide: 2 // optional, default to 1.
+  //   },
+  //   mobile: {
+  //     breakpoint: { max: 464, min: 0 },
+  //     items: 1,
+  //     slidesToSlide: 1 // optional, default to 1.
+  //   }
+  // };
 
   return (
     // <HorizontalScroll>
-    <div className=" proList ">
+    <div className=" container ">
       <div className="center container m">
-        <h4 className=" my-4 titles "> Shop </h4>
+        <h2 className=" my-4 titles "> Shop </h2>
       </div>
-      <CategoryMenu />
-      {state.products.length ? (
-        <div className=" flex-row my-2">
-          {filterProducts().map((product) => (
-            <ProductItem className="list"
-              key={product._id}
-              _id={product._id}
-              image={product.image}
-              name={product.name}
-              details={product.details}
-              size={product.size}
-              medium={product.meduim}
-              price={product.price}
-              quantity={product.quantity}
-            />
-          ))}
-        </div>
-        
-      ) : (
+      {/* <CategoryMenu /> */}
+
+        {state.products.length ? (
+   
+          <div className=" flex-row my-2 proList">
+            {filterProducts().map((product) => 
+            (
+              <ProductItem className=""
+                key={product._id}
+                _id={product._id}
+                image={product.image}
+                name={product.name}
+                details={product.details}
+                size={product.size}
+                medium={product.meduim}
+                price={product.price}
+                quantity={product.quantity}
+              />
+            ))}
+          </div>
+      )
+       : (
         <h3 className="mb-2 container">Just a second</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
+
       <Cart/>
     </div>
   // {/* </HorizontalScroll> */}

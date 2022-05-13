@@ -5,6 +5,7 @@ import ProductList from "../components/ProductList";
 import PrintList from "../components/PrintList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cover from "../components/Cover";
+import Slides from "../components/Carousel";
 import Cart from "../components/Cart";
 
 import InjectedCheckoutForm from "./CheckoutForm";
@@ -18,22 +19,23 @@ const Home = () => {
   return (
     <>  
      <Cover/>
+   
     <div className=" ">
  
     </div>
           <div className="">
         {/* <div className=""> */}
-            <div className=" rounded from py-2 ">
+            <div className="from rounded from py-2 pro">
                 <p className="container">
                   Manmiya is a Bunuba artist from the Kimberly Western Australia.
                   They currently live on Boon Wurrong Country.
                 </p>
-                <p className="container">
+                {/* <p className="container">
                   Their Father is Bunuba and mother is of Scottish ancestry.
-                </p>
+                </p> */}
             </div>
         </div> 
-    
+      {/* <Slides /> */}
         <div className="py-1 ">
           <hr className="container"></hr>
             <div className="container py-1">

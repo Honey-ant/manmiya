@@ -88,7 +88,7 @@ const resolvers = {
         success_url: `${url}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${url}/stripe`,
         payment_method_types: ['card'], 
-        line_items,
+        line_items: [],
         mode: 'payment',
         // billing_address_collection: 'required',
         // shipping_address_collection: 'required',

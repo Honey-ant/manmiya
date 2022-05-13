@@ -6,7 +6,7 @@ import love from '../../assets/paintingLove.PNG';
 
 import graphic from '../../assets/spots.png';
 import graphic5 from '../../assets/angerOverlay.jpg';
-
+import Slides from '../Carousel';
 
 export const Cover = () => {
    
@@ -18,7 +18,9 @@ export const Cover = () => {
                         Artist || Bunuba Wiyi 
                     </h5>    
                 </div>
-
+            </div>
+            <div className='line'></div>
+            <div>
                 <div className="float-right  ">
                     <div className="">
                         <b>
@@ -27,11 +29,11 @@ export const Cover = () => {
                                     <Link className="  titles" to="/artbio">Artist Bio</Link>
                                 </div>
                             </div>
-                            <div className="my-3 ">
+                            {/* <div className="my-3 ">
                                 <div className="shade rounded button-74 ">
                                     <Link className="  titles" to="/about">About </Link>                            
                                 </div>
-                            </div>    
+                            </div>     */}
                             <div className="my-3 ">
                                 <div className="shade rounded   button-74 ">
                                     <Link className="   titles" to="/exhibtions">Exhibtions</Link>                                    
@@ -52,22 +54,8 @@ export const Cover = () => {
                 </div>
 
             </div>
-    
-            <img src={giki} className=" img-fluid full   pro" alt=" Responsive image" />
-            {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" >
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src={giki} alt="First slide"/>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src={love} alt="Second slide"/>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src={giki} alt="Third slide"/>
-                    </div>
-                </div>
-            </div> */}
-            {/* <img src={graphic5} className="  graph glow" alt=" Responsive image" /> */}
+            <Slides />
+            {/* <img src={giki} className=" img-fluid full   pro" alt=" Responsive image" /> */}
 
         </> 
     
