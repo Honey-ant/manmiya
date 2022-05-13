@@ -89,41 +89,50 @@ function Detail() {
     
       {currentProduct && cart ? (
         <div className="container my-3 py-3">
-          <Link className="my-3" to="/">← Back to main page</Link>
-
-          <h2>{currentProduct.name}</h2>
-          
-          
-
-          <img
-            className="pro"
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
-          <p className="my-3 py-3">{currentProduct.description}</p>
-          {/* <h6 className="my-2 py-1">{currentProduct.details}</h6> */}
-          <h6 className="my-1 py-1">{currentProduct.size}</h6>
-          <h6 className="my-1 py-1">{currentProduct.medium}</h6>
-
-          <p className="my-2 py-2">
-            
-            <strong>Price:</strong>${currentProduct.price}{' '}
-            </p>
-            <div className="my-2 py-2">
-              <p>
-                {/* <button onClick={A3}>A3</button> */}
-                <button className=" button-74 " onClick={addToCart}>Add to Cart</button>
-                <button
-                    className=" button-74 mx-1"
-                    disabled={!cart.find((p) => p._id === currentProduct._id)}
-                    onClick={removeFromCart}
-                >
-                  Remove from Cart
-                </button>
-              </p>
+          <div className="container col-lg-6 mx-auto">
+            <div className=''>
+              <h2>{currentProduct.name}</h2>
+              
+              <img
+                className="pro "
+                src={`/images/${currentProduct.image}`}
+                alt={currentProduct.name}
+              />
+              <p className="my-3 py-3">{currentProduct.description}</p>
+              {/* <h6 className="my-2 py-1">{currentProduct.details}</h6> */}
+              <div className="row ">
+                <h6 className="my-1 py-1 ">{currentProduct.size}, {currentProduct.medium}</h6>
+                <h6 className="my-1 py-1 col"></h6>
+              </div>
+              <p className="my-2 py-2">
+                
+                <strong>Price:</strong>${currentProduct.price}{' '}
+                </p>
+                <div className="row">
+                    <div className="col">
+                        <button className=" button-74 " 
+                        onClick={addToCart}>
+                          Add to Cart
+                          </button>
+                      </div>
+                      <div className=" col-7">
+                        <button
+                            className=" button-74 "
+                            disabled={!cart.find((p) => p._id === currentProduct._id)}
+                            onClick={removeFromCart}
+                        >
+                          Remove from Cart
+                        </button>
+                      </div>
+                  
+                </div>
             </div>
-          
+         </div> 
+         <div className="my-3 container col-lg-6 mx-auto py-4">
+            <Link className="" to="/">← Back to main page</Link>
+         </div>
         </div>
+        
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />

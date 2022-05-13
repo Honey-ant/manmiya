@@ -51,59 +51,72 @@ function Signup(props) {
       <div className="container">
       
 
-      <h2>Signup</h2>
-        <p>Sign up to buy and to see order history </p>
-        <p>(It's easy don't worry)</p>
+
+      <hr className="container"></hr>
+      <div className='title card '>
+        <div className=" py-2 container inContact darkBrown">
+              <h2 className='darkBrown'>Signup</h2>
+          <p>Sign up to buy and to see order history </p>
+          <p>(It's easy don't worry)</p>
+        </div> 
+          <form className=" container px-4 py-4" onSubmit={handleFormSubmit}>
+            <div className='container px-4'>
+              <div className=" space-between my-2 ">
+                <label className="my-2 row titles" htmlFor="firstName">First Name:</label>
+                <input
+                className="my-2 mx-4 row "
+                  placeholder="First"
+                  name="firstName"
+                  type="firstName"
+                  id="firstName"
+                  onChange={handleChange}
+                />
+                <hr className='pink'></hr>
+              </div>
+              <div className="space-between my-2 ">
+                <label className="my- row titles" htmlFor="lastName">Last Name:</label>
+                <input
+                className="my-2 mx-4 row "
+                  placeholder="Last"
+                  name="lastName"
+                  type="lastName"
+                  id="lastName"
+                  onChange={handleChange}
+                />
+                <hr className='pink'></hr>
+              </div>
+              <div className=" space-between my-2 ">
+                <label className="my-2 row titles" htmlFor="email">Email:</label>
+                <input
+                className="my-2 mx-4 row "
+                  placeholder="youremail@email.com"
+                  name="email"
+                  type="email"
+                  id="email"
+                  onChange={handleChange}
+                />
+                <hr className='pink'></hr>
+              </div>
+              <div className="space-between my-2 ">
+                <label className="my- row titles" htmlFor="pwd">Password:</label>
+                <input
+                className="my-2 mx-4 row "
+                  placeholder="******"
+                  name="password"
+                  type="password"
+                  id="pwd"
+                  onChange={handleChange}
+                />
+                <hr className='pink'></hr>
+              </div>
+              <div className="flex-row flex-end py-4">
+                <button className="submit button-74" type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
       </div>
       <hr className="container"></hr>
-      <div className="box py-2 container">
-        <form className="form container" onSubmit={handleFormSubmit}>
-          <div className="flex-row space-between my-2 input">
-            <label className="my-2" htmlFor="firstName">First Name:</label>
-            <input
-              placeholder="First"
-              name="firstName"
-              type="firstName"
-              id="firstName"
-              onChange={handleChange}
-            />
-          </div>
-          <div className="flex-row space-between my-2 input">
-            <label className="my-" htmlFor="lastName">Last Name:</label>
-            <input
-              placeholder="Last"
-              name="lastName"
-              type="lastName"
-              id="lastName"
-              onChange={handleChange}
-            />
-          </div>
-          <div className="flex-row space-between my-2 input">
-            <label className="my-2" htmlFor="email">Email:</label>
-            <input
-              placeholder="youremail@email.com"
-              name="email"
-              type="email"
-              id="email"
-              onChange={handleChange}
-            />
-          </div>
-          <div className="flex-row space-between my-2 input">
-            <label className="my-2" htmlFor="pwd">Password:</label>
-            <input
-              placeholder="******"
-              name="password"
-              type="password"
-              id="pwd"
-              onChange={handleChange}
-            />
-          </div>
-          <div className="flex-row flex-end py-4">
-            <button className="submit" type="submit">Submit</button>
-          </div>
-        </form>
       </div>
-      <hr className="container"></hr>
         <div className="container">
           <Link className="my-2 " to="/login">← Go to Login</Link>
         </div>

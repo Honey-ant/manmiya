@@ -35,17 +35,21 @@ function ProductItem(item) {
   };
 
   return (
-    <div className="col-10 card col-xs-12 ">
-      <div className=" mx-2 product ">
+    <div className="col-3 card col-xs-12 my-3">
+      <div className=" mx-2 product py-3">
    
-        <Link to={`/products/${_id}`}>
-          <img className="" alt={name} src={`/images/${image}`} />
-          <h4 className="my-3 ">{name}</h4>
+        <Link className="col-lg-6 mx-auto" to={`/products/${_id}`}>
+            <div>
+               <h4 className="my-3 ">{name}</h4>
+            </div>
+            <div className=''>
+               <img className="pro" alt={name} src={`/images/${image}`} />
+             </div>
         </Link>
         <div>
           <div>
-            {quantity} {pluralize('item', quantity)} in stock
-            <hr className="container"></hr>
+            {/* {quantity} {pluralize('item', quantity)} in stock */}
+            {/* <hr className="container"></hr> */}
           </div>
           {/* <span>${price}</span> */}
         </div>

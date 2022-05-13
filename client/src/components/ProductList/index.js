@@ -82,7 +82,7 @@ function ProductList() {
 
         {state.products.length ? (
    
-          <div className=" flex-row my-2 proList">
+          <div className=" flex-row my-2 proList ">
             {filterProducts().map((product) => 
             (
               <ProductItem className=""

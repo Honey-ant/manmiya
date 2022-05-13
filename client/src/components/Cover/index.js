@@ -25,8 +25,8 @@ export const Cover = () => {
                     <div className="">
                         <b>
                             <div className="my-3 ">
-                                <div className="shade rounded  button-74 ">
-                                    <Link className="  titles" to="/artbio">Artist Bio</Link>
+                                <div className=" shade  button-74 ">
+                                    <Link className=" titles" to="/artbio">Artist Bio</Link>
                                 </div>
                             </div>
                             {/* <div className="my-3 ">
@@ -35,17 +35,17 @@ export const Cover = () => {
                                 </div>
                             </div>     */}
                             <div className="my-3 ">
-                                <div className="shade rounded   button-74 ">
+                                <div className=" shade button-74 ">
                                     <Link className="   titles" to="/exhibtions">Exhibtions</Link>                                    
                                 </div>
                             </div>    
                             <div className="my-3 ">
-                                <div className="shade rounded   button-74 ">
+                                <div className=" shade button-74 ">
                                     <Link className="  titles " to="/productList">Shop</Link>                        
                                 </div>
                             </div>    
                             <div className="my-3 ">
-                                <div className="shade rounded  button-74 ">
+                                <div className="shade button-74 ">
                                     <Link className="   titles" to="/contact">Contact</Link>                           
                                 </div> 
                             </div>

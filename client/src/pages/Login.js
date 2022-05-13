@@ -31,36 +31,43 @@ function Login(props) {
   };
 
   return (
-    <div className=" my-2 py-2">
-    <div className="container">
+    <div className=" my-2 py-2 container">
       <Link to="/signup">← Go to Signup</Link>
 
-      <h2>Login</h2>
-      <p>Login to see your order history and to purchase art</p>
-    </div>
-    <hr className="container w-75"></hr>
-      <div className="box py-2 container w-75">
-        <form className=" " onSubmit={handleFormSubmit}>
-
-          <div className="flex-row space-between my-2">
-            <label className="my-2" htmlFor="email">Email:</label>
-            <input
-              placeholder="youremail@test.com"
-              name="email"
-              type="email"
-              id="email"
-              onChange={handleChange}
-            />
-          </div>
-          <div className="flex-row space-between my-2">
-            <label className="my-2" htmlFor="pwd">Password:</label>
-            <input
-              placeholder="******"
-              name="password"
-              type="password"
-              id="pwd"
-              onChange={handleChange}
-            />
+    <hr className="container "></hr>
+      <div className="  card title ">
+          <div className="container inContact py-2">
+            <div className="darkBrown">
+              <h2 className="darkBrown">Login</h2>
+              <p className="darkBrown">Login to see your order history and to purchase art</p>
+            </div>
+         </div>
+        <form className="  container" onSubmit={handleFormSubmit}>
+          <div className="container">
+            <div className=" space-between my-2">
+              <label className="my-2 row" htmlFor="email">Email:</label>
+              <input
+              className="my-2 mx-4 row "
+                placeholder="youremail@test.com"
+                name="email"
+                type="email"
+                id="email"
+                onChange={handleChange}
+              />
+              <hr className='pink'></hr>
+            </div>
+            <div className=" space-between my-2">
+              <label className="my-2 row" htmlFor="pwd">Password:</label>
+              <input
+              className="my-2 mx-4 row "
+                placeholder="******"
+                name="password"
+                type="password"
+                id="pwd"
+                onChange={handleChange}
+              />
+              <hr className='pink'></hr>
+            </div>
           </div>
           {error ? (
             <div>
