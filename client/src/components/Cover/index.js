@@ -10,12 +10,16 @@ import Slides from '../Carousel';
 
 export const Cover = () => {
    
+    const message = () => {
+        console.log("Bunuba Wiyi")
+    }
+
     return (
         <>
             <div className=" ">
                 <div className="start  ">
                     <h5 className=" my-2 titles">
-                        Artist || Bunuba Wiyi 
+                        Artist || <button onClick={message} type="button" className="" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><h5 className='titles'>Bunuba Wiyi </h5></button> 
                     </h5>    
                 </div>
             </div>
