@@ -18,8 +18,12 @@ export const Cover = () => {
         <>
             <div className=" ">
                 <div className="start  ">
-                    <h5 className=" my-3 titles">
-                        Artist || <button onClick={message} type="button" className="" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><h5 className='titles'>Bunuba Wiyi </h5></button> 
+                    <h5 className=" headers">
+                        Artist || <button onClick={message} 
+                        type="button" className="headers" 
+                        data-toggle="popover" title="Popover title" 
+                        data-content="And here's some amazing content. It's very engaging. Right?">
+                            <h5 className='headers'>Bunuba Wiyi </h5></button> 
                     </h5>    
                 </div>
             </div>

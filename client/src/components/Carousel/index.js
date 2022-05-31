@@ -3,7 +3,7 @@ import 'react-multi-carousel/lib/styles.css';
 import giki from '../../assets/paintingGaruwa.PNG';
 import love from '../../assets/paintingLove.PNG';
 
-import graphic from '../../assets/exb.jpg';
+import exb from '../../assets/exb.jpg';
 import graphic5 from '../../assets/mee.jpg';
 import protrait from '../../assets/protrait.jpg';
 import meeting from '../../assets/meeting.jpg';
@@ -47,12 +47,12 @@ const responsive = {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
         >
-            <div><img src={giki} className="pro img-fluid " alt=" Responsive image" /></div>
-            <div><img src={graphic} className=" pro img-fluid" alt=" Responsive image" /></div>
+            <div><img src={giki} className="pro img-fluid mb-0 " alt=" Responsive image" /></div>
+            <div><img src={exb} className="mb-0  pro img-fluid" alt=" Responsive image" /></div>
             <div><img src={love} className="pro img-fluid " alt=" Responsive image" /></div>
             <div><img src={graphic5} className=" pro img-fluid" alt=" Responsive image" /></div>
             <div><img src={protrait} className=" pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={meeting} className="my-4 pro img-fluid" alt=" Responsive image" /></div>
+            <div><img src={meeting} className="mb-0 pro img-fluid" alt=" Responsive image" /></div>
             <div><img src={energy} className=" pro img-fluid" alt=" Responsive image" /></div>
         </Carousel>
         );

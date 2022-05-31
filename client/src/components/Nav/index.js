@@ -7,9 +7,10 @@ function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <div className="dropdown shade">
-        <button className="btn  dropdown-toggle button-74 shade white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        <i className="bi bi-box"></i>
+        <div className="dropdown ">
+        <button className="  " type="button"
+         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i className="bi bi-bar-chart-steps"></i>
         </button>
         <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
         <li className="dropdown-item">
@@ -48,8 +49,10 @@ function Nav() {
 
       return (
         <div className="dropdown ">
-          <button className="button-74 shade white   " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <i className="bi bi-box   "></i>
+          <button className="  btn sand " type="button" 
+          id="dropdownMenuButton1" data-bs-toggle="dropdown" 
+          aria-expanded="false">
+            <i className="bi bi-bar-chart-steps  "></i>
           </button>
           <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
           <li className="dropdown-item">
@@ -99,7 +102,7 @@ function Nav() {
 
         <div className="title ">     
           <Link className="  " to="/">  
-            <h1 className="mb myt-2 m">
+            <h1 className="mb myt-2 ">
                 Manmiya     
             </h1> 
           </Link>           

@@ -6,7 +6,7 @@ const path = require('path');
 const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
-const stripe = require('stripe')(`${process.env.TEST}`);
+const stripe = require('stripe')(`${process.env.SECRECT_TEST_KEY}`);
 
 const PORT = process.env.PORT || 3001;
 const app = express();
