@@ -29,7 +29,7 @@ const responsive = {
   };
   return(
       
-        <Carousel className=""
+        <Carousel className="py-4"
             swipeable={true}
             draggable={false}
             showDots={true}
@@ -52,7 +52,7 @@ const responsive = {
             <div><img src={love} className="pro img-fluid " alt=" Responsive image" /></div>
             <div><img src={graphic5} className=" pro img-fluid" alt=" Responsive image" /></div>
             <div><img src={protrait} className=" pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={meeting} className=" pro img-fluid" alt=" Responsive image" /></div>
+            <div><img src={meeting} className="my-4 pro img-fluid" alt=" Responsive image" /></div>
             <div><img src={energy} className=" pro img-fluid" alt=" Responsive image" /></div>
         </Carousel>
         );

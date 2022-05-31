@@ -18,12 +18,12 @@ export const Cover = () => {
         <>
             <div className=" ">
                 <div className="start  ">
-                    <h5 className=" my-2 titles">
+                    <h5 className=" my-3 titles">
                         Artist || <button onClick={message} type="button" className="" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><h5 className='titles'>Bunuba Wiyi </h5></button> 
                     </h5>    
                 </div>
             </div>
-            <div className='line'></div>
+            {/* <div className='line'></div> */}
             <div>
                 <div className="float-right  ">
                     <div className="">
@@ -58,7 +58,7 @@ export const Cover = () => {
                 </div>
 
             </div>
-            <Slides />
+            < Slides className="py-3" />
             {/* <img src={giki} className=" img-fluid full   pro" alt=" Responsive image" /> */}
 
         </> 

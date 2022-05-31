@@ -409,6 +409,23 @@ input:focus {
   color:var(--sand);
 }
 
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.horizontal-scrollable > .row .col-xs-4{
+  display: inline-block;
+  float: none;
+}
+
+.col-xs-4 {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}
+
 @keyframes textclip {
   to {
     background-position: 200% center;
@@ -593,8 +610,8 @@ input:focus {
   margin-left:39.7rem;
   background-color: rgb(38, 14, 4, 0.85);
   position:absolute;
-  border-top: solid 3px  var(--lightbrown);
-  border-bottom: solid 3px  var(--lightbrown);
+  /* border-top: solid 3px  var(--lightbrown);
+  border-bottom: solid 3px  var(--lightbrown); */
 }
 
 /* main menu */

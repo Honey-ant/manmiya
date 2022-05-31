@@ -79,9 +79,9 @@ function ProductList() {
         <h2 className=" my-4 titles "> Shop </h2>
       </div>
       {/* <CategoryMenu /> */}
-
+             
         {state.products.length ? (
-   
+         <div className=''> 
           <div className=" flex-row my-2 proList ">
             {filterProducts().map((product) => 
             (
@@ -98,12 +98,13 @@ function ProductList() {
               />
             ))}
           </div>
+        </div>
       )
        : (
         <h3 className="mb-2 container">Just a second</h3>
       )}
       {loading ? <img src={spinner} alt="loading" /> : null}
-
+   
       <Cart/>
     </div>
   // {/* </HorizontalScroll> */}
