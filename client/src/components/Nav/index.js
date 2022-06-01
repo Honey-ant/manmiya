@@ -49,10 +49,10 @@ function Nav() {
 
       return (
         <div className="dropdown ">
-          <button className="  btn sand " type="button" 
+          <button className="  btn darkBrown" type="button" 
           id="dropdownMenuButton1" data-bs-toggle="dropdown" 
           aria-expanded="false">
-            <i className="bi bi-bar-chart-steps  "></i>
+            <i className="bi bi-bar-chart-steps  darkBrown"></i>
           </button>
           <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
           <li className="dropdown-item">
@@ -90,24 +90,24 @@ function Nav() {
   }
 
   return (
-    <header className="sticky-top navbar  ">
+    <header className="sticky-top   py-3">
 
        <div className=" container-fluid banner ">
            <p className="banner">
               Purchasing will be available soon.
             </p>
         </div>  
+      <div className="navbar">
+        <nav className="myt-2 " >{showNavigation()}</nav>   
 
-      <nav className=" " >{showNavigation()}</nav>   
-
-        <div className="title ">     
-          <Link className="  " to="/">  
-            <h1 className="mb myt-2 ">
-                Manmiya     
-            </h1> 
-          </Link>           
+          {/* <div className="title ">     
+            <Link className="  " to="/">  
+              <h1 className="mb myt-2 ">
+                  Manmiya     
+              </h1> 
+            </Link>           
+        </div> */}
       </div>
-
     </header>
   );
 }

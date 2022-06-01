@@ -191,6 +191,7 @@ a:hover {
 header {
   position:relative;
   background-color:transparent;
+ 
 }
 
 
@@ -384,19 +385,19 @@ input:focus {
   text-transform: uppercase;
   /* color: white; */
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 40px;
   z-index:3;
   color:transparent;
   text-shadow: var(--darkbrown) 2px 2px 2px,
-  var(--orch) 2.2px 2.2px 2.2px,
-  var(--sand) 2.5px 2.5px 2.5px ,
-  var(--sand) 2.5px 2.5px 2.5px,
+  var(--darkbrown) 2.2px 2.2px 2.2px,
+  var(--pink) 2.5px 2.5px  ,
+  var(--lightbrown) 2.5px 2.5px 2.5px,
   var(--sand) 2.5px 2.5px 2.5px,
   var(--purple) 3px 3px ,
-  var(--lightbrown) 3px 3px ,
-  var(--nav) 2px 2px 2px;
+  var(--sand) 3px 3px ,
+  var(--sand) 2px 2px 2px;
   text-decoration: underline var(--sand) 2px;
-  margin-left:var(--spacing-two);
+  margin-left: -2rem;
   /*   */
 }
 
@@ -409,21 +410,29 @@ input:focus {
   font-weight:bolder;
   font-size: 30px;
   text-shadow: var(--darkbrown) 2px 2px 2px,
-  var(--orch) 2.2px 2.2px 2.2px,
-  var(--sand) 2.5px 2.5px 2.5px ,
-  var(--sand) 2.5px 2.5px 2.5px,
+  var(--darkbrown) 2.2px 2.2px ,
+  var(--blue) 2.5px 2.5px  ,
+  var(--lightbrown) 2.5px 2.5px ,
   var(--sand) 2.5px 2.5px ,
-  var(--purple) 3px 3px ,
-  var(--lightbrown) 3px 3px ,
-  var(--nav) 2px 2px 2px;
+  var(--sand) 3px 3px ,
+  var(--sand) 3px 3px ,
+  var(--sand) 2px 2px 2px;
   letter-spacing: -0.1rem;
+text-decoration-line: overline;
+  /* text-align: center;
+  text-shadow: 0 0 1px rgba(0,0,0,.1);
+  margin: 0;
+  padding: 0; */
 }
 
-.bi-bar-chart-steps {
-  font-weight:bolder;
-  font-size: 20px;
-  color: var(--sand);
-}
+/* #start {
+  background: url(.//assets/sovereignty.jpg);
+  background-size: cover;
+  color: var(--darkbrown);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+} */
 
 .titles {
   color:#b28478;
@@ -471,6 +480,24 @@ input:focus {
 .dropdown-toggle {
   border-radius: 4rem;
   background-color: var(--orch);
+}
+
+.btn {
+  font-weight:bolder;
+  font-size: 30px;
+  color: var(--darkbrown);
+  background-color: transparent;
+  border-radius: 50rem;
+  padding: 20%;
+  /* color:transparent; */
+  text-shadow: var(--darkbrown) 2px 2px 2px,
+  var(--orch) 2.2px 2.2px 2.2px,
+  var(--sand) 2.5px 2.5px 2.5px ,
+  var(--sand) 2.5px 2.5px 2.5px,
+  var(--sand) 2.5px 2.5px 2.5px,
+  var(--purple) 3px 3px ,
+  var(--lightbrown) 3px 3px ,
+  var(--nav) 2px 2px 2px;
 }
 
 .title {
@@ -834,9 +861,6 @@ border-radius: 1rem;
   text-align: center;
 }
 
-.bi {
-  color: var(--nav);
-}
 
 .bi-cart2 {
   color: var(--sand);
@@ -892,19 +916,21 @@ border-radius: 1rem;
   position: relative;
   text-align: center;
   
-  margin-top: calc(-1rem); 
+  margin-top: calc(-3rem); 
   background-color: transparent;
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   z-index:5;
+  padding-bottom: 3rem;
 }
 
   .mb {
-    margin-right: 7.5vh;
+    /* margin-right: 50%; */
     z-index:-3;
-    margin-left: 0%;
+    margin-left: -1.5rem;
+    margin-top: 5rem;
   }
 
   /* main cover page */

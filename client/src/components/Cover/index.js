@@ -17,7 +17,12 @@ export const Cover = () => {
     return (
         <>
             <div className=" ">
-                <div className="start  ">
+                <div className="start " id="start">
+                    <div>
+                    <h1 className="mb  ">
+                        Manmiya     
+                    </h1> 
+                    </div>
                     <h5 className=" headers">
                         Artist || <button onClick={message} 
                         type="button" className="headers" 
