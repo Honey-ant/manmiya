@@ -9,7 +9,6 @@
   --spacing-two:calc(1rem);
   --spacing-three:calc(2rem);
   --spacing-four:calc(3rem);
-
   --brown:rgb(77, 51, 45);
   --lightbrown:rgb(122, 94, 87);
   --me:rgb(193, 153, 143);
@@ -66,65 +65,20 @@ body {
   height: 40px;
 }
 
-/* .graphic {
-  position: absolute;
-  top:-450%; 
-  right:5%;
-  z-index: 0;
-  width: 200px;
-  height: 200px;
-  border-radius: 2rem;
-  opacity: .75;
-}
-
-.graphi {
-  position: absolute;
-  margin-top: calc(-11rem);
-  z-index: -1;
-}
-
-.graph {
-  margin-top: calc(-68rem);
-  margin-left: calc(9.5rem);
-  z-index: -5;
-  position: relative;
-}
-
-
-.gra {
-  top:80%; 
-  right:10%;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  padding:1%;
-  opacity: .6;
-  z-index: 0;
-} */
-
 /* .full {
-    margin-top: calc(-5.5rem);
-    height: 100vh;
-    margin-left: calc(25.5rem);
-    z-index: -1;
-    position: relative;
-} */
-
-.full {
   margin-top: calc(3rem);
   height: 100vh;
-  /* margin-left: calc(25.5rem); */
   z-index: -1;
   position: relative;
-}
+} */
 
-.ful {
+/* .ful {
   margin-top: calc(-6rem);
   height: 100vh;
   margin-left: calc(20.5rem);
   z-index: -1;
   position: relative;
-}
+} */
 
 h1,
 h2,
@@ -137,7 +91,7 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
   font-family: 'Source Serif 4', sans-serif;
-  color: white;
+  /* color: white; */
   font-family: 'Cinzel', serif;
   letter-spacing: 3px;
   word-spacing: 2px;
@@ -190,10 +144,22 @@ a:hover {
 
 header {
   position:relative;
-  background-color:transparent;
+ overflow-y: visible;
+ color: white;
  
 }
 
+header h1 {
+  text-decoration-color: white;
+}
+
+header ::after{
+  
+}
+
+.nav {
+  border-bottom-color: inset 2px black;
+}
 
 header a {
   color: var(--brown);
@@ -203,10 +169,6 @@ header a {
 header a:hover {
   color:var(--pink);
 }
-
-/* .col {
-  margin-right:6.5%;
-} */
 
 .banner {
   justify-content: center;
@@ -321,11 +283,43 @@ button[disabled] {
     padding: 0 10px;
   }
 }
+
+.bubble::before {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 60%;
+  background-color: var(--sand);
+  height: 45%;
+}
+
+.bubbles::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 60%;
+  background-color: var(--sand);
+  height: 45%;
+}
+
 /* image  */
 img {
   max-width: 100%;
 }
 
+.img {
+  height: 50vh;
+
+  width: 50vh;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+}
 
 span[role="img"] {
   cursor: default;
@@ -381,24 +375,17 @@ input:focus {
 } 
 
 .mb {
-  /* margin-right: 17vh; */
   text-transform: uppercase;
-  /* color: white; */
   font-weight: bolder;
   font-size: 40px;
-  z-index:3;
-  color:transparent;
-  text-shadow: var(--darkbrown) 2px 2px 2px,
-  var(--darkbrown) 2.2px 2.2px 2.2px,
-  var(--pink) 2.5px 2.5px  ,
-  var(--lightbrown) 2.5px 2.5px 2.5px,
-  var(--sand) 2.5px 2.5px 2.5px,
-  var(--purple) 3px 3px ,
-  var(--sand) 3px 3px ,
-  var(--sand) 2px 2px 2px;
-  text-decoration: underline var(--sand) 2px;
+  z-index:9;
+  /* text-shadow: var(--lightbrown) 5px 2px 5px; */
   margin-left: -2rem;
-  /*   */
+  text-shadow: -1px -1px 0 #000,
+   1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,;
+/* color:var(--pltbrown) ; */
 }
 
 .m {
@@ -406,33 +393,17 @@ input:focus {
 }
 
 .headers {
-  color:transparent;
   font-weight:bolder;
-  font-size: 30px;
-  text-shadow: var(--darkbrown) 2px 2px 2px,
-  var(--darkbrown) 2.2px 2.2px ,
-  var(--blue) 2.5px 2.5px  ,
-  var(--lightbrown) 2.5px 2.5px ,
-  var(--sand) 2.5px 2.5px ,
-  var(--sand) 3px 3px ,
-  var(--sand) 3px 3px ,
-  var(--sand) 2px 2px 2px;
-  letter-spacing: -0.1rem;
-text-decoration-line: overline;
-  /* text-align: center;
-  text-shadow: 0 0 1px rgba(0,0,0,.1);
-  margin: 0;
-  padding: 0; */
-}
+  font-size: 25px;
+  /* text-shadow: var(--lightbrown) 5px 2px 5px ; */
+  text-shadow: -1px -1px 0 #000, 
+  1px -1px 0 #000, 
+  -1px 1px 0 #000,
+   1px 1px 0 #000,;
+  letter-spacing: .15rem;
+/* text-decoration-line: overline; */
 
-/* #start {
-  background: url(.//assets/sovereignty.jpg);
-  background-size: cover;
-  color: var(--darkbrown);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  padding: 0;
-} */
+}
 
 .titles {
   color:#b28478;
@@ -498,6 +469,17 @@ text-decoration-line: overline;
   var(--purple) 3px 3px ,
   var(--lightbrown) 3px 3px ,
   var(--nav) 2px 2px 2px;
+}
+
+.bt {
+  font-weight:bolder;
+  font-size: 20px;
+  background-color: transparent;
+  /* border-radius: 50rem; */
+  /* padding: 20%; */
+ text-shadow: #7a5e57 2px 2px;
+ color: white;
+ margin-top:5em;
 }
 
 .title {
@@ -761,9 +743,12 @@ hr {
 
 .start {
   position: relative;
-  margin-top: calc(-1rem); 
+  margin-top: calc(-5rem); 
   background-color: transparent;
    margin-left: 41%; 
+   color: white;
+   border-bottom: solid inset 5px black;
+   
 }
 
 .line {
@@ -771,7 +756,7 @@ hr {
   height: 3px;
 }
 
-.ack {
+/* .ack {
   height: 500px;
   overflow: scroll;
   -webkit-box-shadow: inset 2px 2px 2px 2px #260e04, 
@@ -785,7 +770,7 @@ inset 20px 20px 2px 1px #7a5e57,
 inset 29px 29px 2px 1px #c1998f,
 5px 5px 15px 5px rgba(0,0,0,0);
 border-radius: 1rem;
-}
+} */
 
 .card {
   width: 25%;
@@ -805,6 +790,13 @@ border-radius: 1rem;
   /* border-bottom: 3px solid var(--blue); */
   background-color: var(--lightbrown);
   color: var(--darkbrown);
+}
+
+.inset {
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 
 /* .box{
@@ -868,6 +860,16 @@ border-radius: 1rem;
 
 @media screen and (max-width: 768px) {
 
+  img {
+    max-width: 100%;
+  }
+
+  .img {
+    height: 60vh;
+    margin-top: -6rem;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   .graphic {
     position: absolute;
   right:1%;
@@ -916,14 +918,14 @@ border-radius: 1rem;
   position: relative;
   text-align: center;
   
-  margin-top: calc(-3rem); 
+  margin-top: calc(-7.5rem); 
   background-color: transparent;
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   z-index:5;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
   .mb {

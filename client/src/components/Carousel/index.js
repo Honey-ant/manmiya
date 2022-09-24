@@ -1,8 +1,8 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import giki from '../../assets/paintingGaruwa.PNG';
-import love from '../../assets/paintingLove.PNG';
 
+import sovereignty from '../../assets/sovereignty.jpg';
 import exb from '../../assets/exb.jpg';
 import graphic5 from '../../assets/mee.jpg';
 import protrait from '../../assets/protrait.jpg';
@@ -18,7 +18,7 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
       slidesToSlide: 2 // optional, default to 1.
     },
     mobile: {
@@ -29,7 +29,7 @@ const responsive = {
   };
   return(
       
-        <Carousel className="py-4"
+        <Carousel className=" "
             swipeable={true}
             draggable={false}
             showDots={true}
@@ -47,13 +47,12 @@ const responsive = {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
         >
-            <div><img src={giki} className="pro img-fluid mb-0 " alt=" Responsive image" /></div>
-            <div><img src={exb} className="mb-0  pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={love} className="pro img-fluid " alt=" Responsive image" /></div>
-            <div><img src={graphic5} className=" pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={protrait} className=" pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={meeting} className="mb-0 pro img-fluid" alt=" Responsive image" /></div>
-            <div><img src={energy} className=" pro img-fluid" alt=" Responsive image" /></div>
+            <div><img src={giki} className="inset pro img mb-0 inset " alt=" Responsive image" /></div>
+            <div><img src={sovereignty} className="mb-0  pro img inset" alt=" Responsive image" /></div>
+            <div><img src={graphic5} className="inset pro img" alt=" Responsive image" /></div>
+            <div><img src={protrait} className="inset pro img" alt=" Responsive image" /></div>
+            {/* <div><img src={meeting} className="mb-0 pro img-fluid" alt=" Responsive image" /></div> */}
+            {/* <div><img src={energy} className="inset pro img inset" alt=" Responsive image" /></div> */}
         </Carousel>
         );
   

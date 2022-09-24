@@ -10,7 +10,7 @@ function Nav() {
         <div className="dropdown ">
         <button className="  " type="button"
          id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        <i className="bi bi-bar-chart-steps"></i>
+        <i className="bi bi-body-text bt inset"></i>
         </button>
         <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
         <li className="dropdown-item">
@@ -49,10 +49,10 @@ function Nav() {
 
       return (
         <div className="dropdown ">
-          <button className="  btn darkBrown" type="button" 
+          <button className="   white" type="button" 
           id="dropdownMenuButton1" data-bs-toggle="dropdown" 
           aria-expanded="false">
-            <i className="bi bi-bar-chart-steps  darkBrown"></i>
+            <i className="bi bi-body-text  bt inset"></i>
           </button>
           <ul className=" dropdown-menu shade" aria-labelledby="dropdownMenuButton1">
           <li className="dropdown-item">

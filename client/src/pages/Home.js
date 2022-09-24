@@ -23,35 +23,32 @@ const Home = () => {
     <div className=" ">
  
     </div>
-          <div className="">
-        {/* <div className=""> */}
-            <div className="from rounded from py-2 pro">
+          {/* <div className="">
+
+            <div className="from rounded from py-1 pro my-1">
                 <p className="container">
-                  Manmiya is a Bunuba artist from the Kimberly Western Australia.
-                  They currently live on Boon Wurrong Country.
+                  Manmiya is a Bunuba artist from Fitzroy Crossing, the Kimberly, Western Australia.
                 </p>
-                {/* <p className="container">
-                  Their Father is Bunuba and mother is of Scottish ancestry.
-                </p> */}
             </div>
-        </div> 
-      {/* <Slides /> */}
+        </div>  */}
+
         <div className="py-1 ">
           <hr className="container"></hr>
             <div className="container py-1">
                 <p className="">
-                  I acknowledge that I live and create on the Stolen land of the Boon Wurrong people,
-                  who's sovereignty has never been seeded. I pay my respects to the Elders past and present, 
-                  (not emerging, we'll have our time). 
+                  <u>Ng</u>ayini in<u>ng</u>i manyanji Manmiya Bunuba Thangani Miliuwindi Muwayi Wiyi.
+                   </p>
+                   <p>
+                    <u>Ng</u>ayini manjalima nyunba wamba<u>l</u>a <u>ng</u>utharra .
                   </p>
                   <p  className=" ">
-                  I also acknowledge by white mans law that this not a country, 
-                  but an invaded land, as there is no treaty between settlers and First Nations Peoples.
+                    My name is Manmiya, I am a Bunuba Language group Miluwindi clan Woman.
+                    I create paintings slowly and quickly, depending on my feelings.
                   </p>
                   <p className="">
-                  <b>
+                  {/* <b>
                     Do you know who's Country you're on?              
-                  </b>
+                  </b> */}
                 </p>
             </div>    
         </div>

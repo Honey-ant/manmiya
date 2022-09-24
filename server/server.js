@@ -2,7 +2,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
 // const { resolve } = require('path');
-// require('dotenv').config({ path: './.env' });
+ require('dotenv').config({ path: './.env' });
 const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
@@ -15,6 +15,39 @@ const server = new ApolloServer({
   resolvers,
   context: authMiddleware
 });
+
+// (async () => {
+//   const app = express();
+//   const PORT = process.env.PORT || 3001;
+
+//   app.use(express.static("build"));
+
+//   const server = new ApolloServer({
+//     typeDefs,
+//     resolvers,
+//     context: authMiddleware,
+//   });
+//   await server.start();
+
+//   server.applyMiddleware({ app });
+
+//   app.use(express.urlencoded({ extended: false }));
+//   app.use(express.json());
+
+//   app.get("*", (req, res) => {
+//     res.sendFile(path.resolve("./build/index.html"));
+//   });
+
+//   db.once("open", () => {
+//     app.listen(PORT, () => {
+//       console.log(`API server running on port ${PORT}!`);
+//       console.log(
+//         `Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`
+//       );
+//     });
+//   });
+// })();
+
 
 server.applyMiddleware({ app });
 // Serve up static assets
@@ -69,9 +102,9 @@ if (process.env.NODE_ENV === 'production') {
 //   res.redirect(303, session.url);
 // });
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '../client/build/index.html'));
+// });
 
 db.once('open', () => {
   app.listen(PORT, () => {
